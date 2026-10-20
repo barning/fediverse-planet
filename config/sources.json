@@ -1,128 +1,80 @@
 [
-  {
-    "id": "elena",
-    "profileUrl": "https://mastodon.social/@_elena",
-    "topics": [
-      "fediverse",
-      "open-source",
-      "social-media"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "kaffeeringe",
-    "profileUrl": "https://social.tchncs.de/@kaffeeringe",
-    "topics": [
-      "fediverse",
-      "open-source",
-      "social-media"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "hagen",
-    "profileUrl": "https://mastodon.social/@hagen",
-    "topics": [],
-    "enabled": true
-  },
-  {
-    "id": "mastodon",
-    "profileUrl": "https://mastodon.social/@Mastodon",
-    "topics": [
-      "fediverse",
-      "open-source",
-      "social-media"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "gargron",
-    "profileUrl": "https://mastodon.social/@Gargron",
-    "topics": [
-      "fediverse",
-      "open-source",
-      "software-development"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "eucommission",
-    "profileUrl": "https://ec.social-network.europa.eu/@EUCommission",
-    "topics": [
-      "european-union",
-      "politics",
-      "public-policy"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "molly0xfff",
-    "profileUrl": "https://hachyderm.io/@molly0xfff",
-    "topics": [
-      "technology",
-      "cryptocurrency",
-      "tech-criticism"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "evacide",
-    "profileUrl": "https://hachyderm.io/@evacide",
-    "topics": [
-      "cybersecurity",
-      "privacy",
-      "digital-rights"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "nocontexttrek",
-    "profileUrl": "https://mastodon.social/@nocontexttrek",
-    "topics": [
-      "star-trek",
-      "science-fiction",
-      "pop-culture"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "caseynewton",
-    "profileUrl": "https://mastodon.social/@caseynewton",
-    "topics": [
-      "technology",
-      "social-media",
-      "tech-journalism",
-      "ai"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "christianselig",
-    "profileUrl": "https://mastodon.social/@christianselig",
-    "topics": [
-      "app-development",
-      "apple",
-      "software-development"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "rahmstorf",
-    "profileUrl": "https://fediscience.org/@rahmstorf",
-    "topics": [
-      "climate-science",
-      "climate",
-      "research"
-    ],
-    "enabled": true
-  },
-  {
-    "id": "kachelmannwetter",
-    "profileUrl": "https://meteo.social/@kachelmannwetter",
-    "topics": [
-      "weather",
-      "meteorology"
-    ],
-    "enabled": true
-  }
+	{
+		"id": "elena",
+		"profileUrl": "https://mastodon.social/@_elena",
+		"topics": ["fediverse", "open-source", "social-media"],
+		"enabled": true
+	},
+	{
+		"id": "kaffeeringe",
+		"profileUrl": "https://social.tchncs.de/@kaffeeringe",
+		"topics": ["fediverse", "open-source", "social-media"],
+		"enabled": true
+	},
+	{
+		"id": "hagen",
+		"profileUrl": "https://mastodon.social/@hagen",
+		"topics": [],
+		"enabled": true
+	},
+	{
+		"id": "mastodon",
+		"profileUrl": "https://mastodon.social/@Mastodon",
+		"topics": ["fediverse", "open-source", "social-media"],
+		"enabled": true
+	},
+	{
+		"id": "gargron",
+		"profileUrl": "https://mastodon.social/@Gargron",
+		"topics": ["fediverse", "open-source", "software-development"],
+		"enabled": true
+	},
+	{
+		"id": "eucommission",
+		"profileUrl": "https://ec.social-network.europa.eu/@EUCommission",
+		"topics": ["european-union", "politics", "public-policy"],
+		"enabled": true
+	},
+	{
+		"id": "molly0xfff",
+		"profileUrl": "https://hachyderm.io/@molly0xfff",
+		"topics": ["technology", "cryptocurrency", "tech-criticism"],
+		"enabled": true
+	},
+	{
+		"id": "evacide",
+		"profileUrl": "https://hachyderm.io/@evacide",
+		"topics": ["cybersecurity", "privacy", "digital-rights"],
+		"enabled": true
+	},
+	{
+		"id": "nocontexttrek",
+		"profileUrl": "https://mastodon.social/@nocontexttrek",
+		"topics": ["star-trek", "science-fiction", "pop-culture"],
+		"enabled": true
+	},
+	{
+		"id": "caseynewton",
+		"profileUrl": "https://mastodon.social/@caseynewton",
+		"topics": ["technology", "social-media", "tech-journalism", "ai"],
+		"enabled": true
+	},
+	{
+		"id": "christianselig",
+		"profileUrl": "https://mastodon.social/@christianselig",
+		"topics": ["app-development", "apple", "software-development"],
+		"enabled": true
+	},
+	{
+		"id": "rahmstorf",
+		"profileUrl": "https://fediscience.org/@rahmstorf",
+		"topics": ["climate-science", "climate", "research"],
+		"enabled": true
+	},
+	{
+		"id": "kachelmannwetter",
+		"profileUrl": "https://meteo.social/@kachelmannwetter",
+		"topics": ["weather", "meteorology"],
+		"enabled": true
+	}
 ]
