@@ -1,0 +1,12 @@
+{
+	"title": "My Planet",
+	"description": "A personal window into the Fediverse. Curated voices, thoughtful conversations.",
+	"contact": "",
+	"interests": ["opensource", "community"],
+	"excludedTags": [],
+	"languages": [],
+	"includeReplies": false,
+	"includeBoosts": false,
+	"accountWeights": {},
+	"hiddenUrls": []
+}

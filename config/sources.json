@@ -1,0 +1,10 @@
+[
+	{ "id": "elena", "profileUrl": "https://mastodon.social/@_elena", "topics": [], "enabled": true },
+	{
+		"id": "kaffeeringe",
+		"profileUrl": "https://social.tchncs.de/@kaffeeringe",
+		"topics": [],
+		"enabled": true
+	},
+	{ "id": "hagen", "profileUrl": "https://mastodon.social/@hagen", "topics": [], "enabled": true }
+]

@@ -1,0 +1,98 @@
+name: Collect, build and deploy Planet
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: planet-${{ github.event_name == 'pull_request' && github.ref || 'production' }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check && pnpm lint && pnpm test:unit
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm build && pnpm test:e2e
+      - name: Verify a repository subpath
+        env:
+          BASE_PATH: /test-repository
+          SITE_URL: https://example.invalid/test-repository
+        run: pnpm build && pnpm test:e2e
+  build:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Restore persistent history
+        if: github.event_name != 'pull_request'
+        run: node scripts/state-git.mjs restore
+      - name: Collect RSS and verify public Mastodon posts
+        id: collect
+        if: github.event_name != 'pull_request'
+        run: pnpm collect
+      - name: Persist health and Retry-After on total collection failure
+        if: failure() && steps.collect.outcome == 'failure'
+        run: pnpm validate:data && node scripts/state-git.mjs commit
+      - run: pnpm validate:data && pnpm check && pnpm lint && pnpm test:unit
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request'
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build static site
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          SITE_URL: ${{ steps.pages.outputs.base_url || 'https://example.invalid' }}
+        run: pnpm build
+      - run: pnpm exec playwright install --with-deps chromium
+      - name: Test exact static artifact
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+        run: pnpm test:e2e
+      - name: Persist tested generation (does not trigger another workflow)
+        if: github.event_name != 'pull_request'
+        run: node scripts/state-git.mjs commit
+      - name: Upload exact tested build
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: build
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
