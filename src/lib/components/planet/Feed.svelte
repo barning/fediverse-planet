@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
 	import { state as dataset, posts, preferences, sources } from '#lib/dataset.js';
 	import { rank } from '#lib/ranking.js';
 	import type { Mode, Post } from '#lib/model.js';
@@ -33,8 +32,7 @@
 		>{mode === 'for-you' ? 'For You' : mode.charAt(0).toUpperCase() + mode.slice(1)} · {preferences.title}</title
 	></svelte:head
 >
-<section class="intro">
-	<span class="eyebrow">YOUR CORNER OF THE FEDIVERSE</span>
+<section class="intro feed-intro">
 	<h1>{titles[mode]}</h1>
 	<p>{preferences.description}</p>
 </section>
@@ -45,10 +43,7 @@
 <div class="reading-layout">
 	<section aria-label="Posts">
 		<div class="feed-toolbar">
-			<h2>
-				{mode === 'for-you' ? 'For You' : mode.charAt(0).toUpperCase() + mode.slice(1)}
-				<span>{results.length} posts</span>
-			</h2>
+			<span class="post-count">{results.length} posts</span>
 			{#if mode !== 'latest'}<label
 					>Published within <select bind:value={days} onchange={() => (count = 20)}
 						><option value={1}>24 hours</option><option value={7}>7 days</option
@@ -79,24 +74,4 @@
 					>Show 20 more posts</Button
 				>{/if}{/if}
 	</section>
-	<aside>
-		<div class="aside-card">
-			<span class="eyebrow">A PERSONAL PLANET</span>
-			<h2>People, not an algorithm.</h2>
-			<p>
-				A hand-picked collection of voices. Read here, join the conversation on their home server.
-			</p>
-			<a href={resolve('/sources')}>Meet the sources ↗</a>
-		</div>
-		<div class="aside-card">
-			<h3>Take it with you.</h3>
-			<p>Follow this Planet in your favourite feed reader.</p>
-			<Button variant="outline" href={resolve('/feed.xml')}>Subscribe via RSS</Button>
-		</div>
-		<div class="aside-note">
-			{dataset.asOf
-				? `Last collection: ${new Date(dataset.asOf).toUTCString()}. Updates are scheduled every 30 minutes; GitHub may delay runs.`
-				: 'No collection has run yet.'}
-		</div>
-	</aside>
 </div>

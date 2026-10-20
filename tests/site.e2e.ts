@@ -7,9 +7,23 @@ for (const route of ['', 'latest/', 'popular/', 'trending/', 'for-you/', 'source
 		expect(response?.status()).toBe(200);
 		await expect(page.locator('h1')).toBeVisible();
 		expect(errors).toEqual([]);
-		await expect(page.getByRole('navigation')).toBeVisible();
+		await expect(page.getByRole('navigation', { name: 'Feed views' })).toBeVisible();
 	});
 }
+test('the feed navigation only contains Latest and Popular', async ({ page }) => {
+	await page.goto('./');
+	const navigation = page.getByRole('navigation', { name: 'Feed views' });
+	await expect(navigation.getByRole('link')).toHaveCount(2);
+	await expect(navigation.getByRole('link').allTextContents()).resolves.toEqual([
+		'Latest',
+		'Popular'
+	]);
+	await expect(navigation.getByRole('link', { name: 'Latest' })).toHaveAttribute(
+		'aria-current',
+		'page'
+	);
+	await expect(page.getByRole('link', { name: 'Sources', exact: true })).toBeVisible();
+});
 test('theme, keyboard navigation, preview warnings and mobile', async ({ page }) => {
 	await page.goto('preview/');
 	await expect(page.getByText('Development preview —', { exact: false })).toBeVisible();
@@ -60,7 +74,10 @@ test('navigation stays under the deployment path; media waits for consent', asyn
 	expect(new URL((await image.getAttribute('src')) ?? '', page.url()).pathname).toBe(
 		`${base}/demo-garden.svg`
 	);
-	await page.getByRole('navigation').getByRole('link', { name: 'Popular', exact: true }).click();
+	await page
+		.getByRole('navigation', { name: 'Feed views' })
+		.getByRole('link', { name: 'Popular', exact: true })
+		.click();
 	await expect(page).toHaveURL(new RegExp(`${base}/popular/?$`));
 	await expect(page.locator('h1')).toHaveText('Conversations worth a look.');
 	const feed = await page.request.get('feed.xml');

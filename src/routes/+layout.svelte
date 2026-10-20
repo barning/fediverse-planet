@@ -27,14 +27,12 @@
 			/* Storage is optional. */
 		}
 	}
-	const links = [
+	const feedLinks = [
 		['/latest', 'Latest'],
-		['/popular', 'Popular'],
-		['/trending', 'Trending'],
-		['/for-you', 'For You'],
-		['/sources', 'Sources'],
-		['/about', 'About']
+		['/popular', 'Popular']
 	] as const;
+	const homePath = resolve('/').replace(/\/$/, '');
+	const currentPath = $derived(page.url.pathname.replace(/\/$/, ''));
 </script>
 
 <svelte:head
@@ -50,12 +48,10 @@
 >
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
-	<a class="brand" href={resolve('/')}
-		><Orbit size={26} />{preferences.title}<span class="small-label"
-			>AN INDEPENDENT COMMUNITY PLANET</span
-		></a
-	>
+	<a class="brand" href={resolve('/')}><Orbit size={24} />{preferences.title}</a>
 	<div class="header-actions">
+		<a class="utility-link" href={resolve('/sources')}>Sources</a>
+		<a class="utility-link header-about" href={resolve('/about')}>About</a>
 		<a class="rss-link" href={resolve('/feed.xml')}><Rss size={16} /> Subscribe</a><Button
 			variant="ghost"
 			size="icon"
@@ -66,13 +62,14 @@
 	</div>
 </header>
 <div class="nav-wrap">
-	<nav aria-label="Main navigation">
-		{#each links as [slug, label] (slug)}<a
-				aria-current={page.url.pathname.replace(/\/$/, '').endsWith(slug) ? 'page' : undefined}
+	<nav aria-label="Feed views">
+		{#each feedLinks as [slug, label] (slug)}<a
+				aria-current={currentPath.endsWith(slug) || (slug === '/latest' && currentPath === homePath)
+					? 'page'
+					: undefined}
 				href={resolve(slug)}>{label}</a
 			>{/each}
 	</nav>
-	<span class="edition">Curated by a human. Open to everyone.</span>
 </div>
 <main id="main">{@render children()}</main>
 <footer>
