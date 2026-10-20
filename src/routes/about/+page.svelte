@@ -17,13 +17,18 @@
 	</p>
 	<h2>Reading the rankings</h2>
 	<p>
-		Latest is chronological. Popular divides weighted engagement (favourites + 3 × boosts + 2 ×
-		replies) by (age in hours + 2) to the power of 1.2. Trending measures positive engagement growth
-		per hour across the last six hours, with age decay. No history means no trend claim. Ranked
-		views limit any account to two posts in the first twelve where alternatives exist.
+		Latest is chronological. Popular divides weighted engagement ({preferences.ranking
+			.favouriteWeight}
+		× favourites + {preferences.ranking.boostWeight} × boosts + {preferences.ranking.replyWeight}
+		× replies) by (age in hours + {preferences.ranking.ageOffsetHours}) to the power of
+		{preferences.ranking.popularDecay}. Trending measures positive engagement growth per hour across
+		the last {preferences.ranking.trendingWindowHours} hours, with age decay. No history means no trend
+		claim. Ranked views limit any account to {preferences.ranking.diversityMaxPerSource}
+		posts in the first {preferences.ranking.diversityFrontSize} where alternatives exist.
 	</p>
 	<p>
-		For You applies the curator’s account weights, topics, language and tag preferences. These are
+		For You combines Popular at {preferences.ranking.forYouPopularityWeight}×, curator account
+		weights and a {preferences.ranking.interestBonus}-point topic-interest bonus. These settings are
 		the same for every visitor. Counts reflect what one server knows, not exhaustive global totals.
 		Missing information stays unavailable.
 	</p>

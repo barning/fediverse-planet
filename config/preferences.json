@@ -8,5 +8,21 @@
 	"includeReplies": false,
 	"includeBoosts": false,
 	"accountWeights": {},
+	"ranking": {
+		"favouriteWeight": 1,
+		"boostWeight": 3,
+		"replyWeight": 2,
+		"ageOffsetHours": 2,
+		"popularDecay": 1.2,
+		"trendingWindowHours": 6,
+		"trendingDecay": 0.5,
+		"trendingMinIntervalMinutes": 30,
+		"trendingMaxObservationAgeHours": 2,
+		"forYouPopularityWeight": 1,
+		"defaultAccountWeight": 1,
+		"interestBonus": 3,
+		"diversityMaxPerSource": 2,
+		"diversityFrontSize": 12
+	},
 	"hiddenUrls": []
 }

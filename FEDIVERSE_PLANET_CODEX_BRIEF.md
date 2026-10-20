@@ -199,12 +199,12 @@ Do **not** create fake likes or fabricate global counts. On Mastodon, get real `
 For posts with usable engagement metadata:
 
 ```
-engagement = favourites + 3 * boosts + 2 * replies
+engagement = favourite_weight * favourites + boost_weight * boosts + reply_weight * replies
 age_hours = max(0, now - published_at in hours)
-popular_score = engagement / pow(age_hours + 2, 1.2)
+popular_score = engagement / pow(age_hours + age_offset_hours, popular_decay)
 ```
 
-This is an initial heuristic, not a final recommendation model. Default windows: 24 hours, 7 days, 30 days. Rank posts _published within the selected window_, with deterministic tie breaks. Limit repeated appearances by the same account in the first screenful. Do not rank unavailable metrics as if they were verified zeros; optionally put non-enriched posts into a separately marked group or gracefully fall back to Latest.
+The default weights remain favourites 1, boosts 3 and replies 2, with an age offset of 2 hours and decay exponent 1.2. These values, trending timing/decay, For You bonuses and diversity caps are validated in `config/preferences.json`. This is an initial heuristic, not a final recommendation model. Default windows: 24 hours, 7 days, 30 days. Rank posts _published within the selected window_, with deterministic tie breaks. Limit repeated appearances by the same account in the first screenful. Do not rank unavailable metrics as if they were verified zeros; optionally put non-enriched posts into a separately marked group or gracefully fall back to Latest.
 
 ### MVP Trending score
 

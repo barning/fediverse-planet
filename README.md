@@ -67,7 +67,30 @@ Edit `config/sources.json` through a reviewed commit:
 
 Use a stable, unique lowercase ID and the **home-server** `/@username` profile URL, rather than a remote viewer's `/@user@other-server` URL. The collector uses Mastodon's account lookup API and profile RSS convention. An optional `feedUrl` can override the convention, but must be HTTPS on the same host. Cross-host redirects, credentialed requests and feeds of unverifiable visibility are rejected. Handles and generic RSS-only platforms are not auto-discovered in this version.
 
-`config/preferences.json` configures the title, description, removal contact, `interests` (case-insensitive hashtags or source topics), bounded `accountWeights` (0–5 by source ID), `excludedTags`, `languages` (empty means all), `includeReplies`, and `hiddenUrls` (canonical original URLs). For You uses those preferences for all visitors, with no tracking. Latest remains chronological. Boost **counts** are supported; syndicating boosted original posts is deliberately excluded, regardless of `includeBoosts`, pending original-author provenance support.
+`config/preferences.json` configures the title, description, removal contact, `interests` (case-insensitive hashtags or source topics), bounded `accountWeights` (0–5 by source ID), ranking controls, `excludedTags`, `languages` (empty means all), `includeReplies`, and `hiddenUrls` (canonical original URLs). For You uses those preferences for all visitors, with no tracking. Latest remains chronological. Boost **counts** are supported; syndicating boosted original posts is deliberately excluded, regardless of `includeBoosts`, pending original-author provenance support.
+
+The `ranking` object makes the editorial scoring explicit and reviewable:
+
+```json
+"ranking": {
+	"favouriteWeight": 1,
+	"boostWeight": 3,
+	"replyWeight": 2,
+	"ageOffsetHours": 2,
+	"popularDecay": 1.2,
+	"trendingWindowHours": 6,
+	"trendingDecay": 0.5,
+	"trendingMinIntervalMinutes": 30,
+	"trendingMaxObservationAgeHours": 2,
+	"forYouPopularityWeight": 1,
+	"defaultAccountWeight": 1,
+	"interestBonus": 3,
+	"diversityMaxPerSource": 2,
+	"diversityFrontSize": 12
+}
+```
+
+Engagement weights accept 0–20; decay exponents 0–5; `ageOffsetHours` 0–72 (exclusive of zero); the trending window 1–48 hours; its minimum interval 5–1440 minutes; maximum observation age 0–48 hours (exclusive of zero); For You popularity 0–10; default account weight 0–5; interest bonus 0–20; and diversity values 1–20 posts within a front section of 1–100 posts. Invalid configuration fails validation before collection or deployment. Setting an engagement weight to zero ignores that signal. Setting `forYouPopularityWeight` to zero makes For You depend only on account and interest preferences.
 
 Disable an account with `enabled: false`; hide/remove a post with `hiddenUrls`. Both affect the next build, even if old state still contains the item. Keep exclusions in configuration permanently unless you intend to allow reimport. Source health and latest successful fetch are visible on `/sources/`.
 
@@ -75,7 +98,7 @@ Disable an account with `enabled: false`; hide/remove a post with `hiddenUrls`. 
 
 - RSS/Atom detects new URLs; only matching statuses returned by the account's home Mastodon API can enter the dataset. Mastodon local numeric IDs are stored alongside globally canonical URI identities, never used as globally unique IDs.
 - Only `visibility: public` posts from the expected account are eligible. Discovery opt-outs, unlisted/private/direct/unknown statuses and boosts are excluded. Existing posts are reverified; API 404/410 removes them. Public output excludes records not verified within 24 hours of the last collection timestamp.
-- API counts are nullable; missing data is never presented as zero. Popular uses `(favourites + 3×boosts + 2×replies) / (ageHours + 2)^1.2`. Trending uses nonnegative weighted engagement growth/hour over a six-hour interval with age decay, requiring observations at least 30 minutes apart. For You combines freshness-adjusted popularity, account weights and interests. Ties are deterministic; ranked first screens prefer at most two posts per source when alternatives exist.
+- API counts are nullable; missing data is never presented as zero. By default, Popular uses `(favourites + 3×boosts + 2×replies) / (ageHours + 2)^1.2`. Trending uses nonnegative weighted engagement growth/hour over a configurable interval with age decay and a minimum observation interval. For You combines configurable popularity influence, account weights and interests. All coefficients, timing thresholds and diversity caps come from the validated `ranking` object. Ties are deterministic.
 - New detection is bounded to the latest **40** account statuses per run; older stored statuses rotate through **60** additional verifications per account. This is a reader, not an archival backfill crawler. Busy accounts may have posts beyond this boundary missed. Disabled source and hidden-URL filters also run during publication.
 - Fetches are sequential with at least 1.1 seconds between requests to a host, 20-second timeouts, a 2 MB decoded response limit, one transient retry with jitter, TLS verification, and no redirects. HTTP 429/503 `Retry-After` is respected in-process and persisted across runs. Source failures produce structured, redacted logs and retain existing content; total failure saves health/backoff but fails the workflow and skips deployment.
 - Outbound URLs stay on the curator-approved host. DNS results must all be public; the connection is pinned to a validated IP while retaining hostname/SNI and certificate checking. Private, loopback, link-local and mapped-private IPv6 addresses are blocked, along with unsafe ports and URL credentials. This intentionally uses direct HTTPS on GitHub runners; environments requiring an outbound HTTP proxy may need a supported trusted network route rather than weakening these protections.
@@ -96,7 +119,7 @@ Retention runs on successful collection:
 - Run summaries: 30 days, maximum 1,500. Per-source errors and `Retry-After` timestamps persist.
 - Hidden URLs and disabled accounts remain in reviewed configuration until the curator changes them.
 
-`pnpm validate:data` creates ignored `data/public.json`, stripping internal cache headers, run logs, removed/stale posts and their snapshots/history. Builds read only this publication dataset. `/data.json` exposes normalized posts, health and precomputed rankings for 1/7/30-day windows; `/feed.xml` exposes up to 100 latest eligible posts with stable GUIDs and original links. Ranking uses a shared recorded `asOf` timestamp, not different browser clocks.
+`pnpm validate:data` creates ignored `data/public.json`, stripping internal cache headers, run logs, removed/stale posts and their snapshots/history. Builds read only this publication dataset. `/data.json` exposes normalized posts, health, the active ranking configuration and precomputed rankings for 1/7/30-day windows; `/feed.xml` exposes up to 100 latest eligible posts with stable GUIDs and original links. Ranking uses a shared recorded `asOf` timestamp, not different browser clocks.
 
 JSON pruning does **not** shrink existing Git history. Back up `planet-data` periodically (for example, a Git bundle stored outside the checkout), verify restoration in a disposable clone, and compact its history during a paused schedule if needed. Do not force-push a compacted branch while collection is running. Git history can retain removed public content; removal from the website does not erase historical commits.
 

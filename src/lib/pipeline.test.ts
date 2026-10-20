@@ -4,6 +4,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { rank, popular, trend } from './ranking.js';
 import { demoPosts } from './fixtures/posts.js';
+import { preferencesSchema } from './model.js';
 import type { Post, Preferences, State } from './model.js';
 import rawPrefs from '../../config/preferences.json';
 import { collect } from '../../scripts/collect';
@@ -65,15 +66,20 @@ const empty = (): State => ({
 });
 describe('ranking', () => {
 	it('decays engagement with age and preserves unavailable counts', () => {
-		expect(popular(post(), now)).toBeGreaterThan(
-			popular(post({ publishedAt: '2026-10-19T00:00:00Z' }), now)!
+		expect(popular(post(), now, prefs.ranking)).toBeGreaterThan(
+			popular(post({ publishedAt: '2026-10-19T00:00:00Z' }), now, prefs.ranking)!
 		);
-		expect(popular(post({ metrics: null }), now)).toBeNull();
+		expect(popular(post({ metrics: null }), now, prefs.ranking)).toBeNull();
 	});
 	it('requires two sufficiently separated snapshots', () => {
-		expect(trend(post(), [], now)).toBeNull();
+		expect(trend(post(), [], now, prefs.ranking)).toBeNull();
 		expect(
-			trend(post(), [{ postId: post().id, at, favourites: 1, boosts: 0, replies: 0 }], now)
+			trend(
+				post(),
+				[{ postId: post().id, at, favourites: 1, boosts: 0, replies: 0 }],
+				now,
+				prefs.ranking
+			)
 		).toBeNull();
 	});
 	it('computes positive growth, clamps corrections, and rejects stale observations', () => {
@@ -81,17 +87,83 @@ describe('ranking', () => {
 			{ postId: post().id, at: '2026-10-20T11:00:00Z', favourites: 1, boosts: 0, replies: 0 },
 			{ postId: post().id, at, favourites: 6, boosts: 0, replies: 0 }
 		];
-		expect(trend(post(), samples, now)).toBeGreaterThan(0);
+		expect(trend(post(), samples, now, prefs.ranking)).toBeGreaterThan(0);
 		expect(
 			trend(
 				post(),
 				samples
 					.toReversed()
 					.map((s, i) => ({ ...s, at: i ? '2026-10-20T12:00:00Z' : '2026-10-20T11:00:00Z' })),
-				now
+				now,
+				prefs.ranking
 			)
 		).toBe(0);
-		expect(trend(post(), samples, now + 3 * 3600000)).toBeNull();
+		expect(trend(post(), samples, now + 3 * 3600000, prefs.ranking)).toBeNull();
+	});
+	it('uses curator-configured engagement weights and decay', () => {
+		const favouritesOnly = post({ metrics: { favourites: 10, boosts: 0, replies: 0 } });
+		const boostsOnly = post({ metrics: { favourites: 0, boosts: 2, replies: 0 } });
+		expect(popular(favouritesOnly, now, prefs.ranking)).toBeGreaterThan(
+			popular(boostsOnly, now, prefs.ranking)!
+		);
+		const boostFocused = { ...prefs.ranking, favouriteWeight: 0, boostWeight: 10 };
+		expect(popular(boostsOnly, now, boostFocused)).toBeGreaterThan(
+			popular(favouritesOnly, now, boostFocused)!
+		);
+		const fasterDecay = { ...prefs.ranking, popularDecay: 3 };
+		expect(popular(favouritesOnly, now, fasterDecay)).toBeLessThan(
+			popular(favouritesOnly, now, prefs.ranking)!
+		);
+	});
+	it('validates ranking controls and rejects unsafe extremes', () => {
+		expect(preferencesSchema.safeParse(prefs).success).toBe(true);
+		expect(
+			preferencesSchema.safeParse({
+				...prefs,
+				ranking: { ...prefs.ranking, boostWeight: 100 }
+			}).success
+		).toBe(false);
+		expect(
+			preferencesSchema.safeParse({
+				...prefs,
+				ranking: { ...prefs.ranking, diversityFrontSize: 0 }
+			}).success
+		).toBe(false);
+		expect(
+			preferencesSchema.safeParse({
+				...prefs,
+				ranking: {
+					...prefs.ranking,
+					trendingWindowHours: 1,
+					trendingMinIntervalMinutes: 90
+				}
+			}).success
+		).toBe(false);
+	});
+	it('lets the curator balance popularity, accounts and interests in For You', () => {
+		const popularPost = post({
+			id: 'https://example.invalid/popular',
+			sourceId: 'popular',
+			tags: [],
+			metrics: { favourites: 100, boosts: 0, replies: 0 }
+		});
+		const interestPost = post({
+			id: 'https://example.invalid/interest',
+			sourceId: 'interest',
+			tags: ['community'],
+			metrics: { favourites: 0, boosts: 0, replies: 0 }
+		});
+		const editorial = {
+			...prefs,
+			ranking: {
+				...prefs.ranking,
+				forYouPopularityWeight: 0,
+				interestBonus: 5
+			}
+		};
+		expect(rank([popularPost, interestPost], [], editorial, 'for-you', now)[0].post.id).toBe(
+			interestPost.id
+		);
 	});
 	it('sorts Latest chronologically and ties deterministically', () => {
 		const p = post(),
@@ -237,7 +309,9 @@ describe('actual collector with controlled RSS/API responses', () => {
 		expect(saved.posts[0].metrics?.favourites).toBe(20);
 		expect(saved.posts[0].firstSeenAt).toBe(at);
 		expect(saved.snapshots).toHaveLength(2);
-		expect(trend(saved.posts[0], saved.snapshots, Date.parse(saved.asOf!))).toBeGreaterThan(0);
+		expect(
+			trend(saved.posts[0], saved.snapshots, Date.parse(saved.asOf!), prefs.ranking)
+		).toBeGreaterThan(0);
 	});
 	it('does not publish an API-only post that was not detected in RSS', async () => {
 		await collect({

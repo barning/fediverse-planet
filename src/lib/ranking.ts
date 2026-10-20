@@ -1,27 +1,43 @@
-import type { Mode, Post, Preferences, Snapshot } from './model.js';
-const engagement = (m: { favourites: number; boosts: number; replies: number }) =>
-	m.favourites + 3 * m.boosts + 2 * m.replies;
-export function popular(post: Post, at: number) {
+import type { Mode, Post, Preferences, RankingPreferences, Snapshot } from './model.js';
+
+const engagement = (
+	m: { favourites: number; boosts: number; replies: number },
+	config: RankingPreferences
+) =>
+	config.favouriteWeight * m.favourites +
+	config.boostWeight * m.boosts +
+	config.replyWeight * m.replies;
+
+export function popular(post: Post, at: number, config: RankingPreferences) {
 	return post.metrics
-		? engagement(post.metrics) /
-				(Math.max(0, (at - Date.parse(post.publishedAt)) / 3600000) + 2) ** 1.2
+		? engagement(post.metrics, config) /
+				(Math.max(0, (at - Date.parse(post.publishedAt)) / 3600000) + config.ageOffsetHours) **
+					config.popularDecay
 		: null;
 }
-export function trend(post: Post, snapshots: Snapshot[], at: number) {
+export function trend(post: Post, snapshots: Snapshot[], at: number, config: RankingPreferences) {
 	const samples = snapshots
 		.filter(
-			(s) => s.postId === post.id && Date.parse(s.at) <= at && Date.parse(s.at) >= at - 6 * 3600000
+			(s) =>
+				s.postId === post.id &&
+				Date.parse(s.at) <= at &&
+				Date.parse(s.at) >= at - config.trendingWindowHours * 3600000
 		)
 		.sort((a, b) => a.at.localeCompare(b.at));
 	if (samples.length < 2) return null;
 	const first = samples[0],
 		last = samples.at(-1)!;
 	const hours = (Date.parse(last.at) - Date.parse(first.at)) / 3600000;
-	if (hours < 0.5 || at - Date.parse(last.at) > 2 * 3600000) return null;
+	if (
+		hours < config.trendingMinIntervalMinutes / 60 ||
+		at - Date.parse(last.at) > config.trendingMaxObservationAgeHours * 3600000
+	)
+		return null;
 	return (
-		Math.max(0, engagement(last) - engagement(first)) /
+		Math.max(0, engagement(last, config) - engagement(first, config)) /
 		hours /
-		(Math.max(0, (at - Date.parse(post.publishedAt)) / 3600000) + 2) ** 0.5
+		(Math.max(0, (at - Date.parse(post.publishedAt)) / 3600000) + config.ageOffsetHours) **
+			config.trendingDecay
 	);
 }
 export function rank(
@@ -48,11 +64,13 @@ export function rank(
 			);
 			const score =
 				mode === 'popular'
-					? popular(p, at)
+					? popular(p, at, prefs.ranking)
 					: mode === 'trending'
-						? trend(p, snapshots, at)
+						? trend(p, snapshots, at, prefs.ranking)
 						: mode === 'for-you'
-							? (popular(p, at) ?? 0) + (prefs.accountWeights[p.sourceId] ?? 1) + (matches ? 3 : 0)
+							? (popular(p, at, prefs.ranking) ?? 0) * prefs.ranking.forYouPopularityWeight +
+								(prefs.accountWeights[p.sourceId] ?? prefs.ranking.defaultAccountWeight) +
+								(matches ? prefs.ranking.interestBonus : 0)
 							: Date.parse(p.publishedAt);
 			return {
 				post: p,
@@ -65,7 +83,7 @@ export function rank(
 						: mode === 'popular'
 							? 'Engagement with freshness decay'
 							: mode === 'trending'
-								? 'Engagement growth per hour over the last 6 hours'
+								? `Engagement growth per hour over the last ${prefs.ranking.trendingWindowHours} hours`
 								: 'Newest first'
 			};
 		})
@@ -89,7 +107,10 @@ export function rank(
 		rest: typeof result = [];
 	for (const item of result) {
 		const n = counts.get(item.post.sourceId) ?? 0;
-		if (n < 2 && front.length < 12) {
+		if (
+			n < prefs.ranking.diversityMaxPerSource &&
+			front.length < prefs.ranking.diversityFrontSize
+		) {
 			front.push(item);
 			counts.set(item.post.sourceId, n + 1);
 		} else rest.push(item);

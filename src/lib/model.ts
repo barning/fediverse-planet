@@ -12,6 +12,32 @@ export const sourceSchema = z.object({
 	topics: z.array(z.string()).default([]),
 	enabled: z.boolean().default(true)
 });
+export const rankingPreferencesSchema = z
+	.object({
+		favouriteWeight: z.number().min(0).max(20),
+		boostWeight: z.number().min(0).max(20),
+		replyWeight: z.number().min(0).max(20),
+		ageOffsetHours: z.number().positive().max(72),
+		popularDecay: z.number().min(0).max(5),
+		trendingWindowHours: z.number().min(1).max(48),
+		trendingDecay: z.number().min(0).max(5),
+		trendingMinIntervalMinutes: z.number().min(5).max(1440),
+		trendingMaxObservationAgeHours: z.number().positive().max(48),
+		forYouPopularityWeight: z.number().min(0).max(10),
+		defaultAccountWeight: z.number().min(0).max(5),
+		interestBonus: z.number().min(0).max(20),
+		diversityMaxPerSource: z.number().int().min(1).max(20),
+		diversityFrontSize: z.number().int().min(1).max(100)
+	})
+	.superRefine((ranking, context) => {
+		if (ranking.trendingMinIntervalMinutes > ranking.trendingWindowHours * 60) {
+			context.addIssue({
+				code: 'custom',
+				path: ['trendingMinIntervalMinutes'],
+				message: 'Must fit within trendingWindowHours'
+			});
+		}
+	});
 export const preferencesSchema = z.object({
 	title: z.string().min(1),
 	description: z.string(),
@@ -22,6 +48,7 @@ export const preferencesSchema = z.object({
 	includeReplies: z.boolean(),
 	includeBoosts: z.boolean(),
 	accountWeights: z.record(z.string(), z.number().min(0).max(5)),
+	ranking: rankingPreferencesSchema,
 	hiddenUrls: z.array(httpsUrl)
 });
 export const postSchema = z.object({
@@ -95,5 +122,6 @@ export type Post = z.infer<typeof postSchema>;
 export type State = z.infer<typeof stateSchema>;
 export type Source = z.infer<typeof sourceSchema>;
 export type Preferences = z.infer<typeof preferencesSchema>;
+export type RankingPreferences = z.infer<typeof rankingPreferencesSchema>;
 export type Snapshot = z.infer<typeof snapshotSchema>;
 export type Mode = 'latest' | 'popular' | 'trending' | 'for-you';

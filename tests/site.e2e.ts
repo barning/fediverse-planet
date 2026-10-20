@@ -31,7 +31,14 @@ test('theme, keyboard navigation, preview warnings and mobile', async ({ page })
 test('static public datasets and feed', async ({ request }) => {
 	const json = await request.get('data.json');
 	expect(json.status()).toBe(200);
-	expect((await json.json()).schemaVersion).toBe(1);
+	const dataset = await json.json();
+	expect(dataset.schemaVersion).toBe(1);
+	expect(dataset.rankingConfiguration).toMatchObject({
+		favouriteWeight: 1,
+		boostWeight: 3,
+		replyWeight: 2,
+		interestBonus: 3
+	});
 	const feed = await request.get('feed.xml');
 	expect(feed.status()).toBe(200);
 	expect(await feed.text()).toContain('<rss version="2.0"');

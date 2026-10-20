@@ -57,11 +57,15 @@
 				>{/if}
 		</div>
 		{#if mode === 'popular'}<p class="feed-note">
-				Favourites + 3 × boosts + 2 × replies, with freshness decay. Counts are instance estimates.
+				{preferences.ranking.favouriteWeight} × favourites +
+				{preferences.ranking.boostWeight} × boosts + {preferences.ranking.replyWeight} × replies, with
+				freshness decay. Counts are instance estimates.
 			</p>{:else if mode === 'trending'}<p class="feed-note">
-				Growth over the last 6 hours. At least two observations 30 minutes apart are needed.
+				Growth over the last {preferences.ranking.trendingWindowHours} hours. Observations must be at
+				least {preferences.ranking.trendingMinIntervalMinutes} minutes apart.
 			</p>{:else if mode === 'for-you'}<p class="feed-note">
-				Curator preferences for everyone. No visitor tracking or personal profiling.
+				Popularity, account priority and a {preferences.ranking.interestBonus}-point interest bonus.
+				No visitor tracking or personal profiling.
 			</p>{/if}
 		{#if !results.length}<StateMessage
 				title="A quiet corner, for now."
