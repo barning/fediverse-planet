@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generationId": "7106b7c5-5fa8-476f-8816-2e77c35d0cf6",
-  "asOf": "2026-10-20T09:27:29.002Z",
+  "generationId": "80a87da2-b259-409c-b419-0338c5f6ced2",
+  "asOf": "2026-10-20T09:37:33.974Z",
   "posts": [
     {
       "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
@@ -12,7 +12,7 @@
       "handle": "@_elena@mastodon.social",
       "publishedAt": "2026-10-20T08:12:50.812Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "Maybe #WSocial is a secret project by Big Tech to stop me and other activists from promoting the open social web... distracting us with daily rage bait instead.\n\nIncredibly, the W Social folks are boasting that they received an innovation award at a glitzy ceremony (the award was just created, its website went live last week). \n\nIf you didn't know, W Social grabbed the ATproto codebase (developed by Bluesky PBC) and quietly went closed-source, à la Truth Social.\n\nEnough with these 🤡  for today",
       "html": "",
       "warning": "",
@@ -24,8 +24,8 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 76,
-        "boosts": 59,
+        "favourites": 82,
+        "boosts": 62,
         "replies": 7
       },
       "instance": "mastodon.social"
@@ -39,7 +39,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-20T08:01:35.880Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "RE: https://social.anoxinon.de/@linuxundich/117472128889571176\n\nOh! Die Rückkehr der \"Planeten\" - News-Aggregatoren zu bestimmten Themen.",
       "html": "",
       "warning": "",
@@ -64,7 +64,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-20T07:44:46.040Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "ich meine es komplett ernst wenn ich sage: französische protestkultur zum weltkulturerbe erklären. diese völlige selbstsicherheit der bevölkerung, dass ihr zusteht das land lahmzulegen, statt lieb bitte und danke zu sagen, weil man mal für fünf stunden ein paar schilder in die luft halten darf.",
       "html": "",
       "warning": "",
@@ -74,8 +74,8 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 63,
-        "boosts": 28,
+        "favourites": 69,
+        "boosts": 29,
         "replies": 2
       },
       "instance": "mastodon.social"
@@ -89,7 +89,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-19T19:28:25.712Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "kennt ihr diese insta-slides mit coaching-tipps, die deep klingen, aber totaler bullshit sind? mit @Bediko befreundet sein ist das genaue gegenteil. tipps, die funktionieren, aber sich richtig schlecht auf zitatkacheln machen.",
       "html": "",
       "warning": "",
@@ -114,7 +114,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T17:20:39.355Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "\"Apple Pervert Pods\"\n👀 https://www.fastcompany.com/91606695/can-apple-keep-its-airpods-from-becoming-pervertpods\n\n#Apple #Datenschutz",
       "html": "",
       "warning": "",
@@ -142,7 +142,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T17:12:22.831Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "2835 m\n\nhttps://roadster.pavlin.dev/\n\n#Tesla #TeslaRoadster",
       "html": "",
       "warning": "",
@@ -170,7 +170,7 @@
       "handle": "@_elena@mastodon.social",
       "publishedAt": "2026-10-19T12:30:00.161Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "Pinging @gavinkarlmeier @MarloesdeKoning  @markusreuter @adfichter - I feel like you might be interested in these two deep dives about #WSocial (see previous toot). \n\nAnd thank you for your awesome reporting on this topic! 🙏",
       "html": "",
       "warning": "",
@@ -197,7 +197,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T11:40:15.139Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "RE: https://die-partei.social/@Thilo/117467363322845109\n\nIch freue mich, dass es #OpenDesk gibt und dass es so erfolgreich ist. Aber ich frage mich, ob es nicht heute überflüssig ist. Es stammt aus einer Zeit, als #Nextcloud hauptsächlich eine Dateiablage war. Da war es sinnvoll über ein Single-Sign-On noch Mail und Videokonferenzen usw. dranzutüdeln. Aber inzwischen kann Nextcloud das alles - viel besser - viel integrierter. \nAber zugegeben: Ich habe OpenDesk das letzte Mal gesehen, als es noch dPhoenixSuite hieß. Vielleicht ist es auch ganz anders.",
       "html": "",
       "warning": "",
@@ -225,7 +225,7 @@
       "handle": "@_elena@mastodon.social",
       "publishedAt": "2026-10-19T11:38:42.397Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "When I started writing deep dives on #WSocial and their problematic ways back in May I was a lone dissenting voice; mainstream media just rehashed PR talking points.\n\nI can't begin to tell you how GOOD it feels to see others doing deep dives:\n\n1️⃣  \"Just 18 unverified VIP accounts produce more than half of all W Social content\"\n\n🔗 : https://wdonthavetime.offprint.app/a/3my2tecrxkk23-top-25 \n\n2️⃣  “European public voices choosing W” —But are they?\"\n\n🔗 : https://aiueo-en.leaflet.pub/3mxzaemhlik2c\n\nAlas these awesome folks are only on the Atmosphere 🥲",
       "html": "",
       "warning": "",
@@ -252,7 +252,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T07:46:18.141Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "RE: https://kaffeeringe.de/2025/09/12/warum-likes-hier-einfach-wieder-spass-machen/\n\n\"Wieso bricht meine Reichweite ein,\" fragen sich die Leute auf kommerziellen Plattformen und sie tauschen Tipps aus, wie man \"den Algorithmus\" austrickst, um noch Leute zu erreichen. Im #Fediverse gilt ausschließlich: \"Um Leute zu erreichen, musst du Leute erreichen.\" - Natürlich gibt es auch hier bessere und schlechtere Posts. Ein gutes Bild oder eine gute Linkvorschau helfen. Der Text muss schnell zugänglich sein und leider funktionieren auch hier Aufreger besser als #GoodNews... Aber hier muss man nicht bestimmte Wörter oder Themen meiden, um geshadowbannt zu werden. Man kann einfach Links benutzen - nicht \"im ersten Kommentar\". Man muss nicht regelmäßig, jeden Tag, einmal die Woche oder so posten, damit die Reichweite nicht einschläft... Das hat etwas Befreiendes.",
       "html": "",
       "warning": "",
@@ -280,7 +280,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T07:23:47.509Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "🚀 1942m\n\nhttps://roadster.pavlin.dev/\n\n#Telsa #teslaRoadster",
       "html": "",
       "warning": "",
@@ -308,7 +308,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T06:32:22.492Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "Puh. Fast 4 Stunden! \n\nhttps://www.themoviedb.org/movie/1096228-musk",
       "html": "",
       "warning": "",
@@ -333,7 +333,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T06:29:58.810Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "Elon Musk möchte nicht, dass wir den Film über ihn sehen.\n\n👉 https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/\n\n#ElonMusk #Musk #KinoTipp #FilmTipp #Kino #Dokumentation",
       "html": "",
       "warning": "",
@@ -365,7 +365,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T11:06:41.494Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "the diplomat liefert auch in staffel vier wieder. beste serie.",
       "html": "",
       "warning": "",
@@ -390,7 +390,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T09:05:29.810Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "look at what they took from us. yes, the interface looks outdated but you can see how the priorities were so much clearer and it was made for people who actually love music.",
       "html": "",
       "warning": "",
@@ -420,7 +420,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T09:02:39.025Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "there is a whole essay about how silicon valley is completely out of touch with the humanities in this whole design change. especially music has always been about way more than just audio files.",
       "html": "",
       "warning": "",
@@ -445,7 +445,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T08:57:51.253Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "apple used to own music. not only because the ipod/itunes combination was great, but because they defined a whole aesthetic, made it fun and cool. twenty years later all of the colour and character has been drained and turned into the most generic thing possible. how can the company that at one point employed dr. dre and trent reznor just to understand the culture fumble it so bad?",
       "html": "",
       "warning": "",
@@ -479,7 +479,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T17:19:28.119Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "das beste am internet: es gibt unendlich platz für inhalte.\n\ndas schlechteste am internet: keiner kann der versuchung widerstehen diesen platz auch zu füllen.",
       "html": "",
       "warning": "",
@@ -504,7 +504,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T17:17:05.188Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "wenn ich groß bin gründe ich mein eigenes medienhaus und mein größtes verkaufsargument wird sein worüber wir alles nicht berichten.",
       "html": "",
       "warning": "",
@@ -529,7 +529,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T17:15:51.276Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "eins muss man tesla lassen: die wissen genau wie wenig die presse einem massiven stunt, der nichts mit der realität zu tun hat, widerstehen kann und natürlich springen alle auf, weil sie sich für gratis content beliebig degradieren lassen.",
       "html": "",
       "warning": "",
@@ -554,7 +554,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T09:06:41.607Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "die großartigen frittenbude haben heute ihr neues album »raveland« veröffentlicht und ihr solltet es alle hören. https://www.youtube.com/watch?v=CyFROg2LBRU",
       "html": "",
       "warning": "",
@@ -579,7 +579,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-15T22:00:36.452Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "Plattformen und Unternehmen machen es sehr leicht, Technologie zu kritisieren. Das Internet gerade ist ein Desaster. Doch natürlich kann es besser gehen. Und weil Mina nicht konnte, habe ich diese Woche @alineblankertz zu Never Content eingeladen, um Lösungswege zu finden – auch wenn es die eine Antwort nicht gibt. Und wie zu erwarten war, geht es auch viel um Kapitalismus.\n\nhttps://nevercontent.de/2026/10/15/technologie-ist-keine-naturgewalt-feat-aline-blankertz/",
       "html": "",
       "warning": "",
@@ -604,7 +604,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-14T18:49:28.826Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "ihr solltet euch btw alle massiv auf das debutalbum von PISS freuen https://www.youtube.com/watch?v=6TiFlIIijPA",
       "html": "",
       "warning": "",
@@ -629,7 +629,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T14:31:07.640Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "ich habe nach nur fünf jahren in dieser wohnung eine lampe für die zwei drähte über dem badezimmerspiegel gekauft, nur um mit dem multimeter festzustellen, dass da gar keine spannung anliegt. ich bin so kurz davor die trotzdem anzuschrauben, nur damit ich das endlich abhaken kann.",
       "html": "",
       "warning": "",
@@ -654,7 +654,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T10:06:47.364Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "wir brauchen nachhilfe für nicht-anthropomorphisierende berichterstattung. genau wie ki hat dieser (nichtmal autonome) roboter keine agency. der täter war der teenager, der ihn gesteuert hat. der roboter hat nichts getan, er war nur ein werkzeug für sexuelle belästigung. das gehört klar benannt.",
       "html": "",
       "warning": "",
@@ -684,7 +684,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T07:53:44.835Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "wenn ich die umweltprobleme ignoriere, muss ich danach die ethischen probleme ignorieren, dann kommen die der scheiß funktioniert überhaupt nicht probleme und wenn ich das alles verdränge, bin ich damit konfrontiert, dass selbst dann keine einzige rechnung aufgeht. und wenn das irgendwann jemand merkt, bricht die weltwirtschaft zusammen. top system einfach.",
       "html": "",
       "warning": "",
@@ -709,7 +709,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T07:51:03.953Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "was genau ist eigentlich die strategie von openai und anthropic, um zu verhindern, dass alle unternehmen früher oder später auf open weight modelle wechseln? einfach weiter den kompletten ram-markt leerkaufen, um die preise hoch zu halten?",
       "html": "",
       "warning": "",
@@ -734,7 +734,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T06:52:13.258Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "ah yes, ai makes development so much more efficient, that epic games had to push back the release date of their fully ai coded star wars game. makes sense.",
       "html": "",
       "warning": "",
@@ -759,7 +759,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-10T14:58:51.472Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "falls ihr btw nicht wusstet, dass die todesstrafe eu-weit untersagt ist und darum auch gar nicht zur debatte steht: das werdet ihr nach dem lesen des posts immer noch nicht wissen, dafür war wohl leider kein platz. aber weltweit reden alle darüber!!!!!",
       "html": "",
       "warning": "",
@@ -784,7 +784,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-10T14:50:58.486Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "sorry aber journalismus, der selbst basalen menschenrechten wie … leben?! »neutral« gegenüber ist, möchte ich ungern mit gebühren finanzieren. wem nützt das bitte irgendwas? wozu steht dieser satz da? was bezweckt das, außer eine debatte zu legitimieren, in der staatliches töten legitimiert wird?",
       "html": "",
       "warning": "",
@@ -809,7 +809,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-10T14:47:22.855Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T09:27:29.002Z",
+      "verifiedAt": "2026-10-20T09:37:33.974Z",
       "text": "ich habe aufgrund von unterkomplexität und both-sidism eh ein problem mit dem instagram-auftritt der tagesschau, aber heute ist next level. ein post zur todesstrafe mit dem satz »heute wird weltweit diskutiert, ob ein staat menschen hinrichten darf.« WELCHE DEMOKRATIE AUSSER DEN USA DISKUTIERT DAS?!",
       "html": "",
       "warning": "",
@@ -835,8 +835,22 @@
       "replies": 7
     },
     {
+      "postId": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 82,
+      "boosts": 62,
+      "replies": 7
+    },
+    {
       "postId": "https://mastodon.social/users/_elena/statuses/117467578375729396",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 30,
+      "boosts": 4,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/_elena/statuses/117467578375729396",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 30,
       "boosts": 4,
       "replies": 1
@@ -849,8 +863,22 @@
       "replies": 4
     },
     {
+      "postId": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 161,
+      "boosts": 113,
+      "replies": 4
+    },
+    {
       "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 3,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 3,
       "boosts": 2,
       "replies": 0
@@ -863,8 +891,22 @@
       "replies": 0
     },
     {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 0,
+      "boosts": 3,
+      "replies": 0
+    },
+    {
       "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 4,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 4,
       "boosts": 0,
       "replies": 1
@@ -877,8 +919,22 @@
       "replies": 4
     },
     {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117467382752094331",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 2,
+      "boosts": 1,
+      "replies": 4
+    },
+    {
       "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 28,
+      "boosts": 17,
+      "replies": 4
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 28,
       "boosts": 17,
       "replies": 4
@@ -891,8 +947,22 @@
       "replies": 0
     },
     {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466374308373208",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 1,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
       "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466172128771376",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 1,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466172128771376",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 1,
       "boosts": 0,
       "replies": 1
@@ -905,6 +975,13 @@
       "replies": 2
     },
     {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466162712341207",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 7,
+      "boosts": 7,
+      "replies": 2
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117472119097712420",
       "at": "2026-10-20T09:27:29.002Z",
       "favourites": 63,
@@ -912,8 +989,22 @@
       "replies": 2
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 69,
+      "boosts": 29,
+      "replies": 2
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117469223695130397",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 7,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 7,
       "boosts": 0,
       "replies": 1
@@ -926,8 +1017,22 @@
       "replies": 0
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455926165003809",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 2,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117455449608344474",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 7,
+      "boosts": 0,
+      "replies": 2
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455449608344474",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 7,
       "boosts": 0,
       "replies": 2
@@ -940,8 +1045,22 @@
       "replies": 1
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455438415732277",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 0,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117455419556019038",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 4,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455419556019038",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 4,
       "boosts": 0,
       "replies": 1
@@ -954,8 +1073,22 @@
       "replies": 0
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117451729674365267",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 9,
+      "boosts": 3,
+      "replies": 0
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117451720306880195",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 8,
+      "boosts": 1,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117451720306880195",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 8,
       "boosts": 1,
       "replies": 1
@@ -968,8 +1101,22 @@
       "replies": 3
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117451715462662831",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 37,
+      "boosts": 13,
+      "replies": 3
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117449792002336991",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 0,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117449792002336991",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 0,
       "boosts": 2,
       "replies": 0
@@ -982,8 +1129,22 @@
       "replies": 0
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117447172846352966",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 6,
+      "boosts": 4,
+      "replies": 0
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117440758993749872",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 2,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117440758993749872",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 2,
       "boosts": 0,
       "replies": 0
@@ -996,8 +1157,22 @@
       "replies": 5
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117434080796947683",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 14,
+      "boosts": 0,
+      "replies": 5
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117433041378653332",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 104,
+      "boosts": 52,
+      "replies": 6
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117433041378653332",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 104,
       "boosts": 52,
       "replies": 6
@@ -1010,8 +1185,22 @@
       "replies": 1
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117432518235726036",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 12,
+      "boosts": 3,
+      "replies": 1
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117432507691930616",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 3,
+      "boosts": 0,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117432507691930616",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 3,
       "boosts": 0,
       "replies": 3
@@ -1024,8 +1213,22 @@
       "replies": 1
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117432276304113518",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 8,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117417202907467074",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 14,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117417202907467074",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 14,
       "boosts": 1,
       "replies": 0
@@ -1038,8 +1241,22 @@
       "replies": 1
     },
     {
+      "postId": "https://mastodon.social/users/hagen/statuses/117417171910024943",
+      "at": "2026-10-20T09:37:33.974Z",
+      "favourites": 16,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
       "postId": "https://mastodon.social/users/hagen/statuses/117417157778089098",
       "at": "2026-10-20T09:27:29.002Z",
+      "favourites": 21,
+      "boosts": 10,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117417157778089098",
+      "at": "2026-10-20T09:37:33.974Z",
       "favourites": 21,
       "boosts": 10,
       "replies": 4
@@ -1048,19 +1265,19 @@
   "sources": [
     {
       "id": "elena",
-      "lastSuccess": "2026-10-20T09:27:29.002Z",
+      "lastSuccess": "2026-10-20T09:37:33.974Z",
       "error": null,
       "etag": "W/\"895ccd21fe760f3eece6dc39364e7adc\""
     },
     {
       "id": "kaffeeringe",
-      "lastSuccess": "2026-10-20T09:27:29.002Z",
+      "lastSuccess": "2026-10-20T09:37:33.974Z",
       "error": null,
       "etag": "W/\"e79cee0b36c6d6cd96e23e20f06833f1\""
     },
     {
       "id": "hagen",
-      "lastSuccess": "2026-10-20T09:27:29.002Z",
+      "lastSuccess": "2026-10-20T09:37:33.974Z",
       "error": null,
       "etag": "W/\"9ba84364c442b59cea2be396bd4424a3\""
     }
@@ -1397,11 +1614,349 @@
           "score": 1.0054747187447357
         }
       ]
+    },
+    {
+      "at": "2026-10-20T09:37:33.974Z",
+      "mode": "latest",
+      "posts": [
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 1792483970812
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+          "score": 1792483295880
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 1792482286040
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+          "score": 1792438105712
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+          "score": 1792430439355
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+          "score": 1792429942831
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117467382752094331",
+          "score": 1792410015139
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+          "score": 1792409922397
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
+          "score": 1792395978141
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466374308373208",
+          "score": 1792394627509
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466162712341207",
+          "score": 1792391398810
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455926165003809",
+          "score": 1792235201494
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455419556019038",
+          "score": 1792227471253
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117451715462662831",
+          "score": 1792170951276
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117449792002336991",
+          "score": 1792141601607
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117447172846352966",
+          "score": 1792101636452
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117440758993749872",
+          "score": 1792003768826
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117434080796947683",
+          "score": 1791901867640
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117433041378653332",
+          "score": 1791886007364
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117432507691930616",
+          "score": 1791877863953
+        }
+      ]
+    },
+    {
+      "at": "2026-10-20T09:37:33.974Z",
+      "mode": "popular",
+      "posts": [
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 64.66062432627983
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 31.44302886883607
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+          "score": 11.220781466600538
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+          "score": 1.935335037022625
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
+          "score": 1.605634604547886
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117433041378653332",
+          "score": 0.574811507978505
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466162712341207",
+          "score": 0.5597642916755912
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117451715462662831",
+          "score": 0.3686647844783558
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+          "score": 0.31941949892215066
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117467382752094331",
+          "score": 0.28751658142325376
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+          "score": 0.27530789418546514
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+          "score": 0.18189067500801362
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117447172846352966",
+          "score": 0.06418356974438125
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117434080796947683",
+          "score": 0.052346983905146804
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455419556019038",
+          "score": 0.033918187442814114
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117449792002336991",
+          "score": 0.024319285768391315
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466374308373208",
+          "score": 0.018161629754315404
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455926165003809",
+          "score": 0.011708994676402828
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117440758993749872",
+          "score": 0.005466649519727195
+        }
+      ]
+    },
+    {
+      "at": "2026-10-20T09:37:33.974Z",
+      "mode": "trending",
+      "posts": [
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117467382752094331",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466374308373208",
+          "score": null
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466162712341207",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455926165003809",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455419556019038",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117451715462662831",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117449792002336991",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117447172846352966",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117440758993749872",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117434080796947683",
+          "score": null
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117433041378653332",
+          "score": null
+        }
+      ]
+    },
+    {
+      "at": "2026-10-20T09:37:33.974Z",
+      "mode": "for-you",
+      "posts": [
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 65.66062432627983
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 32.443028868836066
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+          "score": 12.220781466600538
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+          "score": 2.935335037022625
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
+          "score": 2.6056346045478858
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117433041378653332",
+          "score": 1.574811507978505
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466162712341207",
+          "score": 1.5597642916755912
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117451715462662831",
+          "score": 1.368664784478356
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+          "score": 1.3194194989221506
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117467382752094331",
+          "score": 1.2875165814232536
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+          "score": 1.2753078941854652
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+          "score": 1.1818906750080136
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117447172846352966",
+          "score": 1.0641835697443813
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117434080796947683",
+          "score": 1.0523469839051467
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455419556019038",
+          "score": 1.033918187442814
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117449792002336991",
+          "score": 1.0243192857683914
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117466374308373208",
+          "score": 1.0181616297543155
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117455926165003809",
+          "score": 1.0117089946764029
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117440758993749872",
+          "score": 1.005466649519727
+        }
+      ]
     }
   ],
   "runs": [
     {
       "at": "2026-10-20T09:27:29.002Z",
+      "successful": 3,
+      "failed": 0,
+      "pruned": 0
+    },
+    {
+      "at": "2026-10-20T09:37:33.974Z",
       "successful": 3,
       "failed": 0,
       "pruned": 0
