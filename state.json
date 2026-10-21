@@ -1,8 +1,35 @@
 {
   "schemaVersion": 1,
-  "generationId": "8004f764-6d5d-4eb5-8433-410354507604",
-  "asOf": "2026-10-20T22:15:14.087Z",
+  "generationId": "f62016c9-7f76-4ec9-b32c-b8a86f75b533",
+  "asOf": "2026-10-21T00:52:26.266Z",
   "posts": [
+    {
+      "id": "https://hachyderm.io/users/molly0xfff/statuses/117475727199534633",
+      "url": "https://hachyderm.io/@molly0xfff/117475727199534633",
+      "apiId": "117475727199534633",
+      "sourceId": "molly0xfff",
+      "author": "Molly White",
+      "handle": "@molly0xfff@hachyderm.io",
+      "publishedAt": "2026-10-20T23:02:21.304Z",
+      "firstSeenAt": "2026-10-21T00:52:26.266Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
+      "text": "truly a wild time to be alive when the cryptography world is split between those worried about quantum computers and those whose private key is “4”\n\nhttp://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/\n\n#eMudhra",
+      "html": "",
+      "warning": "",
+      "language": "en",
+      "tags": [
+        "emudhra"
+      ],
+      "reply": false,
+      "boost": false,
+      "media": [],
+      "metrics": {
+        "favourites": 282,
+        "boosts": 179,
+        "replies": 18
+      },
+      "instance": "hachyderm.io"
+    },
     {
       "id": "https://hachyderm.io/users/evacide/statuses/117474720950498854",
       "url": "https://hachyderm.io/@evacide/117474720950498854",
@@ -12,7 +39,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-20T18:46:27.159Z",
       "firstSeenAt": "2026-10-20T22:15:14.087Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "When a platform offers you privacy, always ask \"Privacy from whom?\" \n\n\"Of course, while locking a chat can limit access, it doesn’t address concerns about how sensitive information is stored or handled...locking a chat doesn’t create end-to-end encryption or a separate encrypted vault, change how long it retains the chat, remove information that ChatGPT remembered before a chat was locked, or change the 'Improve the model for everyone' setting.\"\n\nhttps://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
       "html": "",
       "warning": "",
@@ -22,8 +49,8 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 53,
-        "boosts": 59,
+        "favourites": 64,
+        "boosts": 69,
         "replies": 2
       },
       "instance": "hachyderm.io"
@@ -37,7 +64,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-20T17:46:04.592Z",
       "firstSeenAt": "2026-10-20T18:41:46.665Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "In today's episode of Mastodon Things I Don't Understand™ why do I have 26 follow requests when I don't have request to follow enabled",
       "html": "",
       "warning": "",
@@ -62,7 +89,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-20T17:25:26.585Z",
       "firstSeenAt": "2026-10-20T18:41:46.665Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Crazy to think this time next week there will be dozens of iPhone Duos out in the wild",
       "html": "",
       "warning": "",
@@ -72,7 +99,7 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 38,
+        "favourites": 45,
         "boosts": 2,
         "replies": 3
       },
@@ -87,7 +114,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-20T15:30:55.777Z",
       "firstSeenAt": "2026-10-20T18:41:46.665Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "3D printed an iPhone Duo mockup and damn this thing has better hinge control than most Android foldables",
       "html": "",
       "warning": "",
@@ -97,8 +124,8 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 39,
-        "boosts": 1,
+        "favourites": 41,
+        "boosts": 2,
         "replies": 4
       },
       "instance": "mastodon.social"
@@ -112,7 +139,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-20T15:25:45.384Z",
       "firstSeenAt": "2026-10-20T18:41:46.665Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "New York is the one place on Earth where I quickly realize that I don't jaywalk aggressively enough.",
       "html": "",
       "warning": "",
@@ -122,9 +149,9 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 106,
+        "favourites": 113,
         "boosts": 30,
-        "replies": 10
+        "replies": 11
       },
       "instance": "hachyderm.io"
     },
@@ -137,7 +164,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-20T14:53:26.476Z",
       "firstSeenAt": "2026-10-20T18:41:46.665Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The Arctic is Europe's northern neighbourhood. \n\nToday, we present our new Strategy for the Arctic to strengthen cooperation on: \n\n🛡️ Security \n🌍 Climate \n🌱 Prosperity \n🤝 Local communities \n\nFor a safer, more resilient Arctic.",
       "html": "",
       "warning": "",
@@ -152,7 +179,7 @@
         }
       ],
       "metrics": {
-        "favourites": 66,
+        "favourites": 68,
         "boosts": 26,
         "replies": 6
       },
@@ -167,7 +194,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-20T13:35:02.922Z",
       "firstSeenAt": "2026-10-20T14:28:18.075Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Ich finde es richtig, besonders schwere Naturzerstörung als sogenannten Ökozid im internationalen Recht zu verankern.\nhttps://www.taz.de/!6222590",
       "html": "",
       "warning": "",
@@ -177,8 +204,8 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 146,
-        "boosts": 83,
+        "favourites": 147,
+        "boosts": 85,
         "replies": 5
       },
       "instance": "fediscience.org"
@@ -192,7 +219,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-20T11:52:56.715Z",
       "firstSeenAt": "2026-10-20T14:28:18.075Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://mas.to/@freiheitsfonds/117472480622209331\n\nIrre.",
       "html": "",
       "warning": "",
@@ -217,7 +244,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-20T11:26:10.774Z",
       "firstSeenAt": "2026-10-20T14:28:18.075Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Dies ist ein bizarrer Artikel, der sich offensichtlich auf diesen Post von mir bezieht, der Digger empfiehlt- der aber nicht checkt, dass es sich um einen Kinofilm handelt. Kann eigentlich nur KI-generiert sein. Wer weiß etwas über die Seite wissen.de?\n\nhttps://wissen.de/artikel/wie-die-oelindustrie-den-zweifel-am-klimawandel-erfand",
       "html": "",
       "warning": "",
@@ -242,7 +269,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-20T10:06:39.318Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ich motze ja immer gegen algorithmen und plattformen und natürlich stimmt das alles. aber manchmal bekomme ich videos zu sehen, deren zielgruppe literally eine einzige person auf dem planeten ist – nämlich ich.\n\nanyways, solltet ihr verstehen, warum mich das hier so happy macht sollten wir vermutlich eine selbsthilfegruppe gründen, weil irgendwas falsch läuft.",
       "html": "",
       "warning": "",
@@ -267,7 +294,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-20T08:13:29.197Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "This week, we join the UN Biodiversity Conference in Yerevan 🇦🇲.  \n\nWe’ll work with all countries to turn the 2022 global nature framework into action. \n\nWhat we’ll push for: \n\n🌍 Faster implementation, with honest reporting on where we stand \n💶 Mobilising finance – as the EU is on track to double our international biodiversity funding to €7 billion \n🤝 A real voice for local communities and Indigenous Peoples  \n\nMore: https://link.europa.eu/kYhGkc",
       "html": "",
       "warning": "",
@@ -282,7 +309,7 @@
         }
       ],
       "metrics": {
-        "favourites": 44,
+        "favourites": 45,
         "boosts": 19,
         "replies": 5
       },
@@ -297,7 +324,7 @@
       "handle": "@_elena@mastodon.social",
       "publishedAt": "2026-10-20T08:12:50.812Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Maybe #WSocial is a secret project by Big Tech to stop me and other activists from promoting the open social web... distracting us with daily rage bait instead.\n\nIncredibly, the W Social folks are boasting that they received an innovation award at a glitzy ceremony (the award was just created, its website went live last week). \n\nIf you didn't know, W Social grabbed the ATproto codebase (developed by Bluesky PBC) and quietly went closed-source, à la Truth Social.\n\nEnough with these 🤡  for today",
       "html": "",
       "warning": "",
@@ -310,7 +337,7 @@
       "media": [],
       "metrics": {
         "favourites": 204,
-        "boosts": 115,
+        "boosts": 116,
         "replies": 19
       },
       "instance": "mastodon.social"
@@ -324,7 +351,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-20T08:01:35.880Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://social.anoxinon.de/@linuxundich/117472128889571176\n\nOh! Die Rückkehr der \"Planeten\" - News-Aggregatoren zu bestimmten Themen.",
       "html": "",
       "warning": "",
@@ -349,7 +376,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-20T07:44:46.040Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ich meine es komplett ernst wenn ich sage: französische protestkultur zum weltkulturerbe erklären. diese völlige selbstsicherheit der bevölkerung, dass ihr zusteht das land lahmzulegen, statt lieb bitte und danke zu sagen, weil man mal für fünf stunden ein paar schilder in die luft halten darf.",
       "html": "",
       "warning": "",
@@ -359,7 +386,7 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 247,
+        "favourites": 248,
         "boosts": 122,
         "replies": 7
       },
@@ -374,7 +401,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-19T21:46:35.684Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "me playing with my 3d printed iphone duo because i can't get a real one",
       "html": "",
       "warning": "",
@@ -404,7 +431,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-19T19:28:25.712Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "kennt ihr diese insta-slides mit coaching-tipps, die deep klingen, aber totaler bullshit sind? mit @Bediko befreundet sein ist das genaue gegenteil. tipps, die funktionieren, aber sich richtig schlecht auf zitatkacheln machen.",
       "html": "",
       "warning": "",
@@ -429,7 +456,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-19T17:32:51.023Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "My M1 Pro MacBook with broken Touch ID, screaming fans, and a battery that has been at \"service please\" for two years is looking forward to a well deserved retirement",
       "html": "",
       "warning": "",
@@ -454,7 +481,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T17:20:39.355Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "\"Apple Pervert Pods\"\n👀 https://www.fastcompany.com/91606695/can-apple-keep-its-airpods-from-becoming-pervertpods\n\n#Apple #Datenschutz",
       "html": "",
       "warning": "",
@@ -482,7 +509,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T17:12:22.831Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "2835 m\n\nhttps://roadster.pavlin.dev/\n\n#Tesla #TeslaRoadster",
       "html": "",
       "warning": "",
@@ -510,7 +537,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-19T13:35:03.462Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Was sind die wichtigsten Kipppunkte im Klimasystem, und wie könnten sie unsere Zukunft verändern?\nEine gute knappe Übersicht.\nhttps://www.cleanthinking.de/kipppunkte-klima/",
       "html": "",
       "warning": "",
@@ -535,7 +562,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-19T13:17:59.326Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Today, Andorra and San Marino are signing their Association Agreements with the EU. \n \nThe deal will create new economic opportunities for businesses and citizens, facilitate trade, cross-border activities, and support investment, while respecting the specific characteristics of both partners.  \n \nCooperation will expand across research, education, environment, consumer protection, and culture. \n\n📰 https://link.europa.eu/M9YXTq",
       "html": "",
       "warning": "",
@@ -577,7 +604,7 @@
       "handle": "@_elena@mastodon.social",
       "publishedAt": "2026-10-19T12:30:00.161Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Pinging @gavinkarlmeier @MarloesdeKoning  @markusreuter @adfichter - I feel like you might be interested in these two deep dives about #WSocial (see previous toot). \n\nAnd thank you for your awesome reporting on this topic! 🙏",
       "html": "",
       "warning": "",
@@ -604,7 +631,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T11:40:15.139Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://die-partei.social/@Thilo/117467363322845109\n\nIch freue mich, dass es #OpenDesk gibt und dass es so erfolgreich ist. Aber ich frage mich, ob es nicht heute überflüssig ist. Es stammt aus einer Zeit, als #Nextcloud hauptsächlich eine Dateiablage war. Da war es sinnvoll über ein Single-Sign-On noch Mail und Videokonferenzen usw. dranzutüdeln. Aber inzwischen kann Nextcloud das alles - viel besser - viel integrierter. \nAber zugegeben: Ich habe OpenDesk das letzte Mal gesehen, als es noch dPhoenixSuite hieß. Vielleicht ist es auch ganz anders.",
       "html": "",
       "warning": "",
@@ -632,7 +659,7 @@
       "handle": "@_elena@mastodon.social",
       "publishedAt": "2026-10-19T11:38:42.397Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "When I started writing deep dives on #WSocial and their problematic ways back in May I was a lone dissenting voice; mainstream media just rehashed PR talking points.\n\nI can't begin to tell you how GOOD it feels to see others doing deep dives:\n\n1️⃣  \"Just 18 unverified VIP accounts produce more than half of all W Social content\"\n\n🔗 : https://wdonthavetime.offprint.app/a/3my2tecrxkk23-top-25 \n\n2️⃣  “European public voices choosing W” —But are they?\"\n\n🔗 : https://aiueo-en.leaflet.pub/3mxzaemhlik2c\n\nAlas these awesome folks are only on the Atmosphere 🥲",
       "html": "",
       "warning": "",
@@ -659,7 +686,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-19T10:59:00.924Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Sehr interessant: wie sich der Klimawandel in Berlin und Potsdam bislang ausgewirkt hat, auf mittlere Temperaturen, heiße und kalte Tage, Niederschläge, Trockenheit und Sonnenschein.\n\nhttps://www.tagesspiegel.de/berlin/grosser-datenvergleich-seit-1948-so-viel-klimawandel-steckt-jetzt-schon-im-berliner-wetter-16141712.html",
       "html": "",
       "warning": "",
@@ -684,7 +711,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-10-19T09:59:05.999Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "We didn’t want to require you to have a GitHub profile to report issues or suggest ideas, so starting now you can do it on our new community forum. \n\nYou can also vote for other people’s ideas to keep things manageable. It’s the main place we’ll be looking for feedback!\n\nhttps://community.joinmastodon.org/",
       "html": "",
       "warning": "",
@@ -694,9 +721,9 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 388,
-        "boosts": 219,
-        "replies": 18
+        "favourites": 389,
+        "boosts": 220,
+        "replies": 19
       },
       "instance": "mastodon.social"
     },
@@ -709,7 +736,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-10-19T09:58:40.113Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "#Mastodon is getting a new look in our upcoming 5.0 release.\n\nWe wrote a bit more about our design process and how we approach community input. If you’re on mastodon.social you will see the new design tomorrow, on Tuesday. We rely on your feedback!\n\nhttps://blog.joinmastodon.org/2026/10/5.0-a-closer-look/",
       "html": "",
       "warning": "",
@@ -721,9 +748,9 @@
       "boost": false,
       "media": [],
       "metrics": {
-        "favourites": 713,
-        "boosts": 468,
-        "replies": 59
+        "favourites": 716,
+        "boosts": 469,
+        "replies": 60
       },
       "instance": "mastodon.social"
     },
@@ -736,7 +763,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T07:46:18.141Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://kaffeeringe.de/2025/09/12/warum-likes-hier-einfach-wieder-spass-machen/\n\n\"Wieso bricht meine Reichweite ein,\" fragen sich die Leute auf kommerziellen Plattformen und sie tauschen Tipps aus, wie man \"den Algorithmus\" austrickst, um noch Leute zu erreichen. Im #Fediverse gilt ausschließlich: \"Um Leute zu erreichen, musst du Leute erreichen.\" - Natürlich gibt es auch hier bessere und schlechtere Posts. Ein gutes Bild oder eine gute Linkvorschau helfen. Der Text muss schnell zugänglich sein und leider funktionieren auch hier Aufreger besser als #GoodNews... Aber hier muss man nicht bestimmte Wörter oder Themen meiden, um geshadowbannt zu werden. Man kann einfach Links benutzen - nicht \"im ersten Kommentar\". Man muss nicht regelmäßig, jeden Tag, einmal die Woche oder so posten, damit die Reichweite nicht einschläft... Das hat etwas Befreiendes.",
       "html": "",
       "warning": "",
@@ -764,7 +791,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T07:23:47.509Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "🚀 1942m\n\nhttps://roadster.pavlin.dev/\n\n#Telsa #teslaRoadster",
       "html": "",
       "warning": "",
@@ -792,7 +819,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-19T06:33:22.399Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "“What's fascinating about the scenario is that it would have seemed embarrassingly over-the-top a few years ago, but now seems as plausible as a documentary.”\nHere’s the BBC review: https://www.bbc.com/culture/article/20260929-digger-review",
       "html": "",
       "warning": "",
@@ -817,7 +844,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T06:32:22.492Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Puh. Fast 4 Stunden! \n\nhttps://www.themoviedb.org/movie/1096228-musk",
       "html": "",
       "warning": "",
@@ -842,7 +869,7 @@
       "handle": "@kaffeeringe@social.tchncs.de",
       "publishedAt": "2026-10-19T06:29:58.810Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Elon Musk möchte nicht, dass wir den Film über ihn sehen.\n\n👉 https://techcrunch.com/2026/10/17/tiktok-permanently-bans-musk-documentary-advertising-account/\n\n#ElonMusk #Musk #KinoTipp #FilmTipp #Kino #Dokumentation",
       "html": "",
       "warning": "",
@@ -874,7 +901,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-18T12:31:37.110Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://mastodon.social/@Mastodon/117411420916699261\n\n30% sold out as of now. Shipping should begin in early November!",
       "html": "",
       "warning": "",
@@ -899,7 +926,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-18T10:19:44.884Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The facts behind the Digger story are very nicely presented in this recent report on the fossil fuel industry propaganda campaign to spread doubt about human-caused #globalwarming. Both watching the movie and looking at this report are highly recommended. \nhttps://climateintegrity.org/projects/climate-fraud-101",
       "html": "",
       "warning": "",
@@ -926,7 +953,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-18T10:18:44.644Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Watched Digger - a wild & visionary satire about the fossil fuel industry and politics. Great dialogues, often laughing-out-loud funny and disturbingly true. It won't be popular in the US but may well become a classic. Tom Cruise deserves an Oscar for his portrayal of oil company boss Digger.",
       "html": "",
       "warning": "",
@@ -956,7 +983,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-18T06:39:08.136Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "How can you know a product is sustainable? Look for the EU Ecolabel!  \n\nFrom detergents & textiles to furniture & hotel stays, it helps you find products and services that do a great job while meeting solid environmental criteria. \n\nAnd more Europeans are catching on! According to a recent EU survey:  \n\n🌱 81% trust that EU Ecolabel products have a lower environmental impact than similar products \n\n🌼 Nearly 1 in 2 Europeans recognise the logo and buy products carrying it \n\nhttps://link.europa.eu/wfmgcY",
       "html": "",
       "warning": "",
@@ -986,7 +1013,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-17T18:22:55.836Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "It’s been a million years since i posted a picture of myself. Taken by @Ameboid.",
       "html": "",
       "warning": "",
@@ -1016,7 +1043,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T11:06:41.494Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "the diplomat liefert auch in staffel vier wieder. beste serie.",
       "html": "",
       "warning": "",
@@ -1041,7 +1068,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T09:05:29.810Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "look at what they took from us. yes, the interface looks outdated but you can see how the priorities were so much clearer and it was made for people who actually love music.",
       "html": "",
       "warning": "",
@@ -1071,7 +1098,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T09:02:39.025Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "there is a whole essay about how silicon valley is completely out of touch with the humanities in this whole design change. especially music has always been about way more than just audio files.",
       "html": "",
       "warning": "",
@@ -1096,7 +1123,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-17T08:57:51.253Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "apple used to own music. not only because the ipod/itunes combination was great, but because they defined a whole aesthetic, made it fun and cool. twenty years later all of the colour and character has been drained and turned into the most generic thing possible. how can the company that at one point employed dr. dre and trent reznor just to understand the culture fumble it so bad?",
       "html": "",
       "warning": "",
@@ -1130,7 +1157,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-17T08:27:27.204Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Women shouldn't have to anticipate violence. \n\nThis month marks three years since the EU joined the Istanbul Convention, a landmark treaty recognising gender-based violence against women as a violation of human rights. \n\nIt sets out concrete measures to prevent it, to protect victims, and hold perpetrators accountable.  \n\nOur goal is clear:  a world where women can live free from fear. 🧡 \n\n🔗 Learn more about the Istanbul Convention: https://www.coe.int/en/web/istanbul-convention/key-facts",
       "html": "",
       "warning": "",
@@ -1160,7 +1187,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T22:35:34.323Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "i’ve been writing about crypto for a while now, but this new addition to the $TRUMP memecoin website fine print may be the most blatant “lol you suckers are our exit liquidity” i’ve seen so far\n\n(CIC Digital is just a shell company Trump uses for the $​TRUMP memecoin and some other projects; it’s wholly owned by Trump’s revocable trust)\n\n#crypto #cryptocurrency",
       "html": "",
       "warning": "",
@@ -1178,8 +1205,8 @@
         }
       ],
       "metrics": {
-        "favourites": 156,
-        "boosts": 123,
+        "favourites": 157,
+        "boosts": 124,
         "replies": 11
       },
       "instance": "hachyderm.io"
@@ -1193,7 +1220,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T21:35:11.093Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The mascot was born around November 2016 when I asked my #Dota2 friend @dopatwo for an illustration to put on Mastodon's error page. It was meant to be a homage to Twitter's \"fail whale\". As you can see, the design of the mascot has changed considerably in ten years. It was cute then, but more realistic, less round. I much prefer the contemporary design, and the fact that it's not a single character.",
       "html": "",
       "warning": "",
@@ -1225,7 +1252,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T21:20:13.083Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "It's interesting that my bio as seen in the demo said \"Developer of Mastodon, a GNU social alternative\". That was the level of my ambition at the time: GNU social had a niche, tiny as it may in the grand scheme of things, and it appealed to me, so I just wanted to make something that would be nicer to use. (My original intent was making a TweetDeck-like app for GNU social, but I quickly pivoted into writing my own backend because GNU social's API was a mess and I like things to be neat).",
       "html": "",
       "warning": "",
@@ -1250,7 +1277,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T21:14:19.497Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "There is a little time capsule of the UI as it was on that exact day, as I recorded a demo video for the Product Hunt submission. You can see how some UI concepts have persisted to this day, even as the details and level of refinement changed. You can also see the original blue accent color... I took that color palette from a website where people posted various color palettes, I do not remember its name anymore.\n\nhttps://www.youtube.com/watch?v=YO1jQ8_rAMU",
       "html": "",
       "warning": "",
@@ -1275,7 +1302,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T21:08:47.382Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The codebase has been about 6 months in the works at that point (the first git commit was dated March 16, 2016) and mastodon.social had been running for a while too, since it was my way of testing how the federation works with other fediverse servers (and software, like GNU social) at the time. The API was the very first thing I worked on, and some of those API methods are still literally unchanged today, but the UI had already gone through multiple iterations by October 5.",
       "html": "",
       "warning": "",
@@ -1300,7 +1327,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T21:04:14.763Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "At that point I was 23, freshly graduated from university with a B.Sc. in Informatics, living with my parents, and freelancing on the side (I had a freelancing career in web design since high school and went to university just to get a degree). I was able to save a lot from my student loan as well, so I had the opportunity to experiment with this open-source side project.",
       "html": "",
       "warning": "",
@@ -1325,7 +1352,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T20:58:32.942Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Heh. I misremembered the date--thought it was today, but looks like it was October 5. On that day, 10 years ago, I posted a link to Mastodon on Hacker News, with the title \"Show HN: A new decentralized microblogging platform\". That it made it to the front page ended up bringing the first 5,000 users, setting the project on the trajectory it's on today.",
       "html": "",
       "warning": "",
@@ -1355,7 +1382,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T17:19:28.119Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "das beste am internet: es gibt unendlich platz für inhalte.\n\ndas schlechteste am internet: keiner kann der versuchung widerstehen diesen platz auch zu füllen.",
       "html": "",
       "warning": "",
@@ -1380,7 +1407,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T17:17:05.188Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "wenn ich groß bin gründe ich mein eigenes medienhaus und mein größtes verkaufsargument wird sein worüber wir alles nicht berichten.",
       "html": "",
       "warning": "",
@@ -1405,7 +1432,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T17:15:51.276Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "eins muss man tesla lassen: die wissen genau wie wenig die presse einem massiven stunt, der nichts mit der realität zu tun hat, widerstehen kann und natürlich springen alle auf, weil sie sich für gratis content beliebig degradieren lassen.",
       "html": "",
       "warning": "",
@@ -1430,7 +1457,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T16:15:47.161Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Read the full issue (or listen to the audio version) at https://www.citationneeded.news/issue-111/.\n\nCitation Needed is entirely reader-funded. If you find my work valuable, consider a pay-what-you-want subscription: https://www.citationneeded.news/signup/",
       "html": "",
       "warning": "",
@@ -1455,7 +1482,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T16:15:33.515Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The NFL is urging the Supreme Court to hear New Jersey’s case over whether states can regulate prediction markets, complaining that Kalshi refused to ban easily manipulated bets and expressing concerns over consumer protection and game integrity.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1495,7 +1522,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T16:12:19.377Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A jury convicted the Uranium Finance exploiter who stole $53M+ and spent it on Magic and Pokémon cards, Roman coins, and a scrap of the Wright brothers’ plane that went to the moon. His “code is law” defense wasn’t helped by him admitting to the exploit and calling crypto “all fake internet money anyway.”\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1535,7 +1562,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T16:08:39.420Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Hex founder Richard Heart, who the SEC once accused of spending investor money on sports cars, luxury watches, and the world’s largest black diamond, has been arrested in Istanbul after nearly two years on an Interpol Red Notice over Finnish tax fraud charges. He no longer faces SEC enforcement after the agency effectively dropped his case last year.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1579,7 +1606,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T16:02:21.982Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Trump announced yet another $​TRUMP memecoin gala, plus a Super Bowl suite for top holders. The fine print notes the events don’t mean his companies aren’t dumping the token, which is down 95%, at the same time.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1619,7 +1646,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T16:00:32.474Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Crypto super PAC Fairshake announced 32 House endorsements: all incumbents, all but four in safe seats. It’s their attempt to pad their win rate and claim it proves the existence of a crypto voter bloc, but they are abandoning reliable allies in tough races.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1663,7 +1690,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-16T15:59:51.066Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "#Kalandra - Lost in the Dark\n\nhttps://www.youtube.com/watch?v=QCQDw8GzxlM\n\n#NP #NowPlaying",
       "html": "",
       "warning": "",
@@ -1692,7 +1719,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T15:58:11.439Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Community bankers are suing the OCC over its spree of national trust bank charters, at least 13 of 21 of which went to crypto firms (including Trump’s World Liberty). They argue it’s a side door for crypto firms to get the perks of a bank charter without the rules.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1736,7 +1763,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T15:56:20.969Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A Senate subcommittee is probing Tether’s ties to Cantor Fitzgerald, the firm Commerce Secretary Howard Lutnick supposedly divested from by handing it to his sons. Per Senator Blumenthal, Cantor’s 5% stake in Tether has skyrocketed from $600M to ~$10B since Trump returned to office.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1776,7 +1803,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T15:54:13.824Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "While Bo Hines shaped the Genius Act as Trump’s crypto council director, his family’s consulting firm took $6.3M+ from Tether. He pushed a change to the law that would primarily benefit Tether, then left to run Tether’s US arm.\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1824,7 +1851,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T15:51:58.357Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Newsletter: A Trump crypto adviser’s firm took millions from Tether while he shaped stablecoin rules in their favor, a Senate probe targets Commerce Secretary Lutnick’s not-so-former firm, and crypto’s biggest super PAC plays it safe.\n\nhttps://www.citationneeded.news/issue-111/\n\n#crypo #cryptocurrency #USpol #USpolitics #CitationNeededNewsletter",
       "html": "",
       "warning": "",
@@ -1855,7 +1882,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-16T12:29:47.126Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Dang, Duo already backordered almost to February 2027 lol",
       "html": "",
       "warning": "",
@@ -1885,7 +1912,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-16T12:11:08.759Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Wow, that's the first time I've seen it say unavailable for pickup at your local Apple Store, did they make so few Duos that some Apple Stores just aren't getting any?",
       "html": "",
       "warning": "",
@@ -1910,7 +1937,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-16T11:28:44.232Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "It all starts with great science, and great science needs great tools.  \n\nToday, we launched RAISE.  \n\nWe are inviting companies and philanthropic organisations to share AI tools, computing power and data with researchers across the EU. \n\nWhen our scientists move faster, we all benefit. \n\nEurope doesn’t wait for the future. We build it.  \n\nMore: https://link.europa.eu/K6Hkh4",
       "html": "",
       "warning": "",
@@ -1940,7 +1967,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-16T09:43:21.777Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Last year, 266 million people were pushed to the brink of acute hunger. \n\n🌾 The EU puts roughly a third of its humanitarian budget into fighting it.  \n🌾 We work with local partners in the places that need it most, from Gaza to Afghanistan. \n🌾 In 2025, that meant over €622 million in life-saving food aid. \n\nOur work continues.",
       "html": "",
       "warning": "",
@@ -1970,7 +1997,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-16T09:06:41.607Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "die großartigen frittenbude haben heute ihr neues album »raveland« veröffentlicht und ihr solltet es alle hören. https://www.youtube.com/watch?v=CyFROg2LBRU",
       "html": "",
       "warning": "",
@@ -1995,7 +2022,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-16T07:18:11.899Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Nach Wochenendtiefs kaum noch Hoch übrig\n\nDas Wochenende wird deutlich unbeständiger und kälter. Und in der neuen Woche ist die Wetterlage gekippt. Vom großen Omegahoch ist nicht mehr viel übrig und schon bald könnte sich der Atlantik zu Wort melden.\nhttps://wetterkanal.kachelmannwetter.com/wochenendtiefs-dann-kaum-noch-hoch-uebrig/ /LD",
       "html": "",
       "warning": "",
@@ -2025,7 +2052,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-16T01:41:05.966Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "This WSJ investigation exposes yet more Tether-related corruption at the White House, revealing that they paid Bo Hines' consulting firm millions as he was ensuring the Genius Act stablecoin law would benefit them.\n\nI needed a diagram.\n\nhttps://www.wsj.com/politics/policy/crypto-law-trump-tether-bo-hines-45bcd95d\n\n#crypto #tether #USpol #USpolitics",
       "html": "",
       "warning": "",
@@ -2060,7 +2087,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-15T22:00:36.452Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Plattformen und Unternehmen machen es sehr leicht, Technologie zu kritisieren. Das Internet gerade ist ein Desaster. Doch natürlich kann es besser gehen. Und weil Mina nicht konnte, habe ich diese Woche @alineblankertz zu Never Content eingeladen, um Lösungswege zu finden – auch wenn es die eine Antwort nicht gibt. Und wie zu erwarten war, geht es auch viel um Kapitalismus.\n\nhttps://nevercontent.de/2026/10/15/technologie-ist-keine-naturgewalt-feat-aline-blankertz/",
       "html": "",
       "warning": "",
@@ -2085,7 +2112,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T18:07:26.405Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Today I learned that Andy Ngo has written a book about the Zizians. \n\nEverything about that sentence is deeply, deeply cursed.",
       "html": "",
       "warning": "",
@@ -2110,7 +2137,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T17:19:02.490Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "\"This report exposes zero-click spyware delivered via targeted ads, which we call AdFection, and is the first technical demonstration that mercenary spyware is being distributed via targeted advertisements.\"\n\nTrue. All of the other examples I can think of involve govts that roll their own malware.",
       "html": "",
       "warning": "",
@@ -2135,7 +2162,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T17:07:07.931Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Additional highlights from the Citizen lab report include:\n\n\"Discover-Tech...also leveraged the European General Data Protection Regulation (GDPR) consent frameworks to target users within the European Union.\"\n\nhttps://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
       "html": "",
       "warning": "",
@@ -2160,7 +2187,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T16:55:11.357Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "If you would like a good laugh, please note that Candiru has changed its name to \"Integrity Labs.\"",
       "html": "",
       "warning": "",
@@ -2185,7 +2212,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T16:48:57.665Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Citizen Lab finds Candiru's mercenary spyware on the phones of Al Jazeera journalists, infected using Discover Tech to deliver the malware using targeted ads. https://citizenlab.ca/research/how-discover-tech-turned-targeted-ads-into-a-pipeline-for-spyware/",
       "html": "",
       "warning": "",
@@ -2210,7 +2237,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-15T15:12:58.899Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Here's 3 surprising new preprints on the Atlantic ocean circulation #AMOC. 🌊The first by Winkelbauer et al. analyses 17 different ocean reanalysis products and finds the AMOC has weakened about 15% over the last 3 decades.\nhttps://egusphere.copernicus.org/preprints/2026/egusphere-2026-5435/\n\nThe 2nd by Bell et al. from UK Met Office does a similar analysis using atmospheric reanalysis, deriving #AMOC changes from an energy balance and the heat flux though the ocean surface. The find about 14% AMOC weakening over the past 3 decades.\nhttps://www.researchsquare.com/article/rs-10854125/v1\n\nA study by Ben-Yami et al. looks for tell-tale signs of approaching an #AMOC tipping point in historic runs of climate models vs. observed SST patterns. They find a loss of stability in the real-world AMOC but not in models, so AMOC in models may be too stable.\nhttps://journals.plos.org/climate/article?id=10.1371/journal.pclm.0000781",
       "html": "",
       "warning": "",
@@ -2237,7 +2264,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T14:38:59.590Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ChatGPT now lets you target ads based on specific prompts or any phone number or email address. This is absolutely 100% going to be used for harassment. \n\nhttps://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
       "html": "",
       "warning": "",
@@ -2262,7 +2289,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-15T10:41:54.906Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Space technology belongs to everyone, and so should the safety it can bring. \n\nOur new Compass on Space and Disaster Risk Management turns data into information people can act on to protect us all. \n\nShared data, shared knowledge, shared resilience. Disasters cross borders, so does our response.  \n\nMore 👉 https://link.europa.eu/WDvX66",
       "html": "",
       "warning": "",
@@ -2304,7 +2331,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-15T09:08:50.579Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "In a study published in March, we found that the speed of global warming has nearly doubled since 2013, using a continuous piecewise-linear function.\n“Continuous” as otherwise one describes the data by a sequence of trends and abrupt jumps.\nOur paper: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL118804",
       "html": "",
       "warning": "",
@@ -2329,7 +2356,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-15T07:20:11.587Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Wetterumstellung zum Wochenende\n\nFreitagabend erreicht uns aus Nordwesten eine Kaltfront. Sie leitet ein wechselhafteres und kühleres Wochenende ein. Zum Beginn dominiert dann ein Hoch mit Schwerpunkt über Nordeuropa.\nhttps://wetterkanal.kachelmannwetter.com/wetterumstellung-zum-wochenende-2/ /LD",
       "html": "",
       "warning": "",
@@ -2359,7 +2386,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-15T07:07:27.936Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "In September, we gathered 150 randomly selected people from across Europe in Brussels to discuss how we can make our democracies stronger. \n\nThis weekend, they’re gathering once again to continue the discussion.   \n\nFollowing their final session in December, they will put forward some concrete proposals that will directly feed into our policies. \n\nAnd you can be part of it too! \n\nFind out more: https://link.europa.eu/bmWJmD",
       "html": "",
       "warning": "",
@@ -2384,7 +2411,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-15T04:18:41.177Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Elevation Lab pulls its AirTag silencing tool. Good things can still happen, occasionally through the power of shame. Kudos to @glennf  on this one: https://www.elevationlab.com/blogs/news/an-apology",
       "html": "",
       "warning": "",
@@ -2409,7 +2436,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-14T22:21:47.875Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I would buy a new Apple TV in a heartbeat if it somehow fixed YouTube nerfing the quality of 60 fps videos if you increase the playback speed https://www.makeuseof.com/youtube-hasnt-fixed-year-long-quality-issue/",
       "html": "",
       "warning": "",
@@ -2434,7 +2461,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-14T18:49:28.826Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ihr solltet euch btw alle massiv auf das debutalbum von PISS freuen https://www.youtube.com/watch?v=6TiFlIIijPA",
       "html": "",
       "warning": "",
@@ -2459,7 +2486,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-14T14:57:59.199Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Decent work should not depend on your sector or where you live.\n \nOur 2026 Employment and Social Outlook finds that job quality in the EU has improved over the past decade, with progress on pay, security and working time. It also finds that gaps remain across EU countries, sectors and occupations.\n \nWe will present a Quality Jobs Act later this year.\n \nMore: https://link.europa.eu/G3rdrr",
       "html": "",
       "warning": "",
@@ -2489,7 +2516,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-14T13:35:20.855Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Lieber Herr Merz, Sie wollen, dass die junge Generation eine vernünftige Perspektive hat.\nDas Bundesverfassungsgericht hat dazu entscheidende Hinweise gegeben. \nBitte sagen Sie es auch Frau Reiche. Danke.",
       "html": "",
       "warning": "",
@@ -2523,7 +2550,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-14T09:06:13.252Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "It feels far away. Until it isn’t. \n\nIn 2025, more than 44,800 organ transplants were carried out across Europe: \n🔹 61% kidney \n🔹 25% liver \n🔹 7% heart \n🔹 5% lung \n\nWith greater awareness and more people choosing to donate, more people could celebrate another birthday, make new plans, and spend more time with their loved ones. \n\n💬 Know your wishes, talk about them and find out how donation works in your country: https://www.edqm.eu/en/edd-organ-donation-institutions",
       "html": "",
       "warning": "",
@@ -2553,7 +2580,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-14T07:15:49.930Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Herbstmilde, Cut-Off-Tief und Omegablock\n\nNach ruhigem und oft-sonnig mildem Oktoberwetter wird es am Wochenende etwas wechselhafter und kälter. Nächste Woche deutet sich dann eine Omegawetterlage an. \nhttps://wetterkanal.kachelmannwetter.com/herbstmilde-cut-off-tief-und-omegablock/ /LD",
       "html": "",
       "warning": "",
@@ -2583,7 +2610,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-13T22:45:17.010Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://mementomori.social/@maijanlainen/117435589734913543\n\nMy Mastodon replies continue to be very cool and normal.",
       "html": "",
       "warning": "",
@@ -2608,7 +2635,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-13T22:40:49.321Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://hachyderm.io/@evacide/117434963703286230\n\nIt's unsurprising when people still use the term \"bots\" interchangeably for anything between search engine crawlers, automated accounts like the ones that post the weather every hour, automated accounts that pretend to be real people, real people who are paid to pretend to be other people, and real people they disagree with.",
       "html": "",
       "warning": "",
@@ -2619,8 +2646,8 @@
       "media": [],
       "metrics": {
         "favourites": 117,
-        "boosts": 43,
-        "replies": 5
+        "boosts": 41,
+        "replies": 4
       },
       "instance": "mastodon.social"
     },
@@ -2633,7 +2660,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-13T18:15:39.711Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A lot of people I know shared posts about the Yandex datacenter bombing resulting in a decrease in Russian misinformation/disinformation bot activity, sometimes with charts. Let this be a reminder every one of us could be fooled by a story that we really want to be true.",
       "html": "",
       "warning": "",
@@ -2644,7 +2671,7 @@
       "media": [],
       "metrics": {
         "favourites": 731,
-        "boosts": 390,
+        "boosts": 388,
         "replies": 38
       },
       "instance": "hachyderm.io"
@@ -2658,7 +2685,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-13T16:47:32.255Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "If you've moved onto the Home Assistant ecosystem there's not much value in the HomeView, is there?",
       "html": "",
       "warning": "",
@@ -2683,7 +2710,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T14:31:07.640Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ich habe nach nur fünf jahren in dieser wohnung eine lampe für die zwei drähte über dem badezimmerspiegel gekauft, nur um mit dem multimeter festzustellen, dass da gar keine spannung anliegt. ich bin so kurz davor die trotzdem anzuschrauben, nur damit ich das endlich abhaken kann.",
       "html": "",
       "warning": "",
@@ -2708,7 +2735,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-13T12:02:57.091Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Unsicheres Höhentief - dann neues Blocking\n\nAm Wochenende bringt ein Höhentief noch große Unsicherheiten. Es deutet sich aber wechselhafteres und kälteres Herbstwetter an. In der nächsten Woche stehen die Zeichen mal wieder auf mächtiges Blocking.\nhttps://youtu.be/izByJ5eLw1c /LD",
       "html": "",
       "warning": "",
@@ -2738,7 +2765,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-13T11:50:49.883Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Another discard from Tuscany.\n\n📷️️ Pentax KX\n🎞️ Fuji Superia X-tra 400\n🔭 Pentax M 50mm/1.7\n⚗️ Spieker Film Lab\n\n#BelieveInFilm #FilmPhotography #AnalogPhotography #35mm",
       "html": "",
       "warning": "",
@@ -2773,7 +2800,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-13T11:41:15.657Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "🌍 Can you recognise these places from space?  \n\nOur new Sentinel-3C has sent back its first images of Earth, from Italy to the Canadian Arctic and the Caribbean. \n\nPart of our Copernicus programme, the satellite will help us better understand our planet, protect nature and prepare for climate change.",
       "html": "",
       "warning": "",
@@ -2811,7 +2838,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-13T10:59:01.448Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A great video explainer by Critical Latitude about the weakening Atlantic Ocean overturning circulation and the risk of it passing a tipping point.\n#AMOC🌊\nhttps://www.youtube.com/watch?v=39t1IhGejOQ",
       "html": "",
       "warning": "",
@@ -2838,7 +2865,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T10:06:47.364Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "wir brauchen nachhilfe für nicht-anthropomorphisierende berichterstattung. genau wie ki hat dieser (nichtmal autonome) roboter keine agency. der täter war der teenager, der ihn gesteuert hat. der roboter hat nichts getan, er war nur ein werkzeug für sexuelle belästigung. das gehört klar benannt.",
       "html": "",
       "warning": "",
@@ -2868,7 +2895,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T07:53:44.835Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "wenn ich die umweltprobleme ignoriere, muss ich danach die ethischen probleme ignorieren, dann kommen die der scheiß funktioniert überhaupt nicht probleme und wenn ich das alles verdränge, bin ich damit konfrontiert, dass selbst dann keine einzige rechnung aufgeht. und wenn das irgendwann jemand merkt, bricht die weltwirtschaft zusammen. top system einfach.",
       "html": "",
       "warning": "",
@@ -2893,7 +2920,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T07:51:03.953Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "was genau ist eigentlich die strategie von openai und anthropic, um zu verhindern, dass alle unternehmen früher oder später auf open weight modelle wechseln? einfach weiter den kompletten ram-markt leerkaufen, um die preise hoch zu halten?",
       "html": "",
       "warning": "",
@@ -2918,7 +2945,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-13T07:02:34.942Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Nur schwache Fronten und viel Herbsthoch\n\nNach einer Warmfront heute dominiert erstmal wieder Hochdruckeinfluss. So gibt es dann oft sonniges Oktoberwetter. Regional hält sich aber auch zäher Nebel. Am Wochenende kommt dann ein Höhentief ins Spiel.\nhttps://wetterkanal.kachelmannwetter.com/nur-schwache-fronten-und-wieder-viel-herbsthoch/ /LD",
       "html": "",
       "warning": "",
@@ -2948,7 +2975,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-13T06:52:13.258Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ah yes, ai makes development so much more efficient, that epic games had to push back the release date of their fully ai coded star wars game. makes sense.",
       "html": "",
       "warning": "",
@@ -2973,7 +3000,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-13T01:33:50.492Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "#EmmaRuthRundle - Anvil\n\nhttps://www.youtube.com/watch?v=UmcrRwlsWCI\n\n#NowPlaying #NP",
       "html": "",
       "warning": "",
@@ -3002,7 +3029,7 @@
       "handle": "@Gargron@mastodon.social",
       "publishedAt": "2026-10-12T23:56:01.666Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A photo from our trip to Tuscany earlier this year that I have not posted so far because I don't consider it very good.\n\n📷️ Pentax KX\n🎞️ Fuji Superia X-tra 400\n🔭 Pentax M 50mm/1.7\n⚗️ Spieker Film Lab\n\n#BelieveInFilm #FilmPhotography #AnalogPhotography #35mm",
       "html": "",
       "warning": "",
@@ -3037,7 +3064,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-12T08:13:51.049Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Brought together by the European Citizens’ Panels, their ideas are already shaping Europe. \n \nAnd, yours can too! \n \nShare your ideas, join the debate, and help shape what comes next.\n\nDiscover our Citizens’ Engagement Platform: https://citizens.ec.europa.eu/index_en",
       "html": "",
       "warning": "",
@@ -3062,7 +3089,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-11T22:03:31.840Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://hachyderm.io/@evacide/117412045251981085\n\nI have now heard from several maintainers of open source projects who tell me that this is something they specifically asked for and/or that it is a big improvement on the status quo, so this hot take was wrong.",
       "html": "",
       "warning": "",
@@ -3087,7 +3114,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-11T13:35:03.331Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A new study has examined 20,736 scientific publications about climate tipping points. Several of those are estimated to be crossed around 1.5 degrees warming, i.e. any time soon: permafrost thaw, Greenland Ice Sheet, North Atlantic Subpolar Gyre.\nhttps://theconversation.com/some-climate-tipping-points-are-being-studied-far-more-than-others-new-research-293614",
       "html": "",
       "warning": "",
@@ -3112,7 +3139,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-11T10:59:01.142Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Kennt die Politik eigentlich gar keine Regeln für Interessenkonflikte? Aus einer Gasfirma ins Amt kommen, und dann das:\n“Die Gaslobby wird von dieser Ministerin mit Steuern subventioniert und gefördert, während sie die Förderung der Erneuerbaren kappen will.”\nLesenswerter Artikel!\nhttps://www.zeit.de/politik/deutschland/2026-10/katherina-reiche-wind-solar-transformationsindustrien-referat-klimaneutralitaet?freebie=0a0c0dff",
       "html": "",
       "warning": "",
@@ -3137,7 +3164,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-11T07:29:47.106Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Von Bodenfrost einer Warmfront zu goldenen 20ern\n\nIn der neue Woche dominiert mal wieder Hochdruckeinfluss und uns erreichen lediglich schwache Tiefausläufer. Im Verlauf kommt auch die 20-Grad-Marke nochmal in Reichweite.\nhttps://wetterkanal.kachelmannwetter.com/von-bodenfrost-zu-goldenen-20ern/ /LD",
       "html": "",
       "warning": "",
@@ -3167,7 +3194,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-10T14:58:51.472Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "falls ihr btw nicht wusstet, dass die todesstrafe eu-weit untersagt ist und darum auch gar nicht zur debatte steht: das werdet ihr nach dem lesen des posts immer noch nicht wissen, dafür war wohl leider kein platz. aber weltweit reden alle darüber!!!!!",
       "html": "",
       "warning": "",
@@ -3192,7 +3219,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-10T14:50:58.486Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "sorry aber journalismus, der selbst basalen menschenrechten wie … leben?! »neutral« gegenüber ist, möchte ich ungern mit gebühren finanzieren. wem nützt das bitte irgendwas? wozu steht dieser satz da? was bezweckt das, außer eine debatte zu legitimieren, in der staatliches töten legitimiert wird?",
       "html": "",
       "warning": "",
@@ -3217,7 +3244,7 @@
       "handle": "@hagen@mastodon.social",
       "publishedAt": "2026-10-10T14:47:22.855Z",
       "firstSeenAt": "2026-10-20T09:27:29.002Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "ich habe aufgrund von unterkomplexität und both-sidism eh ein problem mit dem instagram-auftritt der tagesschau, aber heute ist next level. ein post zur todesstrafe mit dem satz »heute wird weltweit diskutiert, ob ein staat menschen hinrichten darf.« WELCHE DEMOKRATIE AUSSER DEN USA DISKUTIERT DAS?!",
       "html": "",
       "warning": "",
@@ -3242,7 +3269,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-10T08:43:03.359Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Die Erderwärmung beschleunigt sich, der vergangene Hitzesommer hat uns in 🇩🇪 16.000 Tote (RKI) und 40 Milliarden € (DIW) gekostet.\nUnd Ministerin Reiche will den dringend notwendigen und erfolgreichen Ausbau der Erneuerbaren sabotieren! 🤯\nUnverantwortlich. 😠\nhttps://www.taz.de/!6216523",
       "html": "",
       "warning": "",
@@ -3267,7 +3294,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-10T08:24:16.373Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Your mental health deserves a place in your feed too. \n\nOur digital lives are an important part of our mental wellbeing. \n\nThis World Mental Health Day, let’s take a moment to think about how our digital lives affect us. \n\nA few simple steps can help: \n🔸 Limit screen time \n🔸 Turn off non-essential notifications \n🔸 Take a break from screens before bed \n🔸 Unfollow content that makes you feel anxious or pressured \n\nOur mental health also starts on the screen.  More: https://link.europa.eu/vJdpDN",
       "html": "",
       "warning": "",
@@ -3297,7 +3324,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-09T17:07:11.897Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I understand that Anthropic thinks they're doing open source projects a favor here, but what they're actually doing is creating an enormous amount of work for people that they are not paying.\n\nhttps://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
       "html": "",
       "warning": "",
@@ -3322,7 +3349,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-09T16:08:48.356Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The strategic raw materials you were looking for: Boron, Nickel, Copper, Lithium, C - Graphite. \n \nPS: we had to edit the image because of a typo.",
       "html": "",
       "warning": "",
@@ -3347,7 +3374,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-10-09T14:28:25.298Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "New #Plushtodon colours now available for pre-orders on our shop! This is a way to support our work and get a squishy friend at the same time.\n\nhttps://blog.joinmastodon.org/2026/10/plushtodon-pre-orders-now-open/\n\n#Merchtodon",
       "html": "",
       "warning": "",
@@ -3375,7 +3402,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-09T13:55:44.481Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "People who have done Duo labs (or Apple folks), if you're folding the device and the folding blur effect is active, is the the left side of the screen still responsive to touches? The right?",
       "html": "",
       "warning": "",
@@ -3400,7 +3427,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-09T12:40:45.557Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Große Demo für Erneuerbare in Berlin.\n“Aufbauen statt ausbremsen!”",
       "html": "",
       "warning": "",
@@ -3442,7 +3469,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-09T11:33:02.171Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "We are digging for gallium 🪽 👀 \n\nAnd other critical raw materials for everyday life – like gallium, that powers your smartphones and medical devices. \n\nAnd now, we have selected strategic projects to boost extraction, processing and recycling, so we can keep powering everyday life 👇 \n\nhttps://link.europa.eu/CdCpMP",
       "html": "",
       "warning": "",
@@ -3472,7 +3499,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-08T21:49:32.218Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Another example of the ways in which misbehaving agents have affected the digital commons and some thoughts about what should be done about it.\n\n\"While OpenAI admits to agents behaving 'unpredictably', they must also acknowledge their responsibility to monitor and prevent these risks. AI companies are not doing enough to secure their systems and protect the public from the harm they cause. That burden is falling onto everyone else, including smaller organizations. At a minimum, their systems should operate in a way that non-profit website owners like us can easily identify, and choose how they interact with our services.\"\n\nhttps://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
       "html": "",
       "warning": "",
@@ -3497,7 +3524,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-08T17:41:10.423Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Pervert glasses: now even more explicitly designed for abuse!\n\nhttps://futurism.com/artificial-intelligence/influencers-promoting-cheap-dupes-meta-glasses-light",
       "html": "",
       "warning": "",
@@ -3522,7 +3549,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-08T09:00:14.423Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Love is love.  \n \nOn International Lesbian Day, we celebrate lesbian women and stand up for a simple principle: \n\nEveryone should be free to be themselves and love who they love — free from discrimination, exclusion or violence. 🧡 \n \nOur LGBTIQ+ Equality Strategy is about making equality a reality — tackling hate, supporting communities and protecting people’s rights.",
       "html": "",
       "warning": "",
@@ -3552,7 +3579,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-08T00:20:46.285Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "every d&d podcast has quietly agreed that the bane spell requires somatic, material, and tom hardy components",
       "html": "",
       "warning": "",
@@ -3577,7 +3604,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-07T16:48:39.353Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "We are going to use AI to file public records requests. Then we are going to use AI to reply to the public records requests. Then we are going to use AI to write news stories about the public records, which will be read by more AI. No action will be taken. #civictech",
       "html": "",
       "warning": "",
@@ -3604,7 +3631,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-07T16:15:35.185Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "\"AI is going to help government transparency by making it easier to file public records requests!\" \n\n\"Oh no.\" \n\nhttps://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/",
       "html": "",
       "warning": "",
@@ -3629,7 +3656,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-07T15:28:06.978Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Today's privacy and security guide:\n\nConnected Cars: Privacy and Security for Survivors\n\nhttps://www.techsafety.org/connected-cars-privacy",
       "html": "",
       "warning": "",
@@ -3654,7 +3681,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-07T14:51:02.264Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I knew the Duo had a smaller camera sensor (rumor is similar to 17e), whatever, I'm used to the iPhone Air, but I didn't realize how small that would mean. That's closer to the iPhone 6 than the Air\n\n(Rumor might be wrong, and there's been more advancements than just sensor size)",
       "html": "",
       "warning": "",
@@ -3684,7 +3711,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-07T10:59:01.322Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A thoroughly researched article from Politico on one of the major climate risks: the linked tipping points of the subpolar gyre #SPG and the #AMOC in the Atlantic.\nSPG collapse could occur within 20 the next years.\nhttps://www.politico.eu/article/climate-change-europe-amoc-temperature/",
       "html": "",
       "warning": "",
@@ -3712,7 +3739,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-07T10:00:42.914Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "A safer internet starts right at our work desks.  \n\nOur new Eurobarometer shows that three in four employees in the EU encounter cyber threats on the job. Meanwhile, less than half feel confident that they can spot an AI fake video.  \n\nThis European Cybersecurity Month, let’s build a stronger and safer Europe online, like offline.   \n\nMore:  https://link.europa.eu/DC86tU",
       "html": "",
       "warning": "",
@@ -3754,7 +3781,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-07T07:08:12.094Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Umstellung: Kräftiger Regen, Wind und Abkühlung\n\nHeute heißt es Abschied nehmen von Sonne und Spätsommerwärme. Ab kommender Nacht bringt eine Kaltfront eine Umstellung zu deutlich unbeständigerem, windigem und kühlerem Tiefdruckwetter.\nhttps://wetterkanal.kachelmannwetter.com/umstellung-kraeftiger-regen-wind-und-abkuehlung/ /LD",
       "html": "",
       "warning": "",
@@ -3784,7 +3811,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-06T22:21:34.807Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "not to be earnest twice in one day but this has been my life since... april? the downside of being a one-man band is that there’s no one to pick up the slack when the one man is going through it. extra scary when it's how you make a living. anyway, love you all, just fighting my own nervous system",
       "html": "",
       "warning": "",
@@ -3795,8 +3822,8 @@
       "media": [],
       "metrics": {
         "favourites": 306,
-        "boosts": 10,
-        "replies": 18
+        "boosts": 9,
+        "replies": 17
       },
       "instance": "hachyderm.io"
     },
@@ -3809,7 +3836,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-06T22:10:32.862Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "doctor: the med you’ve been on your whole adult life has stopped working for your severe anxiety\n\nme: ok and the supplemental one isn’t doing anything either\n\ndoctor: have you tried yoga",
       "html": "",
       "warning": "",
@@ -3820,8 +3847,8 @@
       "media": [],
       "metrics": {
         "favourites": 206,
-        "boosts": 43,
-        "replies": 18
+        "boosts": 42,
+        "replies": 17
       },
       "instance": "hachyderm.io"
     },
@@ -3834,7 +3861,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-06T21:53:40.749Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "“Wikimedia’s volunteers are the ones who come in first contact with, and clean up the mess left behind by AI agents. ... Wikimedia’s volunteers have stayed resilient so far in tackling emerging challenges on our platforms, but we also want to say: it doesn’t need to be this way.”\n\nhttps://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/\n\n#Wikimedia #OpenAI",
       "html": "",
       "warning": "",
@@ -3848,7 +3875,7 @@
       "media": [],
       "metrics": {
         "favourites": 142,
-        "boosts": 160,
+        "boosts": 159,
         "replies": 3
       },
       "instance": "hachyderm.io"
@@ -3862,7 +3889,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-06T20:20:28.923Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "“While OpenAI admits to agents behaving ‘unpredictably’, they must also acknowledge their responsibility to monitor and prevent these risks,” Wikimedia said. “AI companies are not doing enough to secure their systems and protect the public from the harm they cause.”\n\nhttps://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/\n\n#Wikimedia #OpenAi",
       "html": "",
       "warning": "",
@@ -3890,7 +3917,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-06T16:53:05.489Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I need something that zaps me with a painful shock whenever I spend too much time doomscrolling on my phone.\n\n*tendonitis has entered the chat*\n\nOh no.",
       "html": "",
       "warning": "",
@@ -3915,7 +3942,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-06T07:01:56.801Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Markante Kaltfront beendet Spätsommerwärme\n\nBis morgen hält unser warmes Spätsommerwetter noch an. Dann sorgt eine Kaltfront für eine markante Wetterumstellung. Wir schauen nochmal wie nass und herbstlich es in nächster Zeit wird.\nhttps://wetterkanal.kachelmannwetter.com/markante-kaltfront-am-donnerstag/ /LD",
       "html": "",
       "warning": "",
@@ -3945,7 +3972,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-05T20:08:01.445Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "saw a great tip about using a dog training clicker to mark where you mess up a take in an audio recording, because it generates a nice clean pattern in the waveform that makes it easy to spot\n\nworks great, but my dog is going nuts",
       "html": "",
       "warning": "",
@@ -3970,7 +3997,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-05T18:17:18.521Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I have spent much of this week doing the sort of work that AI is absolutely terrible at, which has helped me to see how many people doing this same work are definitely using AI.",
       "html": "",
       "warning": "",
@@ -3995,7 +4022,7 @@
       "handle": "@evacide@hachyderm.io",
       "publishedAt": "2026-10-05T17:23:25.195Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Russia has been blocking Signal/WhatsApp/Telegram and it has made VK's Max increasingly mandatory to reach govt services. We assumed it was a privacy nightmare, but InterSecLab brings the goods: https://interseclab.org/research/max/",
       "html": "",
       "warning": "",
@@ -4020,7 +4047,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-05T16:29:05.312Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Shame the Duo lacks an action button, going to try to train myself to use that back tap feature instead in the meantime",
       "html": "",
       "warning": "",
@@ -4050,7 +4077,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-05T12:00:07.702Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Markante Wetterumstellung am Donnerstag\n\nWir schauen nochmal genauer auf die deutliche Umstellung zu unbeständigem und kälterem Wetter am Donnerstag. Die Frage ist, ob es längere Zeit so bleibt oder ob schon wieder die nächsten Hochs im Anmarsch sind.\nhttps://youtu.be/wNjvU7QpUZM /LD",
       "html": "",
       "warning": "",
@@ -4080,7 +4107,7 @@
       "handle": "@EUCommission@ec.social-network.europa.eu",
       "publishedAt": "2026-10-05T11:34:57.296Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Some teachers stay with us long after we leave the classroom. \n\nThis #WorldTeachersDay, we’re celebrating teachers and supporting them across Europe with opportunities, tools and resources: \n\n🏫 Erasmus+ Teacher Academies: training and connecting teachers\n\n📱 SELFIE for Teachers: helping educators build digital skills\n\n🏆 European Innovative Teaching Award: celebrating great teaching\n\n📒 Resources to help students tackle disinformation\n\nhttps://europa.eu/!dCGbvh",
       "html": "",
       "warning": "",
@@ -4112,7 +4139,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-05T06:47:17.173Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Sommernachschlag - Dann dreht der Herbst auf!\n\nZum Wochenbeginn gibt es noch ein paar Tage ruhiges und sehr warmes Spätsommerwetter. Zum Donnerstag dreht der Herbst dann voll auf und es wird deutlich unbeständiger, kälter und windiger.\nhttps://wetterkanal.kachelmannwetter.com/sommernachschlag-dann-ab-in-den-herbst/ /LD",
       "html": "",
       "warning": "",
@@ -4142,7 +4169,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-04T00:05:24.013Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Anyone else been totally unable to get the iPhone 18 Pro's triple live activity thing working in the dynamic island on the simulator? Only ever shows two for me",
       "html": "",
       "warning": "",
@@ -4167,7 +4194,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-03T01:55:17.149Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "AI has (incorrectly) identified me as the author of a smut book called “My Grumpy Billionaire Secret” and offered to replace my AI audiobooks with new AI audio\n\nthe future is now\n\n#AI",
       "html": "",
       "warning": "",
@@ -4199,7 +4226,7 @@
       "handle": "@molly0xfff@hachyderm.io",
       "publishedAt": "2026-10-03T00:46:11.567Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "The crypto industry can drop $30 million+ on a single Senate race. Citation Needed runs on reader support alone. If you think someone should be tracking this stuff, consider a paid subscription: https://www.citationneeded.news/signup/",
       "html": "",
       "warning": "",
@@ -4224,7 +4251,7 @@
       "handle": "@christianselig@mastodon.social",
       "publishedAt": "2026-10-02T22:15:20.215Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Went with mom to pick up an EV5 (her first electric vehicle) and gotta say, it's a really impressive vehicle. Unfortunate the US isn't getting this, it sits really nicely between the EV3 and EV9 and has some stuff I'm jealous of with Rivian",
       "html": "",
       "warning": "",
@@ -4254,7 +4281,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-02T11:56:52.492Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Umstellung zu unbeständigem und kälterem Herbstwetter \n\nBis Mitte nächster Woche bleibt es wohl bei recht ruhigem und sehr mildem Herbstwetter. Dann könnte es mit einer Troglage deutlich wechselhafter und kälter werden.\nhttps://youtu.be/ibj-OazFUVs /LD",
       "html": "",
       "warning": "",
@@ -4284,7 +4311,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-02T10:59:01.207Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "https://www.snexplores.org/article/cold-spot-atlantic-ocean-amoc",
       "html": "",
       "warning": "",
@@ -4309,7 +4336,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-02T06:44:35.997Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Hochdruckbrücke und immer noch die 20\n\nDer \"große\" Regen ist durch und heute gibt es noch die Resteparty im Osten. So dominiert in nächster Zeit wieder überwiegend Hochdruckeinfluss bei weiterhin zu hohen Temperaturen für Anfang Oktober.\nhttps://wetterkanal.kachelmannwetter.com/hochdruckbruecke-und-immer-noch-die-20/ /LD",
       "html": "",
       "warning": "",
@@ -4339,7 +4366,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-01T14:50:58.207Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Für den #Tankrabatt bezahlen all die Steuerzahler, die kein Erdöl verbrauchen, weil sie E-Auto oder (wie ich) gar kein Auto fahren.\nEs profitieren die Ölkonzerne, die seit Jahrzehnten durch systematische Täuschung Klimaschutz verhindern. 😟\nhttps://climateintegrity.org/projects/climate-fraud-101",
       "html": "",
       "warning": "",
@@ -4366,7 +4393,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-10-01T13:35:02.101Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Ein ausführliches Interview mit mir.\nhttps://datum.at/die-neuen-klimamodelle-haben-mich-wirklich-erschreckt/",
       "html": "",
       "warning": "",
@@ -4391,7 +4418,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-10-01T07:13:49.511Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Starkregen, neues Hoch und sehr milde Herbstluft\n\nWir blicken nochmal auf die Kaltfront, die in der Westhälfte heute kräftigen Regen bringt. Danach stellt sich recht ruhiges Herbstwetter ein und es bleibt bis Mitte nächster Woche sehr mild bzw. warm.\nhttps://wetterkanal.kachelmannwetter.com/starkregen-neues-hoch-weiter-recht-warm/ /LD",
       "html": "",
       "warning": "",
@@ -4421,7 +4448,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-09-30T20:04:51.176Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "El Niño kommt - auch in Europa werden die Folgen spürbar sein.\nDieser Podcast erklärt, womit ihr rechnen müsst.\nhttps://www.ardsounds.de/episode/urn:ard:episode:175e7b15528a75b0/",
       "html": "",
       "warning": "",
@@ -4446,7 +4473,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-30T11:58:54.283Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Es wird Herbst: Nebel und erste Kaltluftoptionen\n\nAuch nach der Kaltfront bleibt es erstmal noch zu warm für die Jahreszeit. Dafür gibt es morgens häufiger Nebel und im Laufe der nächsten Woche könnte uns erste herbstliche Kaltluft erreichen. \nhttps://youtu.be/1_JQkFGdh6k /LD",
       "html": "",
       "warning": "",
@@ -4476,7 +4503,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-30T06:47:34.331Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Kaltfront bringt endlich Regen!\n\nNach einem nochmals rekordwarmen Mittwoch, sorgt eine Kaltfront morgen in einigen Regionen für teils kräftigen Dauerregen. Dahinter baut sich zum Wochenende aber schon wieder mehr Hochdruck auf.\nhttps://wetterkanal.kachelmannwetter.com/endlich-regen/ /LD",
       "html": "",
       "warning": "",
@@ -4506,7 +4533,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-09-29T13:31:47.290Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "“Am Endpunkt dieser Entwicklung stehen groteske Worthülsen wie der »hocheffiziente Verbrenner« und das zum Kampfbegriff verkommene Wort »Technologieoffenheit«, das heute schlicht Schutzgarantien für unterlegene Retrotechnik bezeichnet.” https://www.spiegel.de/wissenschaft/mensch/energiewende-wie-sich-deutschland-von-150-jahre-alter-dampftechnik-loest-kolumne-a-b2af1506-aed6-4f3c-a208-eb9aa3f20ed1",
       "html": "",
       "warning": "",
@@ -4531,7 +4558,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-29T07:11:11.442Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Kaltfront beendet große Wärme mit regional kräftigem Regen\n\nZwei Tage gibt es nochmal außergewöhnlich warmes Spätsommerwetter. Dann kommt von Westen her eine Kaltfront auf. Sie bringt am Donnerstag regional dringend benötigte Regenfälle.\nhttps://wetterkanal.kachelmannwetter.com/kaltfront-mit-regional-kraeftigem-regen/ /LD",
       "html": "",
       "warning": "",
@@ -4561,7 +4588,7 @@
       "handle": "@nocontexttrek@mastodon.social",
       "publishedAt": "2026-09-29T02:43:53.814Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Hey gang👋🏻 I'm good, life and work just got turned up to 11 this summer into Fall and one day not posting turned into a week, then a month, etc. All is well, just thickly settled in the current season. Not entirely sure when I'll be back up, but a heartfelt LLAP to you all🖖🏻",
       "html": "",
       "warning": "",
@@ -4586,7 +4613,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-28T11:59:50.779Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Kaltfront als \"Regenhoffnung\" - Dann schon wieder neue Hochs\n\nWir schauen nochmal auf die Kaltfront zum Donnerstag und die damit verbundenen Regenhoffnungen. Im Anschluss deutet sich für Anfang Oktober schon wieder mehr Hochdruck an.\nhttps://youtu.be/wPspNdTmtOo /LD",
       "html": "",
       "warning": "",
@@ -4616,7 +4643,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-28T06:47:29.243Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Die letzten sehr warmen Sommertage - dann Kaltfront mit Regenhoffnung und Abkühlung\n\nBis Mittwoch gibt es noch oft sonniges und sehr warmes Spätsommerwetter. Dann besteht mit einer Kaltfront für einige Regionen Hoffnung auf Regen.\nhttps://wetterkanal.kachelmannwetter.com/von-rekordwaerme-zur-hoffnung-auf-regen/ /LD",
       "html": "",
       "warning": "",
@@ -4646,7 +4673,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-27T07:11:52.581Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "++ Außergewöhnliche Wärme bis Mitte der Woche ++\n\nBis Mitte der neuen Woche stehen uns nochmal sehr warme Spätsommertage bevor. Regional sind auch Rekordtemperaturen für die Jahreszeit mit Höchstwerten um 30 Grad möglich.\nhttps://youtu.be/sduFFhvliq4 /LD",
       "html": "",
       "warning": "",
@@ -4676,7 +4703,7 @@
       "handle": "@rahmstorf@fediscience.org",
       "publishedAt": "2026-09-25T10:59:01.254Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I can only agree:\n\"Governments must treat the climate as they would other threats to national security, such as sabotage by hostile states.\"\nRichard Nugee, a retired general and security expert.\nWhy would such a report be suppressed?\n\nhttps://www.theguardian.com/environment/2026/sep/23/uk-climate-crisis-national-security-report-suppressed-starmer-ed-miliband",
       "html": "",
       "warning": "",
@@ -4701,7 +4728,7 @@
       "handle": "@kachelmannwetter@meteo.social",
       "publishedAt": "2026-09-25T08:05:30.563Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Andalusien ist die heißeste Region Europas. Aber was sich dort in diesem Sommer abgespielt hat ist nicht mehr normal und lässt schlimmes für zukünftige Sommer befürchten. In Sevilla gab es seit dem 19.Mai 25 Tage mit über 40 Grad und an lediglich zwei Tagen lag die Höchsttemperatur (sehr knapp) unter 30 Grad. /LD",
       "html": "",
       "warning": "",
@@ -4731,7 +4758,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-09-25T02:07:09.288Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "However skeptical I am about Muse as a consumer product, I have to admit that the VR Glasses are a real achievement. Some thoughts on Meta Connect https://www.platformer.news/meta-connect-2026-muse-vr-glasses/",
       "html": "",
       "warning": "",
@@ -4756,7 +4783,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-09-11T01:07:13.630Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I wrote about the AI safety vibe shift. It's been a long time in coming: https://www.platformer.news/ai-safety-vibe-shift-coxon-anthropic/",
       "html": "",
       "warning": "",
@@ -4786,7 +4813,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-09-09T00:24:34.672Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I wrote about why the AI labs make for lousy messengers about AI safety — and about why we should take them seriously anyway https://www.platformer.news/openai-astra-warning-alignment-monitoring-pachocki/",
       "html": "",
       "warning": "",
@@ -4816,7 +4843,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-08-27T00:18:02.578Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Wrote about Meta's ludicrous effort to position itself as a leader in child safety after today's $17 billion settlement with state AGs https://www.platformer.news/meta-child-safety-settlement-instagram-facebook-youtube-tiktok/",
       "html": "",
       "warning": "",
@@ -4846,7 +4873,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-08-25T14:11:16.256Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Hannah Aubry is leaving Mastodon after her time with us as community director and board member. We’re very grateful for her contributions, ideas, and commitment to Mastodon and the fediverse. Thank you, Hannah! We wish you all the very best for what comes next.",
       "html": "",
       "warning": "",
@@ -4871,7 +4898,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-08-19T00:31:31.896Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I wrote about building an LLM wiki to stay on top of my beat. A month in, it's changing how I work https://www.platformer.news/karpathy-llm-wiki-journalism-productivity/",
       "html": "",
       "warning": "",
@@ -4901,7 +4928,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-08-18T15:29:36.902Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "After publishing the results of Discovery Week, we can now give you a first sneak peak at Mastodon 5.0, our next big version. It will bring a new visual look to your screens, a refreshed and calmer layout, as well as a new composer.\n\nhttps://blog.joinmastodon.org/2026/08/5.0-laying-the-foundation/\n\n#mastodon #mastodon5.0",
       "html": "",
       "warning": "",
@@ -4929,7 +4956,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-08-14T11:19:19.586Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Here is a #FeaturedServer for 🌎 Earth, 🦎 Earthlings, and their ⚖️ Advocates...\n\nhttps://earth.law/about\n\nEarth.Law is for:\n📜 Environmental lawyers & policy-makers\n🦋 Conservationists & ecologists\n🔬 Scientists in related fields\n📚 Educators and students of environmental studies\n🎤 Activists & advocates\n\n♻️ Hosted on a dedicated server in 🇫🇮 Helsinki and recognised by the Green Web Foundation for using renewable energy.\n\n #CommunitySpotlight #Fediverse #Mastodon #SocialWeb",
       "html": "",
       "warning": "",
@@ -4960,7 +4987,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-08-14T00:15:19.614Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Town was the first company I saw in a while that made me say ohhhh ... everyone is going to copy this. I interviewed 'mayor' Jean-Denis Greze about building a self-organizing company https://www.platformer.news/town-interview-jean-denis-greze-assistants/",
       "html": "",
       "warning": "",
@@ -4990,7 +5017,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-08-12T17:23:21.125Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Our Community Director @haubles provided a \"plain English\" version too: \n\nhttps://hachyderm.io/@haubles/117083650941891878",
       "html": "",
       "warning": "",
@@ -5015,7 +5042,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-08-12T17:22:25.361Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Today we're sharing additional guidelines about our Trade Mark Policy based on community feedback that we received.\n\nThe new guidelines, and more background about these changes, are available on our blog: \nhttps://blog.joinmastodon.org/2026/08/sharing-guidelines-about-mastodons-trade-mark-policy/\n\n#Mastodon #Fediverse #SocialWeb #FediDev #MastoDev #FediAdmin #MastoAdmin",
       "html": "",
       "warning": "",
@@ -5048,7 +5075,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-08-11T01:43:21.187Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I wrote about Mark Zuckerberg's facile, self-serving AI manifesto and what he misunderstands about the technology https://www.platformer.news/zuckerberg-ai-manifesto-dragons/",
       "html": "",
       "warning": "",
@@ -5078,7 +5105,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-08-07T00:56:09.723Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Talked to Replit CEO Amjad Masad about how he dealt with the feeling that \"everything I worked for is kind of moot\" following the rapid improvement of coding tools https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/",
       "html": "",
       "warning": "",
@@ -5108,7 +5135,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-08-05T14:22:15.639Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "We're excited to share the results from Mastodon's first #DiscoveryWeek!\n\nIn case you missed it, earlier this year our Head of Design @imanijoy arranged a week of workshops and surveys to get to know you, learn about your needs and wants, and discover how you're using (and want to use) Mastodon.\n\nThis week was tremendously helpful for us, and we're grateful to everyone who participated.\n\nHere's what we learned: \nhttps://blog.joinmastodon.org/2026/08/discovery-week-2026-what-we-learned-and-what-were-doing-next/\n\n#Mastodon #Fediverse #SocialWeb #OpenSocial",
       "html": "",
       "warning": "",
@@ -5139,7 +5166,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-08-04T00:29:41.107Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Why are Snap, LinkedIn, and Substack turning away from slop while Meta and TikTok embrace it? It comes down to what the platforms promise their user bases https://www.platformer.news/slop-restrictions-linkedin-substack-snap/",
       "html": "",
       "warning": "",
@@ -5169,7 +5196,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-07-31T00:05:22.159Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "I talked to the CEO of one of the only good AI *product* companies — Chris Pedregal of Granola — about what an AI notetaker learns about a company, and what bosses keep asking him to do with it https://www.platformer.news/granola-chris-pedregal-interview/",
       "html": "",
       "warning": "",
@@ -5199,7 +5226,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-07-29T18:43:42.766Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "RE: https://mastodon.iftas.org/@iftas/116999079831534200\n\nHave you taken the @iftas Social Web Operations Survey yet? 🧐 There's only one day left! \n\n#Fediverse #socialWeb #MastoAdmin",
       "html": "",
       "warning": "",
@@ -5228,7 +5255,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-07-28T01:14:36.328Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "Wrote about AI denialism on Bluesky https://www.platformer.news/a-big-week-for-ai-denialism/",
       "html": "",
       "warning": "",
@@ -5258,7 +5285,7 @@
       "handle": "@caseynewton@mastodon.social",
       "publishedAt": "2026-07-24T00:11:17.328Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "In the wake of OpenAI's autonomous attack against Hugging Face, I wrote about the promise and limitations of Congress' proposed AI kill switch https://www.platformer.news/openai-agent-sandbox-escape-killswitch-bill/",
       "html": "",
       "warning": "",
@@ -5288,7 +5315,7 @@
       "handle": "@Mastodon@mastodon.social",
       "publishedAt": "2026-07-23T06:33:23.881Z",
       "firstSeenAt": "2026-10-20T11:01:44.503Z",
-      "verifiedAt": "2026-10-20T22:15:14.087Z",
+      "verifiedAt": "2026-10-21T00:52:26.266Z",
       "text": "It's time for our first Server Spotlight! \n\nWe want to help people find their communities across the #fediverse so we're featuring servers here on this account.\n\nFirst up: The Mended Drum, a home for fans of all things Sir Terry Pratchett.\n\nIt is said that if you stay on The Mended Drum long enough, you'll meet every hero on the server: https://mendeddrum.org/directory\n\n(keep an eye on your horse, though 😉)\n\n#FeaturedServer #CommunitySpotlight #Mastodon #SocialWeb #GNUTerryPratchett",
       "html": "",
       "warning": "",
@@ -10842,84 +10869,1393 @@
       "favourites": 32,
       "boosts": 43,
       "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 204,
+      "boosts": 116,
+      "replies": 19
+    },
+    {
+      "postId": "https://mastodon.social/users/_elena/statuses/117467578375729396",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 31,
+      "boosts": 4,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 167,
+      "boosts": 117,
+      "replies": 5
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117473094973267710",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 4,
+      "boosts": 4,
+      "replies": 0
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 4,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 0,
+      "boosts": 3,
+      "replies": 0
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 4,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117467382752094331",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 2,
+      "boosts": 1,
+      "replies": 4
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466462823447482",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 29,
+      "boosts": 17,
+      "replies": 4
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466374308373208",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 1,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466172128771376",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 1,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://social.tchncs.de/users/kaffeeringe/statuses/117466162712341207",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 7,
+      "boosts": 7,
+      "replies": 2
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117472677024120814",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 2,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 248,
+      "boosts": 122,
+      "replies": 7
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 7,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455926165003809",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 2,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455449608344474",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 7,
+      "boosts": 0,
+      "replies": 2
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455438415732277",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 0,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117455419556019038",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 4,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117451729674365267",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 9,
+      "boosts": 3,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117451720306880195",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 8,
+      "boosts": 1,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117451715462662831",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 37,
+      "boosts": 13,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117449792002336991",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 0,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117447172846352966",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 4,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117440758993749872",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 2,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117434080796947683",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 14,
+      "boosts": 0,
+      "replies": 5
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117433041378653332",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 104,
+      "boosts": 52,
+      "replies": 6
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117432518235726036",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 12,
+      "boosts": 3,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117432507691930616",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 3,
+      "boosts": 0,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117432276304113518",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 8,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117417202907467074",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 14,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117417171910024943",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 16,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/hagen/statuses/117417157778089098",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 21,
+      "boosts": 10,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117466985005297414",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 389,
+      "boosts": 220,
+      "replies": 19
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117466983307949301",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 716,
+      "boosts": 469,
+      "replies": 60
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117411420916699261",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 181,
+      "boosts": 136,
+      "replies": 16
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117156549508722805",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 472,
+      "boosts": 106,
+      "replies": 18
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117117221397911074",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 962,
+      "boosts": 562,
+      "replies": 133
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117093587981367953",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 153,
+      "boosts": 81,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117083694767249113",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 70,
+      "boosts": 25,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117083691112770390",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 110,
+      "boosts": 85,
+      "replies": 21
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117043346514398510",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 226,
+      "boosts": 159,
+      "replies": 11
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/117004738413167978",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 69,
+      "boosts": 65,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/Mastodon/statuses/116967892835165166",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 224,
+      "boosts": 134,
+      "replies": 6
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117461922421805136",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 46,
+      "boosts": 28,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117457641525342383",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 430,
+      "boosts": 51,
+      "replies": 31
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117452735190662392",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 224,
+      "boosts": 45,
+      "replies": 6
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117452676339198162",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 129,
+      "boosts": 14,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117452653166512386",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 81,
+      "boosts": 16,
+      "replies": 8
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117452631400991718",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 94,
+      "boosts": 4,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117452613534550033",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 117,
+      "boosts": 8,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117452591132778433",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 1010,
+      "boosts": 460,
+      "replies": 21
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117451416604663126",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 10,
+      "boosts": 2,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117436006355252667",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 117,
+      "boosts": 41,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117433450473905580",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 97,
+      "boosts": 9,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117431024384896493",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 16,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/Gargron/statuses/117430639765794729",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 110,
+      "boosts": 10,
+      "replies": 3
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117473804712362500",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 68,
+      "boosts": 26,
+      "replies": 6
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117472232026760313",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 45,
+      "boosts": 19,
+      "replies": 5
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117467767067473759",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 125,
+      "boosts": 56,
+      "replies": 5
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117460536402662285",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 109,
+      "boosts": 80,
+      "replies": 10
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117455300015106058",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 169,
+      "boosts": 143,
+      "replies": 20
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117450350541721051",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 47,
+      "boosts": 24,
+      "replies": 18
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117449936193294371",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 58,
+      "boosts": 21,
+      "replies": 8
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117444504119170742",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 53,
+      "boosts": 32,
+      "replies": 6
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117443660869534771",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 78,
+      "boosts": 70,
+      "replies": 25
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117439848723180444",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 61,
+      "boosts": 16,
+      "replies": 7
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117438465523863796",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 114,
+      "boosts": 97,
+      "replies": 8
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117433412855866319",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 81,
+      "boosts": 44,
+      "replies": 4
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117426934975689426",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 44,
+      "boosts": 24,
+      "replies": 8
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117415651336019679",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 125,
+      "boosts": 90,
+      "replies": 24
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117411815644069956",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 39,
+      "boosts": 1,
+      "replies": 3
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117410731273182740",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 58,
+      "boosts": 18,
+      "replies": 13
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117404468145206373",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 254,
+      "boosts": 179,
+      "replies": 13
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117399043631450998",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 37,
+      "boosts": 17,
+      "replies": 9
+    },
+    {
+      "postId": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117388089576220039",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 94,
+      "boosts": 32,
+      "replies": 4
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117475727199534633",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 282,
+      "boosts": 179,
+      "replies": 18
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117452972642904400",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 157,
+      "boosts": 124,
+      "replies": 11
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451479263709010",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 23,
+      "boosts": 18,
+      "replies": 0
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451478369238827",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 26,
+      "boosts": 11,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451465646147629",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 32,
+      "boosts": 20,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451451230994445",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 27,
+      "boosts": 22,
+      "replies": 1
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451426495306144",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 27,
+      "boosts": 17,
+      "replies": 1
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451419318609261",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 30,
+      "boosts": 18,
+      "replies": 1
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451410075704586",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 22,
+      "boosts": 20,
+      "replies": 1
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451402835948863",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 17,
+      "boosts": 15,
+      "replies": 1
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451394503246217",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 20,
+      "boosts": 20,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117451385625375923",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 44,
+      "boosts": 88,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117448039855793004",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 90,
+      "boosts": 98,
+      "replies": 4
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117402425510167458",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 92,
+      "boosts": 31,
+      "replies": 5
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117396294520595923",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 306,
+      "boosts": 9,
+      "replies": 17
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117396251139190247",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 206,
+      "boosts": 42,
+      "replies": 17
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117396184809311164",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 142,
+      "boosts": 159,
+      "replies": 3
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117395818343464823",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 195,
+      "boosts": 162,
+      "replies": 13
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117390107046391856",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 711,
+      "boosts": 183,
+      "replies": 24
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117374485603779730",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 355,
+      "boosts": 184,
+      "replies": 34
+    },
+    {
+      "postId": "https://hachyderm.io/users/molly0xfff/statuses/117374213919135553",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 75,
+      "boosts": 65,
+      "replies": 0
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117474720950498854",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 64,
+      "boosts": 69,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117473931780688976",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 113,
+      "boosts": 30,
+      "replies": 11
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117446255994831891",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 58,
+      "boosts": 10,
+      "replies": 7
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117446065684034769",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 50,
+      "boosts": 29,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117446018854465201",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 44,
+      "boosts": 39,
+      "replies": 4
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117445971893169596",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 46,
+      "boosts": 9,
+      "replies": 6
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117445947402866983",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 51,
+      "boosts": 67,
+      "replies": 2
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117445436348207388",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 257,
+      "boosts": 331,
+      "replies": 13
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117442997202118499",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 147,
+      "boosts": 108,
+      "replies": 5
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117436023898809885",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 81,
+      "boosts": 17,
+      "replies": 8
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117434963703286230",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 731,
+      "boosts": 388,
+      "replies": 38
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117424535099210362",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 176,
+      "boosts": 60,
+      "replies": 19
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117412045251981085",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 214,
+      "boosts": 127,
+      "replies": 26
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117407493142488185",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 127,
+      "boosts": 131,
+      "replies": 10
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117406516538493548",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 160,
+      "boosts": 170,
+      "replies": 12
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117400647719454859",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 186,
+      "boosts": 98,
+      "replies": 11
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117400517685132433",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 93,
+      "boosts": 52,
+      "replies": 6
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117400331025020949",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 42,
+      "boosts": 56,
+      "replies": 0
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117395002850633280",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 327,
+      "boosts": 110,
+      "replies": 11
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117389671695723322",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 175,
+      "boosts": 42,
+      "replies": 7
+    },
+    {
+      "postId": "https://hachyderm.io/users/evacide/statuses/117389459796477111",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 133,
+      "boosts": 151,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/nocontexttrek/statuses/117352027508830621",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 378,
+      "boosts": 43,
+      "replies": 15
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117329233791380177",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 7,
+      "boosts": 2,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117249725800716762",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 12,
+      "boosts": 8,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117238233476096105",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 8,
+      "boosts": 7,
+      "replies": 2
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117164597743928403",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 8,
+      "boosts": 11,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117119352300382659",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 12,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117090977029291423",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 5,
+      "boosts": 2,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117074336231237865",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 13,
+      "boosts": 13,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117051501426565365",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 9,
+      "boosts": 7,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117034410383991286",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 10,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/117011665528406742",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 18,
+      "boosts": 4,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/116994950845039706",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 11,
+      "boosts": 4,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/caseynewton/statuses/116972052632130869",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 8,
+      "boosts": 3,
+      "replies": 0
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117474483541891646",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 9,
+      "boosts": 0,
+      "replies": 6
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117474402407629951",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 45,
+      "boosts": 2,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117473952122029184",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 41,
+      "boosts": 2,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117469766987163652",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 14,
+      "boosts": 2,
+      "replies": 11
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117468769223990447",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 43,
+      "boosts": 1,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117450590593030456",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 25,
+      "boosts": 5,
+      "replies": 12
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117450517299728566",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 15,
+      "boosts": 0,
+      "replies": 19
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117441593859944192",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 15,
+      "boosts": 2,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117434617184099411",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 18,
+      "boosts": 2,
+      "replies": 16
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117411292412604906",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 2,
+      "replies": 1
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117400185226002824",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 21,
+      "boosts": 4,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117389246156897453",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 17,
+      "boosts": 0,
+      "replies": 4
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117379715826480812",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 2,
+      "boosts": 2,
+      "replies": 3
+    },
+    {
+      "postId": "https://mastodon.social/users/christianselig/statuses/117373620729619432",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 32,
+      "boosts": 1,
+      "replies": 6
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117473496459999629",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 147,
+      "boosts": 85,
+      "replies": 5
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117472989726368832",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 17,
+      "boosts": 11,
+      "replies": 5
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117467834185317315",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 55,
+      "boosts": 51,
+      "replies": 2
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117467220602060246",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 31,
+      "boosts": 17,
+      "replies": 1
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117466176054896392",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 35,
+      "boosts": 20,
+      "replies": 2
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117461403886217892",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 37,
+      "boosts": 28,
+      "replies": 0
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117461399938313210",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 111,
+      "boosts": 62,
+      "replies": 12
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117445569996301845",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 49,
+      "boosts": 56,
+      "replies": 1
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117444138144873818",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 30,
+      "boosts": 37,
+      "replies": 2
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117439523773085758",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 433,
+      "boosts": 355,
+      "replies": 22
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117433246773992824",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 78,
+      "boosts": 74,
+      "replies": 0
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117422535693581340",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 56,
+      "boosts": 65,
+      "replies": 1
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117421922133123583",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 312,
+      "boosts": 309,
+      "replies": 34
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117415725194231707",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 262,
+      "boosts": 271,
+      "replies": 15
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117410997571214974",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 231,
+      "boosts": 135,
+      "replies": 7
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117399272902755742",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 64,
+      "boosts": 77,
+      "replies": 4
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117370961343770510",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 21,
+      "boosts": 19,
+      "replies": 2
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117366211097742626",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 366,
+      "boosts": 289,
+      "replies": 7
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117365912508859346",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 30,
+      "boosts": 29,
+      "replies": 1
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117361783020609032",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 46,
+      "boosts": 47,
+      "replies": 1
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117354575120960075",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 147,
+      "boosts": 107,
+      "replies": 6
+    },
+    {
+      "postId": "https://fediscience.org/users/rahmstorf/statuses/117331325174042616",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 88,
+      "boosts": 65,
+      "replies": 2
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117449365382629964",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 3,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117443710916212809",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117438031457747831",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 3,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117433498146699184",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 3,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117432317047067377",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117421099391769599",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 10,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117398365280327763",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 3,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117392678374661862",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 5,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117388188562340227",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 2,
+      "boosts": 2,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117386958417026965",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 4,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117371188837914278",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 3,
+      "boosts": 1,
+      "replies": 1
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117369960922896119",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 1,
+      "replies": 1
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117364413530877402",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 4,
+      "boosts": 1,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117359872198803240",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 3,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117358647989080032",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 4,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117353078550879807",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 4,
+      "replies": 1
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117348551280505796",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 5,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117347323035218676",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 5,
+      "boosts": 0,
+      "replies": 0
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117341756626115900",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 6,
+      "boosts": 0,
+      "replies": 1
+    },
+    {
+      "postId": "https://meteo.social/users/kachelmannwetter/statuses/117330642898746697",
+      "at": "2026-10-21T00:52:26.266Z",
+      "favourites": 32,
+      "boosts": 43,
+      "replies": 1
     }
   ],
   "sources": [
     {
       "id": "elena",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"d4fff9f7962febede37c1c14b74e686d\""
     },
     {
       "id": "kaffeeringe",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"3b11f7cf4ce642a6daebc6f6e88255f8\""
     },
     {
       "id": "hagen",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"6ff063a4e8fb33b8266e080eda933e84\""
     },
     {
       "id": "mastodon",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"892471beddb072eb2e2aab72dd175edd\""
     },
     {
       "id": "gargron",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"f906e5adabd01cb9319d9ed56a095cc4\""
     },
     {
       "id": "eucommission",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"0ee3e6c51238f41d2ded0928ea63526d\""
     },
     {
       "id": "molly0xfff",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
-      "etag": "W/\"6084e49b26e62e8783a7397941026d58\""
+      "etag": "W/\"340e3b97af9dfaac7b1d4a9c59ed6605\""
     },
     {
       "id": "evacide",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"764a1cdaff5d8218ea8de5aada12b61b\""
     },
     {
       "id": "nocontexttrek",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"d2511ef96ed0f4f74c10946c9c77c34e\""
     },
     {
       "id": "caseynewton",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"3b489d18f4c04328e75322484850d6ac\""
     },
     {
       "id": "christianselig",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"40e5128791450e4bc46046aeeb4780b7\""
     },
     {
       "id": "rahmstorf",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"b5317903adfc996c2e13f40389a018b9\""
     },
     {
       "id": "kachelmannwetter",
-      "lastSuccess": "2026-10-20T22:15:14.087Z",
+      "lastSuccess": "2026-10-21T00:52:26.266Z",
       "error": null,
       "etag": "W/\"213fc686455fd6af3d0187d0baa3a03d\""
     }
@@ -13296,6 +14632,350 @@
           "score": 3.27052804241442
         }
       ]
+    },
+    {
+      "at": "2026-10-21T00:52:26.266Z",
+      "mode": "latest",
+      "posts": [
+        {
+          "id": "https://hachyderm.io/users/molly0xfff/statuses/117475727199534633",
+          "score": 1792537341304
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117474720950498854",
+          "score": 1792521987159
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117474483541891646",
+          "score": 1792518364592
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117474402407629951",
+          "score": 1792517126585
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117473952122029184",
+          "score": 1792510255777
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117473931780688976",
+          "score": 1792509945384
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117473804712362500",
+          "score": 1792508006476
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117473496459999629",
+          "score": 1792503302922
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117473094973267710",
+          "score": 1792497176715
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472677024120814",
+          "score": 1792490799318
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117472232026760313",
+          "score": 1792484009197
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 1792483970812
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+          "score": 1792483295880
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 1792482286040
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117469766987163652",
+          "score": 1792446395684
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+          "score": 1792438105712
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117468769223990447",
+          "score": 1792431171023
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+          "score": 1792430439355
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+          "score": 1792429942831
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117467834185317315",
+          "score": 1792416903462
+        }
+      ]
+    },
+    {
+      "at": "2026-10-21T00:52:26.266Z",
+      "mode": "popular",
+      "posts": [
+        {
+          "id": "https://hachyderm.io/users/molly0xfff/statuses/117475727199534633",
+          "score": 170.4067748626132
+        },
+        {
+          "id": "https://mastodon.social/users/Mastodon/statuses/117466983307949301",
+          "score": 26.110207156080534
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117474720950498854",
+          "score": 22.344293703610965
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117473496459999629",
+          "score": 18.478826362349807
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 18.195354115386895
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 17.610118575778152
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117473931780688976",
+          "score": 12.074181590856305
+        },
+        {
+          "id": "https://mastodon.social/users/Gargron/statuses/117452591132778433",
+          "score": 9.465946251541668
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117473804712362500",
+          "score": 8.023548014626112
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+          "score": 6.461110923827218
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117467767067473759",
+          "score": 3.9045917358899818
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117474402407629951",
+          "score": 3.8491210759847654
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117445436348207388",
+          "score": 3.6331056128754686
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117439523773085758",
+          "score": 3.565005037082278
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117472232026760313",
+          "score": 3.3452314472508453
+        },
+        {
+          "id": "https://mastodon.social/users/Gargron/statuses/117457641525342383",
+          "score": 3.3316382327238063
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117473952122029184",
+          "score": 2.9783718969852795
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117455300015106058",
+          "score": 2.866315485389824
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117467834185317315",
+          "score": 2.756954787306825
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117460536402662285",
+          "score": 2.3244451372440955
+        }
+      ]
+    },
+    {
+      "at": "2026-10-21T00:52:26.266Z",
+      "mode": "trending",
+      "posts": [
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117474720950498854",
+          "score": 5.498427007136632
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117473931780688976",
+          "score": 1.0153855296875551
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117474402407629951",
+          "score": 0.8691097832890402
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117473496459999629",
+          "score": 0.7328734584072917
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117473952122029184",
+          "score": 0.5662400313697958
+        },
+        {
+          "id": "https://mastodon.social/users/Mastodon/statuses/117466983307949301",
+          "score": 0.47746244980537017
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 0.2650682230615871
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117473804712362500",
+          "score": 0.22051223925993185
+        },
+        {
+          "id": "https://hachyderm.io/users/molly0xfff/statuses/117452972642904400",
+          "score": 0.15245473721562355
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117472232026760313",
+          "score": 0.08838132912988668
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 0.08726849679019565
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117473094973267710",
+          "score": 0
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117474483541891646",
+          "score": 0
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472677024120814",
+          "score": 0
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117472185278851510",
+          "score": 0
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117469766987163652",
+          "score": 0
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117469223695130397",
+          "score": 0
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117468769223990447",
+          "score": 0
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468721273603818",
+          "score": 0
+        },
+        {
+          "id": "https://social.tchncs.de/users/kaffeeringe/statuses/117468688733410449",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "at": "2026-10-21T00:52:26.266Z",
+      "mode": "for-you",
+      "posts": [
+        {
+          "id": "https://hachyderm.io/users/molly0xfff/statuses/117475727199534633",
+          "score": 171.4067748626132
+        },
+        {
+          "id": "https://mastodon.social/users/Mastodon/statuses/117466983307949301",
+          "score": 27.110207156080534
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117474720950498854",
+          "score": 23.344293703610965
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117473496459999629",
+          "score": 19.478826362349807
+        },
+        {
+          "id": "https://mastodon.social/users/hagen/statuses/117472119097712420",
+          "score": 19.195354115386895
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117472229509128633",
+          "score": 18.610118575778152
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117473931780688976",
+          "score": 13.074181590856305
+        },
+        {
+          "id": "https://mastodon.social/users/Gargron/statuses/117452591132778433",
+          "score": 10.465946251541668
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117473804712362500",
+          "score": 9.023548014626112
+        },
+        {
+          "id": "https://mastodon.social/users/_elena/statuses/117467376674143781",
+          "score": 7.461110923827218
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117467767067473759",
+          "score": 4.904591735889982
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117474402407629951",
+          "score": 4.849121075984765
+        },
+        {
+          "id": "https://hachyderm.io/users/evacide/statuses/117445436348207388",
+          "score": 4.633105612875468
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117439523773085758",
+          "score": 4.565005037082278
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117472232026760313",
+          "score": 4.345231447250845
+        },
+        {
+          "id": "https://mastodon.social/users/Gargron/statuses/117457641525342383",
+          "score": 4.331638232723806
+        },
+        {
+          "id": "https://mastodon.social/users/christianselig/statuses/117473952122029184",
+          "score": 3.9783718969852795
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117455300015106058",
+          "score": 3.866315485389824
+        },
+        {
+          "id": "https://fediscience.org/users/rahmstorf/statuses/117467834185317315",
+          "score": 3.756954787306825
+        },
+        {
+          "id": "https://ec.social-network.europa.eu/users/EUCommission/statuses/117460536402662285",
+          "score": 3.3244451372440955
+        }
+      ]
     }
   ],
   "runs": [
@@ -13337,6 +15017,12 @@
     },
     {
       "at": "2026-10-20T22:15:14.087Z",
+      "successful": 13,
+      "failed": 0,
+      "pruned": 0
+    },
+    {
+      "at": "2026-10-21T00:52:26.266Z",
       "successful": 13,
       "failed": 0,
       "pruned": 0
