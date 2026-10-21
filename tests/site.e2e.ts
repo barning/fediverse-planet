@@ -39,6 +39,15 @@ test('theme, keyboard navigation, preview warnings and mobile', async ({ page })
 	await expect(page.locator('html')).toHaveClass(/dark/);
 	await page.reload();
 	await expect(page.getByRole('button', { name: 'Use light theme' })).toBeVisible();
+	await page.emulateMedia({ reducedMotion: 'reduce' });
+	await expect
+		.poll(() =>
+			page
+				.locator('.theme-icon')
+				.first()
+				.evaluate((icon) => getComputedStyle(icon).transitionDuration)
+		)
+		.toBe('0s');
 	const warning = page.locator('details.content-warning');
 	await expect(warning).not.toHaveAttribute('open');
 	await warning.locator('summary').click();

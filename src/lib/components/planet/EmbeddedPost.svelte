@@ -10,7 +10,11 @@
 </script>
 
 <div class="embed-label">
-	{#if post.type === 'boost'}<Repeat2 size={14} /> Reposted{:else}<Quote size={14} /> Quoted post{/if}
+	{#if post.type === 'boost'}<Repeat2 size={14} strokeWidth={2} aria-hidden="true" /> Reposted{:else}<Quote
+			size={14}
+			strokeWidth={2}
+			aria-hidden="true"
+		/> Quoted post{/if}
 </div>
 <article class="embedded-post">
 	<header class="embedded-header">
@@ -39,6 +43,6 @@
 		</div>{/if}
 	<EngagementSummary {post} />
 	<a class="embedded-original" href={post.url} target="_blank" rel="nofollow noopener noreferrer"
-		>Open original <ExternalLink size={12} aria-hidden="true" /></a
+		>Open original <ExternalLink size={12} strokeWidth={1.5} aria-hidden="true" /></a
 	>
 </article>

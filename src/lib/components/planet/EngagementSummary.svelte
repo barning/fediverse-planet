@@ -6,10 +6,14 @@
 
 <div class="engagement">
 	{#if post.metrics}<span
-			><Heart size={14} />{post.metrics.favourites} <span class="sr-only">favourites</span></span
-		><span><Repeat2 size={14} />{post.metrics.boosts} <span class="sr-only">boosts</span></span
+			><Heart size={14} strokeWidth={1.5} aria-hidden="true" />{post.metrics.favourites}
+			<span class="sr-only">favourites</span></span
 		><span
-			><MessageCircle size={14} />{post.metrics.replies} <span class="sr-only">replies</span></span
+			><Repeat2 size={14} strokeWidth={1.5} aria-hidden="true" />{post.metrics.boosts}
+			<span class="sr-only">boosts</span></span
+		><span
+			><MessageCircle size={14} strokeWidth={1.5} aria-hidden="true" />{post.metrics.replies}
+			<span class="sr-only">replies</span></span
 		><span class="metric-origin">Observed on {post.instance}</span>{:else}<span
 			>Engagement unavailable</span
 		>{/if}

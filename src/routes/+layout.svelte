@@ -8,6 +8,7 @@
 	import { preferences, state as dataset } from '#lib/dataset.js';
 	let { children } = $props();
 	let dark = $state(false);
+	let themeReady = $state(false);
 	onMount(() => {
 		try {
 			dark =
@@ -17,6 +18,7 @@
 			dark = matchMedia('(prefers-color-scheme: dark)').matches;
 		}
 		document.documentElement.classList.toggle('dark', dark);
+		requestAnimationFrame(() => (themeReady = true));
 	});
 	function toggle() {
 		dark = !dark;
@@ -48,16 +50,23 @@
 >
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
-	<a class="brand" href={resolve('/')}><Orbit size={24} />{preferences.title}</a>
+	<a class="brand" href={resolve('/')}
+		><Orbit size={24} strokeWidth={2.5} aria-hidden="true" />{preferences.title}</a
+	>
 	<div class="header-actions">
 		<a class="utility-link" href={resolve('/sources')}>Sources</a>
 		<a class="utility-link header-about" href={resolve('/about')}>About</a>
-		<a class="rss-link" href={resolve('/feed.xml')}><Rss size={16} /> Subscribe</a><Button
+		<a class="rss-link" href={resolve('/feed.xml')}
+			><Rss size={16} strokeWidth={1.5} aria-hidden="true" /> Subscribe</a
+		><Button
 			variant="ghost"
 			size="icon"
 			aria-label={dark ? 'Use light theme' : 'Use dark theme'}
 			onclick={toggle}
-			>{#if dark}<Sun size={18} />{:else}<Moon size={18} />{/if}</Button
+			><span class="theme-icon-stack" class:ready={themeReady} aria-hidden="true">
+				<span class="theme-icon" class:active={dark}><Sun size={18} strokeWidth={1.75} /></span>
+				<span class="theme-icon" class:active={!dark}><Moon size={18} strokeWidth={1.75} /></span>
+			</span></Button
 		>
 	</div>
 </header>
