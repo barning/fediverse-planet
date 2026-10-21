@@ -50,6 +50,15 @@ BASE_PATH=/fediverse-planet pnpm test:e2e
 
 For a custom-domain build, use `BASE_PATH='' SITE_URL=https://your-domain.example pnpm build`. `SITE_URL` is the full public site URL including any repository subpath; it supplies absolute RSS self/site links. Without it, local RSS uses `https://example.invalid` and must not be published as-is. Build artifacts do not require Node at runtime.
 
+## Install on a phone
+
+The deployed site is an installable Progressive Web App. Its generated manifest follows the configured title and description, the service worker keeps the static interface and latest deployed feed available offline, and remote post media continues to load only when the network is available.
+
+- **iPhone/iPad:** open the site in Safari, tap **Share**, choose **Add to Home Screen**, then confirm **Add**.
+- **Android:** open the site in Chrome, open the browser menu, choose **Install app** or **Add to Home screen**, and confirm.
+
+Installation requires the HTTPS GitHub Pages or custom-domain URL. If the install option does not appear immediately after a deployment, reload once so the new service worker can finish installing. The app icon source was generated for this project and is published in standard 192px, 512px, maskable Android and 180px Apple sizes under `static/icons/`.
+
 ## Accounts and preferences
 
 Edit `config/sources.json` through a reviewed commit:

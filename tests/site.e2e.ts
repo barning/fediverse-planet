@@ -73,6 +73,46 @@ test('static public datasets and feed', async ({ request }) => {
 	expect(await feed.text()).toContain('<rss version="2.0"');
 });
 
+test('PWA manifest, icons and offline launch work', async ({ page, request, context }) => {
+	const base = process.env.BASE_PATH ?? '';
+	const response = await request.get('manifest.webmanifest');
+	expect(response.status()).toBe(200);
+	expect(response.headers()['content-type']).toContain('application/manifest+json');
+	const manifest = await response.json();
+	expect(manifest).toMatchObject({
+		name: 'My Planet',
+		start_url: './',
+		scope: './',
+		display: 'standalone'
+	});
+	expect(manifest.icons).toEqual(
+		expect.arrayContaining([
+			expect.objectContaining({ sizes: '192x192', purpose: 'any' }),
+			expect.objectContaining({ sizes: '512x512', purpose: 'maskable' })
+		])
+	);
+	for (const icon of manifest.icons) {
+		const iconResponse = await request.get(icon.src);
+		expect(iconResponse.status()).toBe(200);
+		expect(iconResponse.headers()['content-type']).toBe('image/png');
+	}
+
+	const worker = await request.get('service-worker.js');
+	expect(worker.status()).toBe(200);
+	expect(worker.headers()['content-type']).toContain('javascript');
+
+	await page.goto('./');
+	const scope = await page.evaluate(async () => (await navigator.serviceWorker.ready).scope);
+	expect(new URL(scope).pathname).toBe(`${base}/`);
+	await page.reload();
+	await expect.poll(() => page.evaluate(() => !!navigator.serviceWorker.controller)).toBeTruthy();
+
+	await context.setOffline(true);
+	await page.reload({ waitUntil: 'domcontentloaded' });
+	await expect(page.locator('h1')).toBeVisible();
+	await context.setOffline(false);
+});
+
 test('navigation and visible media stay under the deployment path', async ({ page }) => {
 	const base = process.env.BASE_PATH ?? '';
 	await page.goto('preview/');

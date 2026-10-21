@@ -27,7 +27,9 @@ createServer(async (req, res) => {
 			'.js': 'text/javascript',
 			'.css': 'text/css',
 			'.svg': 'image/svg+xml',
+			'.png': 'image/png',
 			'.json': 'application/json',
+			'.webmanifest': 'application/manifest+json',
 			'.xml': 'application/rss+xml'
 		};
 		res.writeHead(200, { 'Content-Type': types[path.extname(file)] ?? 'application/octet-stream' });

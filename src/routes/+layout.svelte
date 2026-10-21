@@ -1,6 +1,6 @@
 <script lang="ts">
 	import './layout.css';
-	import { resolve } from '$app/paths';
+	import { asset, resolve } from '$app/paths';
 	import { page } from '$app/state';
 	import { onMount } from 'svelte';
 	import { Moon, Sun, Rss, Orbit } from '@lucide/svelte';
@@ -46,7 +46,21 @@
 		type="application/rss+xml"
 		title={preferences.title}
 		href={resolve('/feed.xml')}
-	/></svelte:head
+	/><link rel="manifest" href={resolve('/manifest.webmanifest')} /><link
+		rel="apple-touch-icon"
+		sizes="180x180"
+		href={asset('icons/apple-touch-icon.png')}
+	/><link rel="icon" type="image/png" sizes="32x32" href={asset('icons/favicon-32.png')} /><meta
+		name="theme-color"
+		content="#f8f7f2"
+		media="(prefers-color-scheme: light)"
+	/><meta name="theme-color" content="#151d18" media="(prefers-color-scheme: dark)" /><meta
+		name="mobile-web-app-capable"
+		content="yes"
+	/><meta name="apple-mobile-web-app-capable" content="yes" /><meta
+		name="apple-mobile-web-app-status-bar-style"
+		content="default"
+	/><meta name="apple-mobile-web-app-title" content={preferences.title} /></svelte:head
 >
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
