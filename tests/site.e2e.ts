@@ -64,16 +64,14 @@ test('static public datasets and feed', async ({ request }) => {
 	expect(await feed.text()).toContain('<rss version="2.0"');
 });
 
-test('navigation stays under the deployment path; media waits for consent', async ({ page }) => {
+test('navigation and visible media stay under the deployment path', async ({ page }) => {
 	const base = process.env.BASE_PATH ?? '';
-	const requests: string[] = [];
-	page.on('request', (request) => requests.push(request.url()));
 	await page.goto('preview/');
-	await page.waitForLoadState('networkidle');
-	expect(requests.some((url) => url.includes('demo-garden.svg'))).toBeFalsy();
-	await page.locator('details.media-consent summary').click();
 	const image = page.getByAltText('Illustration of three plants under a sunrise; local demo image');
+	await image.scrollIntoViewIfNeeded();
 	await expect(image).toBeVisible();
+	await expect(image).toHaveAttribute('loading', 'lazy');
+	await expect(image).toHaveAttribute('referrerpolicy', 'no-referrer');
 	await expect
 		.poll(() => image.evaluate((img) => (img as HTMLImageElement).naturalWidth))
 		.toBeGreaterThan(0);

@@ -30,10 +30,9 @@
 	</header>
 	<ContentWarning warning={post.warning}
 		><PostContent text={post.text} html={post.html} />
-		{#each post.media as media (media.url)}<PostMedia
-				url={media.url}
-				alt={media.alt}
-			/>{/each}</ContentWarning
+		{#if post.media.length}<div class:single={post.media.length === 1} class="post-media-grid">
+				{#each post.media as media (media.url)}<PostMedia url={media.url} alt={media.alt} />{/each}
+			</div>{/if}</ContentWarning
 	>
 	{#if post.tags.length}<div class="tags embedded-tags">
 			{#each post.tags as tag (tag)}<span>#{tag}</span>{/each}

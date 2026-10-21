@@ -37,16 +37,17 @@
 	<p>
 		Only verified public, discoverable Mastodon posts are published. Private, unlisted and unknown
 		visibility is excluded. Reposts and quotes preserve the original author in a nested post.
-		Content warnings remain collapsed; post media loads only when opened. Original discussions stay
-		on their home servers. Disabling a source or hiding a URL removes it on the next build.
+		Content warnings remain collapsed and their media stays hidden until opened. Other post images
+		load lazily as they enter the viewport. Original discussions stay on their home servers.
+		Disabling a source or hiding a URL removes it on the next build.
 	</p>
 	<h2>Privacy and removal</h2>
 	<p>
-		No login, analytics or visitor profiling. Avatars load lazily from their public media URLs, so
-		the remote media host receives a request when an avatar enters the viewport. Opening an original
-		post or expanding post media also contacts its remote server. Polling cannot guarantee immediate
-		detection of edits or deletions; recent posts are reverified each run and expired verification
-		is removed.
+		No login, analytics or visitor profiling. Avatars and visible post images load lazily from their
+		public media URLs, so the remote media host receives a request when an image enters the
+		viewport. Opening an original post also contacts its remote server. Polling cannot guarantee
+		immediate detection of edits or deletions; recent posts are reverified each run and expired
+		verification is removed.
 	</p>
 	{#if preferences.contact}<p>Request exclusion or removal: {preferences.contact}</p>{:else}<p
 			class="notice"

@@ -35,10 +35,12 @@
 	</header>
 	{#if post.text || post.html || post.media.length}<ContentWarning warning={post.warning}
 			><PostContent text={post.text} html={post.html} />
-			{#each post.media as media (media.url)}<PostMedia
-					url={media.url}
-					alt={media.alt}
-				/>{/each}</ContentWarning
+			{#if post.media.length}<div class:single={post.media.length === 1} class="post-media-grid">
+					{#each post.media as media (media.url)}<PostMedia
+							url={media.url}
+							alt={media.alt}
+						/>{/each}
+				</div>{/if}</ContentWarning
 		>{/if}
 	{#if post.embedded}<EmbeddedPost post={post.embedded} />{/if}
 	{#if post.tags.length && !post.boost}<div class="tags">
