@@ -4,7 +4,7 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { rank, popular, trend } from './ranking.js';
 import { demoPosts } from './fixtures/posts.js';
-import { preferencesSchema } from './model.js';
+import { preferencesSchema, sourceSchema } from './model.js';
 import type { Post, Preferences, State } from './model.js';
 import rawPrefs from '../../config/preferences.json';
 import { collect } from '../../scripts/collect';
@@ -199,6 +199,11 @@ describe('ranking', () => {
 	});
 });
 describe('normalization, publication and safety', () => {
+	it('reports malformed source URLs as validation errors', () => {
+		const result = sourceSchema.safeParse({ ...source, profileUrl: '@test@social.example' });
+		expect(result.success).toBe(false);
+		if (!result.success) expect(result.error.issues[0]?.message).toBe('Expected a valid HTTPS URL');
+	});
 	it.each(['private', 'direct', 'unlisted', 'unknown'])('excludes %s visibility', (visibility) => {
 		expect(normalize(status({ visibility }), source, '7', at)).toBeNull();
 	});

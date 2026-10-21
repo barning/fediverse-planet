@@ -1,31 +1,31 @@
 [
 	{
 		"id": "leah",
-		"profileUrl": "@leah@chaos.social",
+		"profileUrl": "https://chaos.social/@leah",
 		"topics": ["social-media", "fediverse"],
 		"enabled": true
 	},
 	{
 		"id": "thijs",
-		"profileUrl": "@thijs_lucas@norden.social",
+		"profileUrl": "https://norden.social/@thijs_lucas",
 		"topics": ["fahrrad"],
 		"enabled": true
 	},
 	{
 		"id": "hukl",
-		"profileUrl": "@hukl@chaos.social",
+		"profileUrl": "https://chaos.social/@hukl",
 		"topics": ["podcast", "developer"],
 		"enabled": true
 	},
 	{
 		"id": "birchler",
-		"profileUrl": "@matt_birchler@mastodon.social",
+		"profileUrl": "https://mastodon.social/@matt_birchler",
 		"topics": ["social-media", "developer"],
 		"enabled": true
 	},
 	{
 		"id": "nileane",
-		"profileUrl": "@nileane@nileane.fr",
+		"profileUrl": "https://nileane.fr/@nileane",
 		"topics": ["social-media", "developer"],
 		"enabled": true
 	},

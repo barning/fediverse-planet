@@ -1,10 +1,24 @@
 import { z } from 'zod';
-const httpsUrl = z.url().refine((value) => {
-	const url = new URL(value);
-	return (
-		url.protocol === 'https:' && !url.username && !url.password && (!url.port || url.port === '443')
-	);
-}, 'Expected an HTTPS URL without credentials or a custom port');
+const httpsUrl = z.string().superRefine((value, context) => {
+	let url: URL;
+	try {
+		url = new URL(value);
+	} catch {
+		context.addIssue({ code: 'custom', message: 'Expected a valid HTTPS URL' });
+		return;
+	}
+	if (
+		url.protocol !== 'https:' ||
+		url.username ||
+		url.password ||
+		(url.port && url.port !== '443')
+	) {
+		context.addIssue({
+			code: 'custom',
+			message: 'Expected an HTTPS URL without credentials or a custom port'
+		});
+	}
+});
 export const sourceSchema = z.object({
 	id: z.string().regex(/^[a-z0-9-]+$/),
 	profileUrl: httpsUrl,
