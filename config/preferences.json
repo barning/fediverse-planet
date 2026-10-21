@@ -6,7 +6,7 @@
 	"excludedTags": [],
 	"languages": [],
 	"includeReplies": false,
-	"includeBoosts": false,
+	"includeBoosts": true,
 	"accountWeights": {},
 	"ranking": {
 		"favouriteWeight": 1,

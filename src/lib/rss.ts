@@ -1,9 +1,21 @@
-import type { Post } from './model.js';
+import type { EmbeddedPost, Post } from './model.js';
 export const escapeXml = (s: string) =>
 	s.replace(
 		/[<>&"']/g,
 		(c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&apos;' })[c]!
 	);
+const visibleBody = (post: Pick<Post | EmbeddedPost, 'warning' | 'text'>) =>
+	post.warning ? `Content warning: ${post.warning} — read the original post.` : post.text;
+function itemBody(post: Post) {
+	if (!post.embedded) return visibleBody(post);
+	const nested = `${post.embedded.author}: ${visibleBody(post.embedded)}`;
+	if (post.boost) return `${post.author} reposted ${nested}`;
+	return [visibleBody(post), `Quoted post by ${nested}`].filter(Boolean).join('\n\n');
+}
+function itemTitle(post: Post) {
+	const body = post.warning || post.text || post.embedded?.warning || post.embedded?.text || '';
+	return `${post.author}${post.boost && post.embedded ? ` reposted ${post.embedded.author}` : ''}: ${body.slice(0, 80)}`;
+}
 export function rss(
 	posts: Post[],
 	title: string,
@@ -18,7 +30,7 @@ export function rss(
 		.slice(0, 100)
 		.map(
 			(p) =>
-				`<item><title>${esc(p.author + ': ' + (p.warning || p.text.slice(0, 80)))}</title><link>${esc(p.url)}</link><guid isPermaLink="false">${esc(p.id)}</guid><pubDate>${new Date(p.publishedAt).toUTCString()}</pubDate><description>${esc(p.warning ? 'Content warning: ' + p.warning + ' — read the original post.' : p.text)}</description></item>`
+				`<item><title>${esc(itemTitle(p))}</title><link>${esc(p.embedded && p.boost ? p.embedded.url : p.url)}</link><guid isPermaLink="false">${esc(p.id)}</guid><pubDate>${new Date(p.publishedAt).toUTCString()}</pubDate><description>${esc(itemBody(p))}</description></item>`
 		)
 		.join('')}</channel></rss>`;
 }

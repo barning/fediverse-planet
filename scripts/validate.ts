@@ -17,6 +17,7 @@ const posts = state.posts.filter(
 	(p) =>
 		sources.some((s) => s.id === p.sourceId && s.enabled) &&
 		!preferences.hiddenUrls.includes(p.url) &&
+		!(p.embedded && preferences.hiddenUrls.includes(p.embedded.url)) &&
 		(preferences.includeReplies || !p.reply) &&
 		(preferences.includeBoosts || !p.boost) &&
 		Date.parse(p.verifiedAt) >= Date.parse(state.asOf ?? '1970-01-01') - 86400000

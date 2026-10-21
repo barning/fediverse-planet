@@ -53,6 +53,7 @@ export function rank(
 	const eligible = posts.filter(
 		(p) =>
 			!prefs.hiddenUrls.includes(p.url) &&
+			!(p.embedded && prefs.hiddenUrls.includes(p.embedded.url)) &&
 			(prefs.includeReplies || !p.reply) &&
 			(prefs.includeBoosts || !p.boost)
 	);

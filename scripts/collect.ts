@@ -94,7 +94,11 @@ export async function collect(
 			}
 			const recent = z
 				.array(z.unknown())
-				.parse(await api(`/api/v1/accounts/${account.id}/statuses?limit=40&exclude_reblogs=true`));
+				.parse(
+					await api(
+						`/api/v1/accounts/${account.id}/statuses?limit=40&exclude_reblogs=${prefs.includeBoosts ? 'false' : 'true'}`
+					)
+				);
 			const candidates: unknown[] = [...recent];
 			const seenApi = new Set(recent.map((s) => (s as { id?: string }).id));
 			// Rotate older posts by verification age. A hard bound keeps API use predictable.
@@ -112,15 +116,25 @@ export async function collect(
 				}
 			}
 			for (const raw of candidates) {
-				const normalized = normalize(raw, source, account.id, at);
+				const normalized = normalize(raw, source, account.id, at, prefs.includeBoosts);
 				if (!normalized) {
 					const id = (raw as { uri?: string }).uri;
 					if (id) state.posts = state.posts.filter((p) => p.id !== id);
 					continue;
 				}
 				const index = state.posts.findIndex((p) => p.id === normalized.id);
-				if (index < 0 && !links.has(normalized.url) && !links.has(normalized.id)) continue; // RSS detects; API verifies/enriches.
-				if (prefs.hiddenUrls.includes(normalized.url)) continue;
+				if (
+					index < 0 &&
+					!normalized.boost &&
+					!links.has(normalized.url) &&
+					!links.has(normalized.id)
+				)
+					continue; // RSS detects original posts; the public API detects boosts omitted from profile feeds.
+				if (
+					prefs.hiddenUrls.includes(normalized.url) ||
+					(normalized.embedded && prefs.hiddenUrls.includes(normalized.embedded.url))
+				)
+					continue;
 				if (index >= 0) {
 					normalized.firstSeenAt = state.posts[index].firstSeenAt;
 					state.posts[index] = normalized;

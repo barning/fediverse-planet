@@ -20,10 +20,18 @@ export default defineConfig(
 	{
 		files: [
 			'src/lib/components/ui/button/button.svelte',
+			'src/lib/components/planet/Avatar.svelte',
+			'src/lib/components/planet/EmbeddedPost.svelte',
 			'src/lib/components/planet/PostCard.svelte',
+			'src/lib/components/planet/PostContent.svelte',
 			'src/routes/sources/+page.svelte'
 		],
 		rules: { 'svelte/no-navigation-without-resolve': 'off' }
+	},
+	{
+		// Post HTML is reduced to the allowlist in scripts/normalize.ts before publication.
+		files: ['src/lib/components/planet/PostContent.svelte'],
+		rules: { 'svelte/no-at-html-tags': 'off' }
 	},
 	{
 		languageOptions: { globals: { ...globals.browser, ...globals.node } },

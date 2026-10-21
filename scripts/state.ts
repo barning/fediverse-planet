@@ -6,6 +6,7 @@ export function prune(state: State, sources: Source[], preferences: Preferences,
 			(p) =>
 				sources.some((s) => s.enabled && s.id === p.sourceId) &&
 				!preferences.hiddenUrls.includes(p.url) &&
+				!(p.embedded && preferences.hiddenUrls.includes(p.embedded.url)) &&
 				Date.parse(p.publishedAt) >= now - 90 * 86400000
 		)
 		.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt) || a.id.localeCompare(b.id))

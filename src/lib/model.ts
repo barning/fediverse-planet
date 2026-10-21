@@ -51,6 +51,31 @@ export const preferencesSchema = z.object({
 	ranking: rankingPreferencesSchema,
 	hiddenUrls: z.array(httpsUrl)
 });
+const metricsSchema = z
+	.object({
+		favourites: z.number().int().nonnegative(),
+		boosts: z.number().int().nonnegative(),
+		replies: z.number().int().nonnegative()
+	})
+	.nullable();
+const mediaSchema = z.object({ url: httpsUrl, alt: z.string() });
+export const embeddedPostSchema = z.object({
+	type: z.enum(['boost', 'quote']),
+	id: httpsUrl,
+	url: httpsUrl,
+	author: z.string(),
+	handle: z.string(),
+	profileUrl: httpsUrl,
+	avatarUrl: httpsUrl.optional(),
+	publishedAt: z.iso.datetime(),
+	text: z.string(),
+	html: z.string(),
+	warning: z.string(),
+	tags: z.array(z.string()),
+	media: z.array(mediaSchema),
+	metrics: metricsSchema,
+	instance: z.string()
+});
 export const postSchema = z.object({
 	id: httpsUrl,
 	url: httpsUrl,
@@ -58,6 +83,8 @@ export const postSchema = z.object({
 	sourceId: z.string(),
 	author: z.string(),
 	handle: z.string(),
+	profileUrl: httpsUrl.optional(),
+	avatarUrl: httpsUrl.optional(),
 	publishedAt: z.iso.datetime(),
 	firstSeenAt: z.iso.datetime(),
 	verifiedAt: z.iso.datetime(),
@@ -68,14 +95,9 @@ export const postSchema = z.object({
 	tags: z.array(z.string()),
 	reply: z.boolean(),
 	boost: z.boolean(),
-	media: z.array(z.object({ url: httpsUrl, alt: z.string() })),
-	metrics: z
-		.object({
-			favourites: z.number().int().nonnegative(),
-			boosts: z.number().int().nonnegative(),
-			replies: z.number().int().nonnegative()
-		})
-		.nullable(),
+	embedded: embeddedPostSchema.optional(),
+	media: z.array(mediaSchema),
+	metrics: metricsSchema,
 	instance: z.string()
 });
 export const snapshotSchema = z.object({
@@ -119,6 +141,7 @@ export const stateSchema = z.object({
 	)
 });
 export type Post = z.infer<typeof postSchema>;
+export type EmbeddedPost = z.infer<typeof embeddedPostSchema>;
 export type State = z.infer<typeof stateSchema>;
 export type Source = z.infer<typeof sourceSchema>;
 export type Preferences = z.infer<typeof preferencesSchema>;

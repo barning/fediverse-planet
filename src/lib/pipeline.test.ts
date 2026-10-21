@@ -48,6 +48,7 @@ const status = (overrides: Record<string, unknown> = {}) => ({
 		display_name: 'Test',
 		acct: 'test',
 		url: 'https://social.example/@test',
+		avatar_static: 'https://cdn.example/test.png',
 		discoverable: true
 	},
 	tags: [{ name: 'community' }],
@@ -184,6 +185,9 @@ describe('ranking', () => {
 			0
 		);
 		expect(rank([p], [], { ...prefs, languages: ['de'] }, 'for-you', now)).toHaveLength(0);
+		expect(rank([p], [], { ...prefs, hiddenUrls: [p.embedded!.url] }, 'latest', now)).toHaveLength(
+			0
+		);
 	});
 	it('caps an account in the first screen while retaining every result', () => {
 		const list = Array.from({ length: 16 }, (_, i) =>
@@ -198,22 +202,69 @@ describe('normalization, publication and safety', () => {
 	it.each(['private', 'direct', 'unlisted', 'unknown'])('excludes %s visibility', (visibility) => {
 		expect(normalize(status({ visibility }), source, '7', at)).toBeNull();
 	});
-	it('rejects other authors, boosts and discoverability opt-outs', () => {
+	it('rejects other authors, disabled boosts and discoverability opt-outs', () => {
 		expect(normalize(status(), source, 'wrong', at)).toBeNull();
-		expect(normalize(status({ reblog: { id: '1' } }), source, '7', at)).toBeNull();
+		expect(normalize(status({ reblog: status() }), source, '7', at)).toBeNull();
 		const s = status();
 		s.account.discoverable = false;
 		expect(normalize(s, source, '7', at)).toBeNull();
 	});
-	it('strips unsafe markup, keeps missing counts null and collapsible warnings', () => {
-		const p = normalize(
-			status({ favourites_count: undefined, spoiler_text: 'CW' }),
+	it('normalizes boosts and quotes with original-author provenance', () => {
+		const original = status({
+			id: '84',
+			uri: 'https://remote.example/users/original/statuses/84',
+			url: 'https://remote.example/@original/84',
+			content: '<p>Original with <a href="https://remote.example/story">a link</a></p>',
+			account: {
+				id: '8',
+				username: 'original',
+				display_name: 'Original Author',
+				acct: 'original@remote.example',
+				url: 'https://remote.example/@original',
+				avatar_static: 'https://media.remote.example/original.png',
+				discoverable: true
+			}
+		});
+		const boost = normalize(status({ reblog: original }), source, '7', at, true)!;
+		expect(boost.boost).toBe(true);
+		expect(boost.embedded).toMatchObject({
+			type: 'boost',
+			author: 'Original Author',
+			handle: '@original@remote.example',
+			avatarUrl: 'https://media.remote.example/original.png'
+		});
+		expect(boost.metrics).toEqual(boost.embedded?.metrics);
+
+		const quote = normalize(
+			status({
+				content: '<p>Worth reading.</p>',
+				quote: { state: 'accepted', quoted_status: original }
+			}),
 			source,
 			'7',
 			at
 		)!;
-		expect(p.text).toBe('Hello world');
-		expect(p.html).toBe('');
+		expect(quote.boost).toBe(false);
+		expect(quote.text).toBe('Worth reading.');
+		expect(quote.embedded).toMatchObject({ type: 'quote', url: original.url });
+	});
+	it('keeps safe links, strips unsafe markup and preserves nullable counts', () => {
+		const p = normalize(
+			status({
+				content:
+					'<p>Hello <script>alert(1)</script><a href="javascript:alert(1)">world</a> <a href="https://social.example/story">read more</a></p>',
+				favourites_count: undefined,
+				spoiler_text: 'CW'
+			}),
+			source,
+			'7',
+			at
+		)!;
+		expect(p.text).toBe('Hello world read more');
+		expect(p.html).toContain('href="https://social.example/story"');
+		expect(p.html).toContain('rel="nofollow noopener noreferrer"');
+		expect(p.html).not.toContain('javascript:');
+		expect(p.avatarUrl).toBe('https://cdn.example/test.png');
 		expect(p.metrics).toBeNull();
 		expect(p.warning).toBe('CW');
 	});
@@ -242,11 +293,19 @@ describe('normalization, publication and safety', () => {
 	});
 	it('emits stable RSS GUIDs, original links and XML-escaped CW-safe content', () => {
 		const p = post({ warning: 'Sensitive & private details', text: 'Hidden body' });
-		const xml = rss([p], 'Planet & friends', 'Description', 'https://example.org/repo', at);
+		const boost = post({
+			id: 'https://example.invalid/boost',
+			boost: true,
+			text: '',
+			embedded: { ...demoPosts[0].embedded!, type: 'boost' }
+		});
+		const xml = rss([p, boost], 'Planet & friends', 'Description', 'https://example.org/repo', at);
 		expect(xml).toContain('https://example.org/repo/feed.xml');
 		expect(xml).toContain(p.id);
 		expect(xml).toContain('Sensitive &amp; private');
 		expect(xml).not.toContain('Hidden body');
+		expect(xml).toContain('reposted River · fictional author');
+		expect(xml).toContain(boost.embedded!.url);
 	});
 	it('prunes old/removed posts and snapshots, bounds history while keeping interval endpoints', () => {
 		const state = empty();
@@ -322,6 +381,33 @@ describe('actual collector with controlled RSS/API responses', () => {
 			fetcher: fetcher(response(feed.replaceAll('/@test/42', '/@test/999')))
 		});
 		expect(JSON.parse(await readFile(stateFile, 'utf8')).posts).toHaveLength(0);
+	});
+	it('collects a public API boost when boosts are enabled even when RSS omits it', async () => {
+		const original = status({
+			id: '84',
+			uri: 'https://remote.example/users/original/statuses/84',
+			url: 'https://remote.example/@original/84',
+			account: {
+				id: '8',
+				username: 'original',
+				display_name: 'Original',
+				acct: 'original@remote.example',
+				url: 'https://remote.example/@original',
+				discoverable: true
+			}
+		});
+		await collect({
+			stateFile,
+			sourcesFile,
+			preferencesFile,
+			at,
+			fetcher: fetcher(response(feed.replaceAll('/@test/42', '/@test/999')), [
+				status({ reblog: original })
+			])
+		});
+		const saved = JSON.parse(await readFile(stateFile, 'utf8')) as State;
+		expect(saved.posts).toHaveLength(1);
+		expect(saved.posts[0]).toMatchObject({ boost: true, embedded: { type: 'boost' } });
 	});
 	it('preserves content on complete failure and persists 429 backoff', async () => {
 		await collect({ stateFile, sourcesFile, preferencesFile, at, fetcher: fetcher() });

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Heart, Repeat2, MessageCircle } from '@lucide/svelte';
-	import type { Post } from '#lib/model.js';
-	let { post }: { post: Post } = $props();
+	import type { EmbeddedPost, Post } from '#lib/model.js';
+	let { post }: { post: Pick<Post | EmbeddedPost, 'metrics' | 'instance'> } = $props();
 </script>
 
 <div class="engagement">

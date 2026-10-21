@@ -27,6 +27,12 @@ test('the feed navigation only contains Latest and Popular', async ({ page }) =>
 test('theme, keyboard navigation, preview warnings and mobile', async ({ page }) => {
 	await page.goto('preview/');
 	await expect(page.getByText('Development preview —', { exact: false })).toBeVisible();
+	await expect(page.locator('.post-text a').first()).toHaveAttribute(
+		'href',
+		'https://example.invalid/garden'
+	);
+	await expect(page.locator('.embedded-post')).toBeVisible();
+	await expect(page.getByText('Quoted post', { exact: true })).toBeVisible();
 	await page.keyboard.press('Tab');
 	await expect(page.getByRole('link', { name: 'Skip to content' })).toBeFocused();
 	await page.getByRole('button', { name: 'Use dark theme' }).click();

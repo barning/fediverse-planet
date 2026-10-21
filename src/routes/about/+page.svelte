@@ -12,8 +12,9 @@
 	<h2>How it works</h2>
 	<p>
 		Public RSS and Atom feeds identify new posts. Mastodon APIs verify public visibility and provide
-		favourites, boosts and replies. GitHub Actions collects and generates this static site every 30
-		minutes. Runs may be delayed; the collection timestamp tells you how fresh the data is.
+		favourites, boosts, replies, profile details and structured repost or quote context. GitHub
+		Actions collects and generates this static site every 30 minutes. Runs may be delayed; the
+		collection timestamp tells you how fresh the data is.
 	</p>
 	<h2>Reading the rankings</h2>
 	<p>
@@ -35,15 +36,17 @@
 	<h2>Authors stay in control</h2>
 	<p>
 		Only verified public, discoverable Mastodon posts are published. Private, unlisted and unknown
-		visibility is excluded. Content warnings remain collapsed; remote images load only when opened.
-		Original discussions stay on their home servers. Disabling a source or hiding a URL removes it
-		on the next build.
+		visibility is excluded. Reposts and quotes preserve the original author in a nested post.
+		Content warnings remain collapsed; post media loads only when opened. Original discussions stay
+		on their home servers. Disabling a source or hiding a URL removes it on the next build.
 	</p>
 	<h2>Privacy and removal</h2>
 	<p>
-		No login, tracking or visitor profiling. Opening an original post or loading an image contacts
-		its remote server. Polling cannot guarantee immediate detection of edits or deletions; recent
-		posts are reverified each run and expired verification is removed.
+		No login, analytics or visitor profiling. Avatars load lazily from their public media URLs, so
+		the remote media host receives a request when an avatar enters the viewport. Opening an original
+		post or expanding post media also contacts its remote server. Polling cannot guarantee immediate
+		detection of edits or deletions; recent posts are reverified each run and expired verification
+		is removed.
 	</p>
 	{#if preferences.contact}<p>Request exclusion or removal: {preferences.contact}</p>{:else}<p
 			class="notice"
