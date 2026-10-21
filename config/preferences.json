@@ -1,6 +1,6 @@
 {
-	"title": "My Planet",
-	"description": "A personal window into the Fediverse. Curated voices, thoughtful conversations.",
+	"title": "Fediverse Planet",
+	"description": "My personal window into the Fediverse.",
 	"contact": "moin@niklasbarning.de",
 	"interests": ["opensource", "community"],
 	"excludedTags": [],
