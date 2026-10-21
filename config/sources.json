@@ -1,5 +1,35 @@
 [
 	{
+		"id": "leah",
+		"profileUrl": "@leah@chaos.social",
+		"topics": ["social-media", "fediverse"],
+		"enabled": true
+	},
+	{
+		"id": "thijs",
+		"profileUrl": "@thijs_lucas@norden.social",
+		"topics": ["fahrrad"],
+		"enabled": true
+	},
+	{
+		"id": "hukl",
+		"profileUrl": "@hukl@chaos.social",
+		"topics": ["podcast", "developer"],
+		"enabled": true
+	},
+	{
+		"id": "birchler",
+		"profileUrl": "@matt_birchler@mastodon.social",
+		"topics": ["social-media", "developer"],
+		"enabled": true
+	},
+	{
+		"id": "nileane",
+		"profileUrl": "@nileane@nileane.fr",
+		"topics": ["social-media", "developer"],
+		"enabled": true
+	},
+	{
 		"id": "elena",
 		"profileUrl": "https://mastodon.social/@_elena",
 		"topics": ["fediverse", "open-source", "social-media"],
