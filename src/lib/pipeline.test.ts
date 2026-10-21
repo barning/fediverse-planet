@@ -253,6 +253,38 @@ describe('normalization, publication and safety', () => {
 		expect(quote.text).toBe('Worth reading.');
 		expect(quote.embedded).toMatchObject({ type: 'quote', url: original.url });
 	});
+	it('renders referenced posts and removes resolved inline RE headers', () => {
+		const original = status({
+			id: '84',
+			uri: 'https://remote.example/users/original/statuses/84',
+			url: 'https://remote.example/@original/84',
+			account: {
+				id: '8',
+				username: 'original',
+				display_name: 'Original',
+				acct: 'original@remote.example',
+				url: 'https://remote.example/@original',
+				discoverable: false
+			}
+		});
+		const quote = normalize(
+			status({
+				content:
+					'<p class="quote-inline">RE: <a href="https://remote.example/@original/84">https://remote.example/@original/84</a></p><p>Worth reading.</p>',
+				quote: { state: 'accepted', quoted_status: original }
+			}),
+			source,
+			'7',
+			at
+		)!;
+		expect(quote.text).toBe('Worth reading.');
+		expect(quote.html).not.toContain('RE:');
+		expect(quote.embedded).toMatchObject({ type: 'quote', author: 'Original' });
+		expect(
+			normalize(status({ quote: { state: 'pending', quoted_status: original } }), source, '7', at)
+				?.embedded
+		).toBeUndefined();
+	});
 	it('keeps safe links, strips unsafe markup and preserves nullable counts', () => {
 		const p = normalize(
 			status({

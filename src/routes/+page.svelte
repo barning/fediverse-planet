@@ -2,4 +2,4 @@
 	import Feed from '#lib/components/planet/Feed.svelte';
 </script>
 
-<Feed mode="latest" />
+<Feed mode="popular" />

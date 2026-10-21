@@ -133,7 +133,7 @@ function embedded(
 ): EmbeddedPost | null {
 	if (
 		status.visibility !== 'public' ||
-		status.account.discoverable === false ||
+		(status.account.discoverable === false && type !== 'quote') ||
 		Date.parse(status.created_at) > Date.parse(at) + 300000
 	)
 		return null;
@@ -158,9 +158,20 @@ function embedded(
 	};
 }
 
+function withoutInlineQuote(html: string) {
+	const firstParagraph = /^\s*<p\b[^>]*>[\s\S]*?<\/p>\s*/i.exec(html)?.[0];
+	if (
+		firstParagraph &&
+		/class\s*=\s*["'][^"']*\bquote-inline\b[^"']*["']/i.test(firstParagraph) &&
+		/^RE:\s+https:\/\//i.test(plain(firstParagraph))
+	)
+		return html.slice(firstParagraph.length);
+	return html;
+}
+
 function quotedStatus(quote: Quote): StatusContent | null {
 	if (!quote) return null;
-	return 'id' in quote ? quote : (quote.quoted_status ?? null);
+	return 'id' in quote ? quote : quote.state === 'accepted' ? (quote.quoted_status ?? null) : null;
 }
 
 export function normalize(
@@ -190,6 +201,7 @@ export function normalize(
 			? embedded(quoted, 'quote', instance, at)
 			: undefined;
 	if (boost && !embeddedStatus) return null;
+	const content = embeddedStatus && !boost ? withoutInlineQuote(status.content) : status.content;
 
 	const candidateUrl = status.url ?? status.uri;
 	const url = new URL(candidateUrl).hostname === instance ? candidateUrl : status.uri;
@@ -206,8 +218,8 @@ export function normalize(
 		publishedAt: status.created_at,
 		firstSeenAt: at,
 		verifiedAt: at,
-		text: boost ? '' : plain(status.content),
-		html: boost ? '' : safeHtml(status.content),
+		text: boost ? '' : plain(content),
+		html: boost ? '' : safeHtml(content),
 		warning: boost
 			? ''
 			: plain(status.spoiler_text) || (status.sensitive ? 'Sensitive content' : ''),

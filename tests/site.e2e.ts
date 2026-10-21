@@ -1,4 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+const preferences = JSON.parse(
+	readFileSync(new URL('../config/preferences.json', import.meta.url), 'utf8')
+) as { title: string };
 for (const route of ['', 'latest/', 'popular/', 'trending/', 'for-you/', 'sources/', 'about/']) {
 	test(`static direct navigation ${route || 'home'}`, async ({ page }) => {
 		const errors: string[] = [];
@@ -15,13 +19,14 @@ test('the feed navigation only contains Latest and Popular', async ({ page }) =>
 	const navigation = page.getByRole('navigation', { name: 'Feed views' });
 	await expect(navigation.getByRole('link')).toHaveCount(2);
 	await expect(navigation.getByRole('link').allTextContents()).resolves.toEqual([
-		'Latest',
-		'Popular'
+		'Popular',
+		'Latest'
 	]);
-	await expect(navigation.getByRole('link', { name: 'Latest' })).toHaveAttribute(
+	await expect(navigation.getByRole('link', { name: 'Popular' })).toHaveAttribute(
 		'aria-current',
 		'page'
 	);
+	await expect(page.locator('h1')).toHaveText('Conversations worth a look.');
 	await expect(page.getByRole('link', { name: 'Sources', exact: true })).toBeVisible();
 });
 test('theme, keyboard navigation, preview warnings and mobile', async ({ page }) => {
@@ -80,7 +85,7 @@ test('PWA manifest, icons and offline launch work', async ({ page, request, cont
 	expect(response.headers()['content-type']).toContain('application/manifest+json');
 	const manifest = await response.json();
 	expect(manifest).toMatchObject({
-		name: 'My Planet',
+		name: preferences.title,
 		start_url: './',
 		scope: './',
 		display: 'standalone'

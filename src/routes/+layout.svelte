@@ -30,8 +30,8 @@
 		}
 	}
 	const feedLinks = [
-		['/latest', 'Latest'],
-		['/popular', 'Popular']
+		['/popular', 'Popular'],
+		['/latest', 'Latest']
 	] as const;
 	const homePath = resolve('/').replace(/\/$/, '');
 	const currentPath = $derived(page.url.pathname.replace(/\/$/, ''));
@@ -87,7 +87,8 @@
 <div class="nav-wrap">
 	<nav aria-label="Feed views">
 		{#each feedLinks as [slug, label] (slug)}<a
-				aria-current={currentPath.endsWith(slug) || (slug === '/latest' && currentPath === homePath)
+				aria-current={currentPath.endsWith(slug) ||
+				(slug === '/popular' && currentPath === homePath)
 					? 'page'
 					: undefined}
 				href={resolve(slug)}>{label}</a

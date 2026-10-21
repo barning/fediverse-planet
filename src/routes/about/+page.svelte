@@ -4,61 +4,54 @@
 
 <svelte:head><title>About · {preferences.title}</title></svelte:head>
 <section class="intro">
-	<span class="eyebrow">LESS NOISE, MORE CONNECTION</span>
-	<h1>A small window into a wider world.</h1>
-	<p>A personal, curated Fediverse Community Planet.</p>
+	<span class="eyebrow">ABOUT THIS PLANET</span>
+	<h1>A quieter way to follow the Fediverse.</h1>
+	<p>One curated feed, built from public posts by people worth following.</p>
 </section>
 <div class="prose">
-	<h2>How it works</h2>
+	<h2>What you are reading</h2>
 	<p>
-		Public RSS and Atom feeds identify new posts. Mastodon APIs verify public visibility and provide
-		favourites, boosts, replies, profile details and structured repost or quote context. GitHub
-		Actions collects and generates this static site every 30 minutes. Runs may be delayed; the
-		collection timestamp tells you how fresh the data is.
+		This is a personal selection of public Fediverse accounts. Latest puts their posts in time
+		order. Popular highlights posts that are receiving thoughtful attention. Reposts and referenced
+		posts keep the original author, text, images, and link visible.
 	</p>
-	<h2>Reading the rankings</h2>
+	<h2>How Popular works</h2>
 	<p>
-		Latest is chronological. Popular divides weighted engagement ({preferences.ranking
-			.favouriteWeight}
-		× favourites + {preferences.ranking.boostWeight} × boosts + {preferences.ranking.replyWeight}
-		× replies) by (age in hours + {preferences.ranking.ageOffsetHours}) to the power of
-		{preferences.ranking.popularDecay}. Trending measures positive engagement growth per hour across
-		the last {preferences.ranking.trendingWindowHours} hours, with age decay. No history means no trend
-		claim. Ranked views limit any account to {preferences.ranking.diversityMaxPerSource}
-		posts in the first {preferences.ranking.diversityFrontSize} where alternatives exist.
+		Favourites count once, boosts count {preferences.ranking.boostWeight} times, and replies count
+		{preferences.ranking.replyWeight} times. Newer posts receive a modest advantage, and no account can
+		occupy more than {preferences.ranking.diversityMaxPerSource} places near the top when other voices
+		are available.
 	</p>
 	<p>
-		For You combines Popular at {preferences.ranking.forYouPopularityWeight}×, curator account
-		weights and a {preferences.ranking.interestBonus}-point topic-interest bonus. These settings are
-		the same for every visitor. Counts reflect what one server knows, not exhaustive global totals.
-		Missing information stays unavailable.
+		Engagement counts are estimates from each account's server. Large accounts still have an
+		advantage because they reach more people. A future ranking update will soften that effect while
+		keeping real, sustained engagement meaningful.
 	</p>
-	<h2>Authors stay in control</h2>
+	<h2>Where the posts come from</h2>
 	<p>
-		Only verified public, discoverable Mastodon posts are published. Private, unlisted and unknown
-		visibility is excluded. Reposts and quotes preserve the original author in a nested post.
-		Content warnings remain collapsed and their media stays hidden until opened. Other post images
-		load lazily as they enter the viewport. Original discussions stay on their home servers.
-		Disabling a source or hiding a URL removes it on the next build.
+		RSS and Atom feeds find new posts. Mastodon APIs then confirm that a post is public and provide
+		its engagement, author, images, and conversation context. The site refreshes about every 30
+		minutes, although GitHub may occasionally delay a run. The timestamp at the bottom shows the
+		latest completed collection.
 	</p>
-	<h2>Privacy and removal</h2>
+	<h2>Respecting authors and readers</h2>
 	<p>
-		No login, analytics or visitor profiling. Avatars and visible post images load lazily from their
-		public media URLs, so the remote media host receives a request when an image enters the
-		viewport. Opening an original post also contacts its remote server. Polling cannot guarantee
-		immediate detection of edits or deletions; recent posts are reverified each run and expired
-		verification is removed.
+		Private and unlisted posts never appear here. Content warnings stay closed until you open them.
+		Each post links back to its home server, where the conversation belongs. Recently collected
+		posts are checked again for edits and deletions.
 	</p>
-	{#if preferences.contact}<p>Request exclusion or removal: {preferences.contact}</p>{:else}<p
-			class="notice"
-		>
-			The curator has not configured a removal contact yet. Set contact in config/preferences.json
-			before public launch.
-		</p>{/if}
-	<h2>Open and inexpensive</h2>
 	<p>
-		Hosted on GitHub Pages. Reviewed JSON files configure accounts and interests. Versioned JSON on
-		a dedicated data branch preserves observations between runs. No database or continuously running
-		server.
+		There is no login, advertising, analytics, or visitor profiling. Avatars and post images come
+		from their public media servers, so those servers receive a request when an image becomes
+		visible.
+	</p>
+	{#if preferences.contact}<p>
+			To request exclusion or removal, contact {preferences.contact}.
+		</p>{:else}<p class="notice">A removal contact has not been configured yet.</p>{/if}
+	<h2>Built to stay small</h2>
+	<p>
+		The project is open source and hosted on GitHub Pages. A scheduled workflow collects posts,
+		builds the static site, and saves its history as versioned JSON. It needs no database, paid
+		service, or always-on server.
 	</p>
 </div>

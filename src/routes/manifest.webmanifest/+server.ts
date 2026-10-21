@@ -36,8 +36,8 @@ export function GET() {
 			}
 		],
 		shortcuts: [
-			{ name: 'Latest', short_name: 'Latest', url: 'latest/' },
-			{ name: 'Popular', short_name: 'Popular', url: 'popular/' }
+			{ name: 'Popular', short_name: 'Popular', url: 'popular/' },
+			{ name: 'Latest', short_name: 'Latest', url: 'latest/' }
 		]
 	};
 
